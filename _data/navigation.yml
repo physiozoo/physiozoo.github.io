@@ -1,0 +1,8 @@
+main:
+  - title: "Installation"
+    url: /installation/
+  - title: "Getting Started"
+    url: /getting-started/
+  - title: "Documentation"
+    url: https://physiozoo.readthedocs.io
+
