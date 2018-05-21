@@ -3,13 +3,29 @@
    You can adapt this file completely to your liking, but it should at least
    contain the root `toctree` directive.
 
-Welcome to PhysioZoo's documentation!
-=====================================
+PhysioZoo documentation
+=========================
 
 .. toctree::
    :maxdepth: 2
-   :caption: Contents:
+   :caption: Getting started
 
+   sections/getting_started/getting_started
+
+
+.. toctree::
+   :glob:
+   :maxdepth: 2
+   :caption: Tutorials
+
+   sections/tutorials/*
+
+
+.. toctree::
+   :maxdepth: 2
+   :caption: Module documentation
+
+   sections/modules/module1
 
 
 Indices and tables
