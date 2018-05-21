@@ -8,6 +8,12 @@ PhysioZoo documentation
 
 .. toctree::
    :maxdepth: 2
+   :caption: Introduction
+
+   sections/getting_started/introduction
+
+.. toctree::
+   :maxdepth: 2
    :caption: Getting started
 
    sections/getting_started/getting_started
