@@ -15,8 +15,8 @@ Congrats! You have made your first HRV analysis with **PhysioZoo**!
 NOTE: Every time you move the analysis window to another location the newly selected segment will be automatically analyzed. You can disable this by deselecting the checkbox “Auto Compute” under “Records” in panel 1.
 
 .. image:: ../../_static/warning_sign.jpg
-   :height: 100
-   :width: 200
+   :height: 50
+   :width: 50
    :scale: 50
    :alt: alternate text
 The length of the selected window is important. A number of HRV measures assumes that the RR time series is stationary over the selected window. In our context stationary means that the statistical properties of a signal (such as mean and standard deviation) are about constant. Other measures such as the detrended fluctuation analysis measures do not assume stationarity and so a long window can be used.
@@ -41,9 +41,15 @@ Let’s use a longer RR time series: open the following recording: File -> Open 
 
 Click the “Single” Submenu in the left panel and change the field “Segment end” from 5 minutes to 1 hour and 30 minutes. Then press “Process”. You will see the following screen which contains all the HRV measures for each 5 minutes consecutive segment for the time interval 0-1h30.
 
+.. image:: ../../_static/multiple_window_analysis.png
+
 You can also enable the analysis window to be overlapping by using the “Overlap” entry in the Analysis menu. By default the value is 0% (i.e. no overlap between successive windows). Change it to 50% and re-run the analysis.
 
-You can export all HRV measures from all consecutive windows (Main -> Save HRV measures as). If you want to export figures, then select with the mouse the window you want to plot the figures for.
+You can export all HRV measures from all consecutive windows (Main -> Save HRV measures as). An example of record exported if given below. Each column corresponds to a window that was analysed.
+
+.. image:: ../../_static/multiple_window_analysis_export.png
+
+If you want to export figures, then select with the mouse the window you want to plot the figures for.
 
 NOTE: while using the successive segment analysis feature, it is possible to export the HRV measures and PSD from all the analyzed consecutive windows together. However, you can only export the figures from one single window at the time i.e. from the window that you select with the mouse (i.e. the ‘selected window’).
 
