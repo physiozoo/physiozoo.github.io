@@ -14,4 +14,6 @@ When using a recording for which you have performed quality annotations, you can
 
 After the quality annotations are loaded, you will see green and red bar appearing on the top of the RR interval time series figure. The part in green correspond to good quality data (i.e. data which analysis can be trusted) and the part in red correspond to bad quality data (i.e. data which should not be trusted.) In addition, the RR time series is highlighted in red for the intervals which are indicated as bad quality.
 
+It is important to note that it is likely that local bad quality data (as in the example below) will be `clearned up' by the prefiltering step (green time series) and so one should not be worried about it. The signal quality annotations are more useful when a 'large' section of the recording is of bad quality in which case the prefiltering step will be useless. For such sections the analysis would be incorrect - the signal quality annotations are useful to indicate that.
+
 .. image:: ../../_static/quality_annotations_eg.png
