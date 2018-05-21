@@ -108,6 +108,8 @@ html_theme_options = {
 # so a file named "default.css" will overwrite the builtin "default.css".
 html_static_path = ['_static']
 
+html_logo = "_static/logo.png"
+
 # Custom sidebar templates, must be a dictionary that maps document names
 # to template names.
 #
