@@ -7,6 +7,7 @@ PhysioZoo documentation
 =========================
 
 .. toctree::
+   :glob:
    :maxdepth: 2
    :caption: Getting started
 
