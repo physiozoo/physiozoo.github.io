@@ -11,6 +11,7 @@ In this tutorial we will learn how to load an electrocardiogram (ECG) recording 
 
 .. image:: ../../_static/peak_detection.png
 
+
   4. Sometime the R-peak detector might make mistakes and miss some R-peaks/detect some points which are not peaks. You can fix these mistakes manually using the **PhysioZoo** interface. You can do that in two ways:
   - point your cursor on a misdetected peak or at the location where a peak is missin. When you click, **PhysioZoo** will automatically remove/add a peak at this location.
   - if a whole segment contains mis-detection and you need to clear all the peaks within this section then you can do that by drowing a rectangle on the area where you want the peaks to be deleted. When you drop the rectangle, all the peaks contained within it will be deleted.
