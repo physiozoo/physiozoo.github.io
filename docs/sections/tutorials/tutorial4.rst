@@ -1,6 +1,7 @@
 Tutorial 4: Heart Rate Variability analysis
 ==========
 
+In this tutorial you will learn how to process data, compute the Heart Rate Variability (HRV) measures and export the computed values. You will learn how to analyse a single window of defined length and a series of consecutive windows.
 
 **Loading a record and performing HRV analysis**
 
