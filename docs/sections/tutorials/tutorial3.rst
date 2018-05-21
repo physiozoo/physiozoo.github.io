@@ -13,6 +13,8 @@ You can select the preprocessing filter with the dropdown: Main -> Preprocessing
 
 You can vary the level of preprocessing by using the dropdown: Main -> Preprocessing level. Three levels of preprocessing are available: Weak, Moderate and Strong. If you want to customize the preprocessing filters then you can access each of the parameters of each filter by going to Options -> Filtering.
 
+The image below shows an example of a rabbit RR time (blue time series) series which has been filtered over the selected window (green time series) using the Moving average filter .
+
 .. image:: ../../_static/prefiltering_step.png
    :height: 100
    :width: 200
