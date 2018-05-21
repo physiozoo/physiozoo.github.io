@@ -1,15 +1,19 @@
 Getting Started With PhysioZoo
 ==============================
 
-This is how to get started:
+This is how to get started with the **PhysioZoo** software in three steps:
 
-    1. Download the source code or software
-    Source code [Link]
-    Software [Link]
+    1. Download the **PhysioZoo** software,
+    [Link to exe or download webpage]
     
-    2. Insall PhysioZoo on your computer
-    Source code: set the path to the library from your Matlab session
-    Software: follow the instruction to install PhysioZoo
+    2. Install **PhysioZoo** on your computer by following the instruction,
     
-    3. Start analysing data using PhyioZoo
+    3. Start analysing data using PhyioZoo! Start with one of the examples provided: File -> Open File -> rabbit -> qrs_Rabbit_02_part_4
 
+A series of `hands on' tutorials are provided as part of the documentation. Enjoy the journey!
+
+This is how to get started with the **PhysioZoo** library in three steps:
+
+    1. Download the **PhysioZoo** source code,
+    
+    2. [See the installation webpage of http://fecgsyn.com/ - we need something like that.]
