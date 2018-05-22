@@ -13,7 +13,6 @@ Under the “Record” tab you can change the Mammal type to one of the followin
 If you want to modify some of the HRV measures configuration then you can easily do so with **PhysioZoo** by going to the “Options” menu (see screen below.) There you will find all the parameters of the HRV measures sorted with respect to their category: Time, Frequency and Nonlinear.
 
 If, as an example, you want to change the cut-off frequency between the low frequency and high frequency bands (“LF Band” and “HF Band”) in the frequency based methods then you can do so by changing the 0.341 Hz (see screen below) value to something else more suited to your data.
-
 .. image:: ../../_static/change_config.png
 
 **Exporting a configuration file**
