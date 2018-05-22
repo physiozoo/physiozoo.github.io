@@ -3,11 +3,13 @@ Tutorial 1: R-peak detection
 
 In this tutorial we will learn how to load an electrocardiogram (ECG) recording and performing R-peak detection.
 
+**PhysioZoo software**
+
   1. Start **PhysioZoo**
   
   2. Load an ECG recording e.g. File -> Open File -> ecg_Rabbit_02_part_4. The ECG will be displayed.
   
-  3. Select the type of mammal of the ECG was recorded from. This can be done by choosing the mammal type in the dropdown menu "Mammal".    After selecting the mammal type, the R-peak detector will run automatically. After the R-peak detector has finished running you will see some red crosses appearing on the ECG signal at the locations that have been detected.
+  3. Select the type of mammal the ECG was recorded from. This can be done by choosing the mammal type in the dropdown menu "Mammal".    After selecting the mammal type, the R-peak detector will run automatically. After the R-peak detector has finished running you will see some red crosses appearing on the ECG signal at the locations that have been detected.
 
   4. Sometime the R-peak detector might make mistakes and miss some R-peaks/detect some points which are not peaks. You can fix these mistakes manually using the **PhysioZoo** interface. You can do that in two ways:
   
@@ -20,3 +22,5 @@ NOTE: The R-peak detector is adapted for humans, dogs, rabbits and mice. If you 
 IMPORTANT: The ECG data imported in **PhysioZoo** MUST be in mV (i.e. Physiological units.) The R-peak detector might not run appropriately if the data are not correctly scaled.
 
 .. image:: ../../_static/peak_detection.png
+
+**PhysioZoo library**
