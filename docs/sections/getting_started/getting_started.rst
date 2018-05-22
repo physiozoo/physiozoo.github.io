@@ -1,10 +1,10 @@
 Getting Started With PhysioZoo
 ==============================
 
+**PhysioZoo software**
 This is how to get started with the **PhysioZoo** software in three steps:
 
-    1. Download the **PhysioZoo** software,
-    [Link to exe or download webpage]
+    1. Download the **PhysioZoo** software, [Link to exe or download webpage]
     
     2. Install **PhysioZoo** on your computer by following the instruction,
     
@@ -12,7 +12,8 @@ This is how to get started with the **PhysioZoo** software in three steps:
 
 A series of `hands on' tutorials are provided as part of the documentation. Enjoy the journey!
 
-This is how to get started with the **PhysioZoo** library in three steps:
+**PhysioZoo library**
+If you want to use the PhysioZoo library outside of the user interface then this is how to get started with the **PhysioZoo** library in three steps:
 
     1. Download the **PhysioZoo** source code,
     
