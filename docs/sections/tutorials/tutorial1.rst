@@ -3,6 +3,11 @@ Tutorial 1: R-peak detection
 
 In this tutorial you will learn how to load an electrocardiogram (ECG) recording and perform R-peak detection. You will also learn how to manually correct miss-detections.
 
+**Introduction**
+---------------------
+Accurate peak detection is critical for performing a meaningfull HRV analysis. Numerous algorithms for finding R-peaks in the ECG signal have been developped. However, these need to be adapted to the different dynamic accross mammalian species. **PhysioZoo** builds on the reference open source **gqrs** peak detector to provide an accurate R-peak detector **rqrs** which can be used on different mammalian ECG data.
+
+
 **PhysioZoo software**
 ----------------------
 
