@@ -4,6 +4,7 @@ Tutorial 1: R-peak detection
 In this tutorial you will learn how to load an electrocardiogram (ECG) recording and perform R-peak detection. You will also learn how to manually correct miss-detections.
 
 **PhysioZoo software**
+----------------------
 
   1. Start **PhysioZoo**
   
@@ -25,5 +26,5 @@ NOTE: The R-peak detector is adapted for humans, dogs, rabbits and mice ECG data
 .. image:: ../../_static/peak_detection.png
 
 **PhysioZoo library**
-
+---------------------
 [TODO]
