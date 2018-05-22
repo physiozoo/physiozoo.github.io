@@ -1,6 +1,9 @@
 Tutorial 3: Preprocessing
 ==========
 
+**PhysioZoo software**
+----------------------
+
 When loading the R-peak time series in the HRV module, one of the parameters you need to set is the preprocessing method.
 A preprocessing step is usually performed in HRV analysis to filter out suspected ectopic beats, missed beats and artifacts. We implemented in PhysioZoo three methods (and one combination of methods) for pre-filtering the RR-interval:
 
@@ -17,3 +20,7 @@ The image below shows an example of a rabbit RR time (blue time series) series w
 
 .. image:: ../../_static/prefiltering_step.png
 
+**PhysioZoo library**
+----------------------
+
+[TODO]
