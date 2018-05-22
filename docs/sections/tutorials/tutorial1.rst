@@ -1,7 +1,7 @@
 Tutorial 1: R-peak detection
 ==========
 
-In this tutorial we will learn how to load an electrocardiogram (ECG) recording and performing R-peak detection.
+In this tutorial you will learn how to load an electrocardiogram (ECG) recording and perform R-peak detection. You will also learn how to manually correct miss-detections.
 
 **PhysioZoo software**
 
