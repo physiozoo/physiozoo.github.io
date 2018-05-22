@@ -6,7 +6,7 @@ In this tutorial you will learn how to perform signal quality annotations using 
 **PhysioZoo** allows you to annotate and load signal quality annotations which contain time intervals with quality annotations made based on the electrophysiological signal or beating interval time series. The annotations highlight parts of the RR time series which are not to be trusted because the ECG was of bad quality and the peak detector might have failed in estimating the heart rate within these intervals or just because you want to excluded these segments because they correspond to some transition period during drug injection and so you decide to label this time period as ‘bad quality’.
 
 **PhysioZoo software**
-~~~~~~~~~~~~~~~~~~~~~~
+----------------------
 
 **Making signal quality annotations**
 
@@ -25,5 +25,5 @@ It is important to note that it is likely that local bad quality data (as in the
 
 
 **PhysioZoo library**
-~~~~~~~~~~~~~~~~~~~~~~
+---------------------
 [TODO]
