@@ -10,7 +10,7 @@ A preprocessing step is usually performed in HRV analysis to filter out suspecte
   * Range, 
   * Moving average,
   * Quotient,
-  * Combined (the combination of the Range and the Moving Average filters).
+  * Combined (the combination of the Range and the Moving average filters).
   
 You can select the preprocessing filter with the dropdown: Main -> Preprocessing.
 
