@@ -8,6 +8,19 @@ In this tutorial you will learn how to import data in **PhysioZoo**.
 
 Data loading in **PhysioZoo** is centralized and done through the PZ Loader tool. Three input formats are supported by **PhysioZoo**. You can refer to the tutorial on formats supported by **PhysioZoo** for more information on this.
 
+
+**Concepts**
+---------------------
+PZ Loader: three types of formats can be loaded in PhysioZoo. This is done through the PZ Loader. The PZ Loader will ensure that the data that enter the software are properly formatted.
+
+Header: it is possible to include a header at the beginning of a file. This header will specify all the information that PhysioZoo needs to run. If all the information is specified in the header, then you will not need to go through populating the PZ Loader fields and the file will be directly opened in PhysioZoo. See here for the formats supported in PhysioZoo and how to create such headers.
+
+The figure bellow illustrates the pathway for loading data: the PZ Loader is used to load data from one of the supported formats. If no header is available, then the PZ Loader user interface is opened and the user is prompted to enter the necessary information. If the header is available, then the file is directly loaded in PhysioZoo.
+
+.. image:: ../../_static/PZ_formats.png
+
+In this tutorial we will see how to make use of the PZ Loader user interface when no header is available.
+
 **PZ Loader**
 ---------------------
 
