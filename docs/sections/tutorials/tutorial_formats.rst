@@ -35,11 +35,12 @@ In the case all or part of these information are not specified then you will be 
 ---------------------
 
 A Channel can have the following 'type' which will be handled by PhysioZoo:
-1. Annotations
+
+Annotations
   * peak: the location of the peaks (e.g. R-peak from an ECG time series). The peaks location can be specified in millisecond/second or index.
   * signal quality: annotation on the signal quality. The signal quality annotations can be specified in millisecond/second or index.
 
-2. Time series
+Time series
   * time: a time vector giving the position of each sample of another time series. An entry of type 'time' need to be associated with another time series.
   * interval: the time interval between consecutive beats (e.g. RR time series). The interval length can be specified in second/millisecond or index.
   * beating rate: the reciprocal of the interval in units of beats per minute (e.g. heart rate).
