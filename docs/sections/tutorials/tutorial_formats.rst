@@ -49,13 +49,17 @@ A Channel can have the following 'type' which will be handled by PhysioZoo:
 ------------------------------------------
 
 Text format (.txt)
+
 .. image:: ../../_static/example_header.png
 
 Matlab format (.mat)
+
 A .mat file need to contain the following fields:
+
 .. image:: ../../_static/example_format_matlab_1.jpg
 
 The Channels field is a structure. Each element of the structure will contain the following information:
+
 .. image:: ../../_static/example_format_matlab_2.jpg
 
 WFDB
