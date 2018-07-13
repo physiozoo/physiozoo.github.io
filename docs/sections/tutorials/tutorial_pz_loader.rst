@@ -51,7 +51,7 @@ Then click "Save As" and save the file under the name "PZ_Loader_eg_with_header.
 
 .. image:: ../../_static/PZ_Loader_eg_with_header.PNG
 
-The time series was saved with its header consisting of all the information you entered using the PZ Loader. Next time you will need to load this file you will not need to re-fill the PZ Loader fields. They will be loaded automatically from the header. 
+The time series was saved with its header consisting of all the information you entered using the PZ Loader. Next time you will need to load this file you will not need to re-fill the PZ Loader fields. They will be populated automatically from the header.
 
 Check it for yourself!
 
