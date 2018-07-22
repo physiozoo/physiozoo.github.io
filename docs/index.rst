@@ -11,7 +11,7 @@ PhysioZoo documentation
    :maxdepth: 2
    :caption: Getting started
 
-   sections/getting_started/*
+   sections/getting_started/intro.rst
 
 
 .. toctree::
@@ -19,15 +19,10 @@ PhysioZoo documentation
    :maxdepth: 2
    :caption: Tutorials
 
-   sections/tutorials/*
-
-
-.. toctree::
-   :maxdepth: 2
-   :caption: Module documentation
-
-   sections/modules/module1
-
+   sections/tutorials/tutorial1.rst
+   sections/tutorials/tutorial4.rst
+   sections/tutorials/tutorial2.rst
+   sections/tutorials/tutorial3.rst
 
 Indices and tables
 ==================

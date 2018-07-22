@@ -1,4 +1,4 @@
-Tutorial 3: Preprocessing
+Preprocessing
 ==========
 
 In this tutorial you will learn how to preprocess your RR time series. The resulted preprocessed time series is usually called the 'NN' time series.
@@ -16,7 +16,7 @@ We implemented in **PhysioZoo** three methods (and one combination of methods) f
   * Quotient,
   * Combined (the combination of the Range and the Moving average filters).
 
-**PhysioZoo software**
+**Preprocessing methods**
 ----------------------
   
 You can select the preprocessing filter with the dropdown: Main -> Preprocessing.
@@ -27,7 +27,3 @@ The image below shows an example of a rabbit RR time (blue time series) series w
 
 .. image:: ../../_static/prefiltering_step.png
 
-**PhysioZoo library**
-----------------------
-
-[TODO]
