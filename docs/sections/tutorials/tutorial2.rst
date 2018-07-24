@@ -15,18 +15,18 @@ It is important to note that it is likely that local bad quality data will be 'c
 ----------------------------
 To annotate the quality of an electrophysiological signal time series, follow the following steps:
 
-	1. Select the rabbit ECG example: File-> Open Data file-> Rabbit_example.txt
+	1. Select the rabbit ECG example: File-> Open data file-> Rabbit_example_ecg
 
-	2. Under the record pannel, select Annotation->Signal quality. See red rectangle on the figure below.
+	2. Under the record pannel, select Annotation->Signal quality. See the area highlighted by the red rectangle on the figure below.
 
-	3. Look for a segment with some bad quality data and draw a rectangle around it with the mouse. The background of the area you have selected became red.
+	3. Look for a segment with some bad quality data and draw a rectangle around it with the mouse. The background of the area you have selected became red. See example below.
 
 .. image:: ../../_static/signal_quality_fig1.png
 
 **Loading signal quality**
 ----------------------------
 
-When using a recording for which you have performed signal quality annotations, you can load at any time the signal quality annotations: Open -> Open Data Quality File. 
+When perorming HVR analysis on a recording for which you have performed signal quality annotations, you can load at any time the signal quality annotations: Open -> Open signal quality file. 
 
 After the quality annotations are loaded, you will see green and red bar appearing on the top of the RR interval time series figure. The part in green correspond to good quality data (i.e. data which analysis can be trusted) and the part in red correspond to bad quality data (i.e. data which should not be trusted.) In addition, the RR time series is highlighted in red for the intervals which are indicated as bad quality.
 
