@@ -12,7 +12,7 @@ HRV is particularly interesting because it provides a non-invasive way to monito
 **Performing HRV analysis**
 ------------------------------
 
-Start by loading some example data by clicking File -> Open file -> mouse/Mouse_example_qrs.txt. The program will start the analysis automatically and display the following window:
+Start by loading some example data by clicking File -> Open data file -> mouse/Mouse_example_qrs.txt. The program will start the analysis automatically and display the following window:
 
 .. image:: ../../_static/hrv_fig1.png
 
