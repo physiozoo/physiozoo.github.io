@@ -15,7 +15,7 @@ Accurate peak detection is critical for performing a meaningfull HRV analysis. N
 
   2. Click "Peak Detection" on the Menu bar to open the peak detection interface.
   
-  3. Load an ECG recording (e.g. File -> Open File -> Rabbit_example.txt). The ECG will be displayed. The R-peak detector will run automatically. You will see some red crosses appearing on the ECG signal at the locations that have been detected (pannel A).
+  3. Load an ECG recording (e.g. File -> Open data file -> Rabbit_example.txt). The ECG will be displayed. The R-peak detector will run automatically. You will see some red crosses appearing on the ECG signal at the locations that have been detected (pannel A).
 
   4. You can browse through the recording by stretching and moving the red window displayed in pannel B. You can also move through the recording by using the arrows circled in red on the right hand side.
 
