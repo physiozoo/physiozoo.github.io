@@ -26,7 +26,7 @@ NOTE2: the installer was tested for Windows 64 bits version 10 and above.
 
 .. image:: ../../_static/installation_s5.png
 
-6)	The installation will start. Wait until it is finished.
+6)	The installation will start. Wait until it is finished. Note that this might take some time.
 
 .. image:: ../../_static/installation_s6.png
 
