@@ -34,4 +34,4 @@ NOTE2: the installer was tested for Windows 64 bits version 10 and above.
 
 .. image:: ../../_static/installation_s7.png
 
-You can then click on the PhysioZoo logo located on your desktop or in the list of programs.
+You can then click on the PhysioZoo logo located on your desktop or in the list of programs. (Note: if you launch the program from the list of programs you will need to perform a right click on the PhysioZoo program and "Run as administrator").
