@@ -18,7 +18,8 @@ PhysioZoo documentation
    :glob:
    :maxdepth: 2
    :caption: Tutorials
-
+   
+   sections/tutorials/installation.rst
    sections/tutorials/tutorial1.rst
    sections/tutorials/tutorial4.rst
    sections/tutorials/tutorial2.rst
