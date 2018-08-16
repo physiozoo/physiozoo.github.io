@@ -29,7 +29,7 @@ feature_row:
     height: "80%"
 
 feature_row2:
-  - image_path: "_pages/Dog_example_qrs_PSD.png"
+  - image_path: "docs/_static/Figure_S3.png"
     alt: "placeholder image 1"
     title: "Peak detection"
     excerpt: 'PhysioZoo provides algorithms and an interface for R-peak detection from mammalian data'
@@ -38,7 +38,7 @@ feature_row2:
     btn_class: "btn--primary"
 
 feature_row3:
-  - image_path: "_pages/Dog_example_qrs_Poincare.png"
+  - image_path: "docs/_static/Figure_S3.png"
     alt: "placeholder image 1"
     title: "Prefiltering"
     excerpt: 'PhysioZoo includes a number of prefiltering methods and manual annotations tools (peak and data quality) to ensure the reliability of the analyzed data.'
