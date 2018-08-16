@@ -31,7 +31,7 @@ feature_row2:
     alt: "placeholder image 1"
     title: "Peak detection"
     excerpt: 'PhysioZoo provides algorithms and an interface for R-peak detection from mammalian data'
-    url: "#test-link"
+    url: "https://physiozoo.readthedocs.io/en/latest/sections/tutorials/tutorial1.html"
     btn_label: "Read More"
     btn_class: "btn--primary"
 
@@ -40,7 +40,7 @@ feature_row3:
     alt: "placeholder image 1"
     title: "Prefiltering"
     excerpt: 'PhysioZoo includes a number of prefiltering methods and manual annotations tools (peak and data quality) to ensure the reliability of the analyzed data.'
-    url: "#test-link"
+    url: "https://physiozoo.readthedocs.io/en/latest/sections/tutorials/tutorial3.html"
     btn_label: "Read More"
     btn_class: "btn--primary"
 
@@ -49,7 +49,7 @@ feature_row4:
     alt: "placeholder image 1"
     title: "HRV and Data visualization"
     excerpt: 'PhysioZoo includes traditional HRV measures tailored to the mammal that is studied and data visualization features include Poincare plots, power spectrum, distribution of NN intervals, multi scale entropy and more.'
-    url: "#test-link"
+    url: "https://physiozoo.readthedocs.io/en/latest/sections/tutorials/tutorial4.html"
     btn_label: "Read More"
     btn_class: "btn--primary"
     
