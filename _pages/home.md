@@ -11,28 +11,13 @@ header:
   cta_url: "https://github.com/physiozoo/physiozoo/archive/master.zip"
   caption: ""
 
-excerpt: "Toolbox for HRV analysis of human and animal electrophysiological data"
+excerpt: "Heart Rate Variability analysis of human and animal electrophysiological data"
 
 intro: 
-  - excerpt: 'The PhysioZoo platform is an open source project dedicated to the study of the heart rate variability (HRV) in mammals’ electrophysiological recordings.  `type="center"`'
+  - excerpt: 'The PhysioZoo platform is an open source project dedicated to the study of the heart rate variability (HRV) in mammals’ electrophysiological recordings  `type="center"`'
 
-feature_row:
-  - image_path: ""
-    alt: "placeholder image 1"
-    title: "Placeholder 1"
-    excerpt: "This is some sample content that goes here with **Markdown** formatting."
-  - image_path: ""
-    alt: "placeholder image 2"
-    title: "Placeholder 2"
-    excerpt: "This is some sample content that goes here with **Markdown** formatting."
-    url: "#test-link"
-    btn_label: "Read More"
-    btn_class: "btn--primary"
-  - image_path: ""
-    title: "Placeholder 3"
-    excerpt: "This is some sample content that goes here with **Markdown** formatting."
 
-feature_row2:
+feature_row1:
   - image_path: ""
     alt: "placeholder image 2"
     title: "Placeholder Image Left Aligned"
@@ -41,23 +26,7 @@ feature_row2:
     btn_label: "Read More"
     btn_class: "btn--primary"
 
-feature_row3:
-  - image_path: ""
-    alt: "placeholder image 2"
-    title: "Placeholder Image Right Aligned"
-    excerpt: 'This is some sample content that goes here with **Markdown** formatting. Right aligned with `type="right"`'
-    url: "#test-link"
-    btn_label: "Read More"
-    btn_class: "btn--primary"
 
-feature_row4:
-  - image_path: ""
-    alt: "placeholder image 2"
-    title: "Placeholder Image Center Aligned"
-    excerpt: 'This is some sample content that goes here with **Markdown** formatting. Centered with `type="center"`'
-    url: "#test-link"
-    btn_label: "Read More"
-    btn_class: "btn--primary"
 ---
 
 {% include feature_row id="intro" type="center" %}
