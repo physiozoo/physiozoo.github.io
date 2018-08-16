@@ -27,7 +27,7 @@ feature_row:
     btn_class: "btn--primary"
 
 feature_row2:
-  - image_path: "_pages/Figure_S3.png"
+  - image_path: "_pages/peak_detection.png"
     alt: "placeholder image 1"
     title: "Peak detection"
     excerpt: 'PhysioZoo provides algorithms and a user interface for R-peak detection of mammalian ECG data.'
