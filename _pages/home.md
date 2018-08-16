@@ -17,11 +17,8 @@ intro:
   - excerpt: 'The PhysioZoo is a collaborative platform dedicated to the study of the heart rate variability (HRV) in mammals’ electrophysiological recordings'
 
 
-test:
-  - this is a test!
-
 feature_row:
-  - image_path: "./home_page_interface.png"
+  - image_path: "_pages/home_page_interface.png"
     alt: "placeholder image 1"
     title: "Placeholder Image Left Aligned"
     excerpt: 'This is some sample content that goes here with **Markdown** formatting. Left aligned with `type="left"`'
