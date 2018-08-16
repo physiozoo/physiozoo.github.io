@@ -25,8 +25,6 @@ feature_row:
     url: "#test-link"
     btn_label: "Read More"
     btn_class: "btn--primary"
-    width: "80%"
-    height: "80%"
 
 feature_row2:
   - image_path: "docs/_static/Figure_S3.png"
@@ -58,7 +56,7 @@ feature_row4:
 
 ---
 
-{% include feature_row id="intro" type="center" %}
+{% include feature_row id="intro" type="center" width="50%" height="50%" %}
 
 {% include feature_row id="feature_row" type="center" %}
 
