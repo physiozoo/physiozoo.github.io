@@ -21,22 +21,22 @@ feature_row:
   - image_path: "_pages/home_page_interface.png"
     alt: "placeholder image 1"
     title: "PhysioZoo user interface"
-    excerpt: 'A user friendly interface to perform your analysis.'
+    excerpt: 'A user friendly interface to perform Heart Rate Variability analysis.'
     url: "https://physiozoo.readthedocs.io/en/latest/sections/tutorials/pz_installation.html"
     btn_label: "Install"
     btn_class: "btn--primary"
 
 feature_row2:
-  - image_path: "../docs/_static/Figure_S3.png"
+  - image_path: "_pages/Figure_S3.png"
     alt: "placeholder image 1"
     title: "Peak detection"
-    excerpt: 'PhysioZoo provides algorithms and an interface for R-peak detection from mammalian data'
+    excerpt: 'PhysioZoo provides algorithms and a user interface for R-peak detection of mammalian ECG data.'
     url: "https://physiozoo.readthedocs.io/en/latest/sections/tutorials/tutorial1.html"
     btn_label: "Read More"
     btn_class: "btn--primary"
 
 feature_row3:
-  - image_path: "../docs/_static/Figure_S3.png"
+  - image_path: "_pages/Figure_S3.png"
     alt: "placeholder image 1"
     title: "Prefiltering"
     excerpt: 'PhysioZoo includes a number of prefiltering methods and manual annotations tools (peak and data quality) to ensure the reliability of the analyzed data.'
@@ -47,8 +47,8 @@ feature_row3:
 feature_row4:
   - image_path: "_pages/Dog_example_qrs_Poincare.png"
     alt: "placeholder image 1"
-    title: "HRV and Data visualization"
-    excerpt: 'PhysioZoo includes traditional HRV measures tailored to the mammal that is studied and data visualization features include Poincare plots, power spectrum, distribution of NN intervals, multi scale entropy and more.'
+    title: "HRV measures and Data visualization"
+    excerpt: 'PhysioZoo includes state of the art HRV measures tailored to the mammal that is studied and data visualization features including Poincare plots, power spectrum, distribution of NN intervals, multi scale entropy.'
     url: "https://physiozoo.readthedocs.io/en/latest/sections/tutorials/tutorial4.html"
     btn_label: "Read More"
     btn_class: "btn--primary"
