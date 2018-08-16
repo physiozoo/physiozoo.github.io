@@ -26,7 +26,32 @@ feature_row:
     btn_label: "Read More"
     btn_class: "btn--primary"
 
-
+feature_row2:
+  - image_path: "_pages/Dog_example_qrs_NND.png"
+    alt: "placeholder image 1"
+    title: "Distribution NN intervals"
+    excerpt: 'Example of NN intervals distribution from a dog recording'
+    url: "#test-link"
+    btn_label: "Read More"
+    btn_class: "btn--primary"
+    
+feature_row3:
+  - image_path: "_pages/Dog_example_qrs_PSD.png"
+    alt: "placeholder image 1"
+    title: "Power spectral analysis"
+    excerpt: 'Example of a power spectral density plot obtained from a dog NN time series'
+    url: "#test-link"
+    btn_label: "Read More"
+    btn_class: "btn--primary"
+    
+feature_row4:
+  - image_path: "_pages/Dog_example_qrs_Poincare.png"
+    alt: "placeholder image 1"
+    title: "Poincare plot"
+    excerpt: 'Poincare plot'
+    url: "#test-link"
+    btn_label: "Read More"
+    btn_class: "btn--primary"
 
 ---
 
