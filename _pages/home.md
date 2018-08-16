@@ -14,12 +14,15 @@ header:
 excerpt: "Heart Rate Variability analysis of human and animal electrophysiological data"
 
 intro: 
-  - excerpt: 'The PhysioZoo platform is an open source project dedicated to the study of the heart rate variability (HRV) in mammals’ electrophysiological recordings  `type="center"`'
+  - excerpt: 'The PhysioZoo is a collaborative platform dedicated to the study of the heart rate variability (HRV) in mammals’ electrophysiological recordings  `type="center"`'
 
+
+test:
+  - this is a test
 
 feature_row1:
   - image_path: ""
-    alt: "placeholder image 2"
+    alt: "placeholder image 1"
     title: "Placeholder Image Left Aligned"
     excerpt: 'This is some sample content that goes here with **Markdown** formatting. Left aligned with `type="left"`'
     url: "#test-link"
