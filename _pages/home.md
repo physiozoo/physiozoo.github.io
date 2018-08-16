@@ -18,7 +18,7 @@ intro:
 
 
 test:
-  - this is a test
+  - this is a test!
 
 feature_row1:
   - image_path: ""
