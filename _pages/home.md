@@ -14,7 +14,7 @@ header:
 excerpt: "Toolbox for HRV analysis of human and animal electrophysiological data"
 
 intro: 
-  - excerpt: 'Nullam suscipit et nam, tellus velit pellentesque at malesuada, enim eaque. Quis nulla, netus tempor in diam gravida tincidunt, *proin faucibus* voluptate felis id sollicitudin. Centered with `type="center"`'
+  - excerpt: 'The PhysioZoo platform is an open source project dedicated to the study of the heart rate variability (HRV) in mammals’ electrophysiological recordings.  `type="center"`'
 
 feature_row:
   - image_path: ""
