@@ -21,7 +21,7 @@ feature_row:
   - image_path: "_pages/home_page_interface.png"
     alt: "placeholder image 1"
     title: "PhysioZoo user interface"
-    excerpt: 'PhysioZoo user interface'
+    excerpt: 'A user friendly interface to perform your analysis.'
     url: "https://physiozoo.readthedocs.io/en/latest/sections/tutorials/pz_installation.html"
     btn_label: "Install"
     btn_class: "btn--primary"
