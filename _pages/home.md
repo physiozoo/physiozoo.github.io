@@ -20,7 +20,7 @@ intro:
 test:
   - this is a test!
 
-feature_row1:
+feature_row:
   - image_path: "home_page_interface.png"
     alt: "placeholder image 1"
     title: "Placeholder Image Left Aligned"
