@@ -25,7 +25,6 @@ feature_row:
     url: "#test-link"
     btn_label: "Read More"
     btn_class: "btn--primary"
-    width: "50%"
 
 feature_row2:
   - image_path: "_pages/Dog_example_qrs_NND.png"
