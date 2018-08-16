@@ -22,8 +22,8 @@ feature_row:
     alt: "placeholder image 1"
     title: "PhysioZoo user interface"
     excerpt: 'PhysioZoo user interface'
-    url: "#test-link"
-    btn_label: "Read More"
+    url: "https://physiozoo.readthedocs.io/en/latest/sections/tutorials/pz_installation.html"
+    btn_label: "Install"
     btn_class: "btn--primary"
 
 feature_row2:
