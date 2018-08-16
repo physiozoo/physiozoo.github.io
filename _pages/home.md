@@ -26,12 +26,38 @@ feature_row:
     btn_label: "Read More"
     btn_class: "btn--primary"
 
+feature_row2:
+  - image_path: "_pages/Dog_example_qrs_Beta.png"
+    alt: "placeholder image 1"
+    title: "Placeholder Image Left Aligned"
+    excerpt: 'This is some sample content that goes here with **Markdown** formatting. Left aligned with `type="left"`'
+    url: "#test-link"
+    btn_label: "Read More"
+    btn_class: "btn--primary"
+    
+feature_row3:
+  - image_path: "_pages/Dog_example_qrs_DFA.png"
+    alt: "placeholder image 1"
+    title: "Placeholder Image Left Aligned"
+    excerpt: 'This is some sample content that goes here with **Markdown** formatting. Left aligned with `type="left"`'
+    url: "#test-link"
+    btn_label: "Read More"
+    btn_class: "btn--primary"
+    
+feature_row4:
+  - image_path: "_pages/Dog_example_qrs_MSE.png"
+    alt: "placeholder image 1"
+    title: "Placeholder Image Left Aligned"
+    excerpt: 'This is some sample content that goes here with **Markdown** formatting. Left aligned with `type="left"`'
+    url: "#test-link"
+    btn_label: "Read More"
+    btn_class: "btn--primary"
 
 ---
 
 {% include feature_row id="intro" type="center" %}
 
-{% include feature_row %}
+{% include feature_row id="feature_row" type="center" %}
 
 {% include feature_row id="feature_row2" type="left" %}
 
