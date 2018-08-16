@@ -14,7 +14,7 @@ header:
 excerpt: "Heart Rate Variability analysis of human and animal electrophysiological data"
 
 intro: 
-  - excerpt: 'The PhysioZoo is a collaborative platform dedicated to the study of the heart rate variability (HRV) in mammals’ electrophysiological recordings.'
+  - excerpt: 'PhysioZoo is a collaborative platform dedicated to the study of the heart rate variability (HRV) in mammals’ electrophysiological recordings.'
 
 
 feature_row:
@@ -30,7 +30,7 @@ feature_row2:
   - image_path: "_pages/peak_detection.png"
     alt: "placeholder image 1"
     title: "Peak detection"
-    excerpt: 'PhysioZoo provides algorithms and a user interface for R-peak detection of mammalian ECG data.'
+    excerpt: 'PhysioZoo provides algorithms and a user interface for R-peak detection of mammalian ECG data. In addition, it provides manual annotations tools (peak and data quality) to ensure the reliability of the analyzed data.'
     url: "https://physiozoo.readthedocs.io/en/latest/sections/tutorials/tutorial1.html"
     btn_label: "Read More"
     btn_class: "btn--primary"
@@ -39,7 +39,7 @@ feature_row3:
   - image_path: "_pages/Figure_S3.png"
     alt: "placeholder image 1"
     title: "Prefiltering"
-    excerpt: 'PhysioZoo includes a number of prefiltering methods and manual annotations tools (peak and data quality) to ensure the reliability of the analyzed data.'
+    excerpt: 'PhysioZoo includes a number of prefiltering methods in order to remove sudden drop or increase in the beat to beat intervals due to transcient noise or ectopic beats.'
     url: "https://physiozoo.readthedocs.io/en/latest/sections/tutorials/tutorial3.html"
     btn_label: "Read More"
     btn_class: "btn--primary"
@@ -60,7 +60,7 @@ feature_row4:
 
 {% include feature_row id="feature_row" type="center" width="80%" height="80%" %}
 
-{% include feature_row id="feature_row2" type="left" %}
+{% include feature_row id="feature_row2" type="left" width="30%" height="30%" %}
 
 {% include feature_row id="feature_row3" type="right" %}
 
