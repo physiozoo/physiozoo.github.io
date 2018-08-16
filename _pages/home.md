@@ -29,31 +29,32 @@ feature_row:
     height: 80%
 
 feature_row2:
-  - image_path: "_pages/Dog_example_qrs_NND.png"
-    alt: "placeholder image 1"
-    title: "Distribution NN intervals"
-    excerpt: 'Example of NN intervals distribution from a dog recording'
-    url: "#test-link"
-    btn_label: "Read More"
-    btn_class: "btn--primary"
-    
-feature_row3:
   - image_path: "_pages/Dog_example_qrs_PSD.png"
     alt: "placeholder image 1"
-    title: "Power spectral analysis"
-    excerpt: 'Example of a power spectral density plot obtained from a dog NN time series'
+    title: "Peak detection"
+    excerpt: 'PhysioZoo provides algorithms and an interface for R-peak detection from mammalian data'
     url: "#test-link"
     btn_label: "Read More"
     btn_class: "btn--primary"
-    
+
+feature_row3:
+  - image_path: "_pages/Dog_example_qrs_Poincare.png"
+    alt: "placeholder image 1"
+    title: "Prefiltering"
+    excerpt: 'PhysioZoo includes a number of prefiltering methods and manual annotations tools (peak and data quality) to ensure the reliability of the analyzed data.'
+    url: "#test-link"
+    btn_label: "Read More"
+    btn_class: "btn--primary"
+
 feature_row4:
   - image_path: "_pages/Dog_example_qrs_Poincare.png"
     alt: "placeholder image 1"
-    title: "Poincare plot"
-    excerpt: 'Poincare plot'
+    title: "HRV and Data visualization"
+    excerpt: 'PhysioZoo includes traditional HRV measures tailored to the mammal that is studied and data visualization features include Poincare plots, power spectrum, distribution of NN intervals, multi scale entropy and more.'
     url: "#test-link"
     btn_label: "Read More"
     btn_class: "btn--primary"
+    
 
 ---
 
