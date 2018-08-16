@@ -58,9 +58,9 @@ feature_row4:
 
 {% include feature_row id="intro" type="center" %}
 
-{% include feature_row id="feature_row" type="center" width="300pt" height="300pt" %}
+{% include feature_row id="feature_row" type="center" width="300px" height="300px" %}
 
-{% include feature_row id="feature_row2" type="left" width="300pt" height="300pt" %}
+{% include feature_row id="feature_row2" type="left" width="300px" height="300px" %}
 
 {% include feature_row id="feature_row3" type="right" %}
 
