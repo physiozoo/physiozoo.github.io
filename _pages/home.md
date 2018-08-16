@@ -28,28 +28,28 @@ feature_row:
     width: "50%"
 
 feature_row2:
-  - image_path: "_pages/Dog_example_qrs_Beta.png"
+  - image_path: "_pages/Dog_example_qrs_NND.png"
     alt: "placeholder image 1"
-    title: "Placeholder Image Left Aligned"
-    excerpt: 'This is some sample content that goes here with **Markdown** formatting. Left aligned with `type="left"`'
+    title: "Distribution NN intervals"
+    excerpt: 'Example of NN intervals distribution from a dog recording'
     url: "#test-link"
     btn_label: "Read More"
     btn_class: "btn--primary"
     
 feature_row3:
-  - image_path: "_pages/Dog_example_qrs_DFA.png"
+  - image_path: "_pages/Dog_example_qrs_PSD.png"
     alt: "placeholder image 1"
-    title: "Placeholder Image Left Aligned"
-    excerpt: 'This is some sample content that goes here with **Markdown** formatting. Left aligned with `type="left"`'
+    title: "Power spectral analysis"
+    excerpt: 'Example of a power spectral density plot obtained from a dog's NN time series'
     url: "#test-link"
     btn_label: "Read More"
     btn_class: "btn--primary"
     
 feature_row4:
-  - image_path: "_pages/Dog_example_qrs_MSE.png"
+  - image_path: "_pages/Dog_example_qrs_Poincare.png"
     alt: "placeholder image 1"
-    title: "Placeholder Image Left Aligned"
-    excerpt: 'This is some sample content that goes here with **Markdown** formatting. Left aligned with `type="left"`'
+    title: "Poincare plot"
+    excerpt: 'Poincare plot'
     url: "#test-link"
     btn_label: "Read More"
     btn_class: "btn--primary"
