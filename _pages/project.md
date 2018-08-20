@@ -4,7 +4,9 @@ title: PhysioZoo project
 permalink: /project/
 author_profile: false
 ---
-
+## Support
+Click [here](https://github.com/physiozoo/physiozoo.github.io/issues) to browse through the issues.
+Contacts: physiozoolab@gmail.com
 
 ## Reference
 
