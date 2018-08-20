@@ -18,7 +18,7 @@ The **PhysioZoo** project is dynamic and so novel contributions are welcomed. Yo
 
   * **Fork it** fork the repository on the  project's main page
   + **Create a pull request** contribute algorithms and improvements to the **PhysioZoo** toolbox
-  + **Eeww bugs!** In case you in encounter a bug and cannot figure out the solution, please have a look on the opened issues before creating a new bug issue. Issues can be consulted and posted [here] (https://github.com/physiozoo/physiozoo.github.io/issues)
+  + **Eeww bugs!** In case you in encounter a bug and cannot figure out the solution, please have a look on the opened issues before creating a new bug issue. Issues can be consulted and posted [here](https://github.com/physiozoo/physiozoo.github.io/issues)
   + **Pitch in your new ideas** for future releases by suggesting an enhancement.
 
 ## Benefits of Contributing
