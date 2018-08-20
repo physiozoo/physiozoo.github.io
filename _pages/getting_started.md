@@ -1,7 +1,7 @@
 ---
 layout: single
 title: PhysioZoo project
-permalink: /getting-started/
+permalink: /project/
 author_profile: false
 ---
 
@@ -16,8 +16,8 @@ Joachim A Behar*, Aviv A Rosenberg*, Ido Weiser-Bitoun, Ori Shemla, Alexandra Al
 
 There are many ways to contribute to **PhysioZoo**:
 
-  * **Fork it** Feel free to fork the repository on the  project's main page
-  + **Create a pull request** We welcome novel algorithms and improvements to the **PhysioZoo** toolbox.
+  * **Fork it** fork the repository on the  project's main page
+  + **Create a pull request** contribute algorithms and improvements to the **PhysioZoo** toolbox
   + **Eeww bugs!** In case you in encounter a bug and cannot figure out the solution, please have a look on the opened issues before creating a new bug issue
   + **Pitch in your new ideas** for future releases by suggesting an enhancement.
 
