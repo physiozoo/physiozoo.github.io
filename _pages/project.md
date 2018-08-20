@@ -14,7 +14,7 @@ Joachim A Behar', Aviv A Rosenberg', Ido Weiser-Bitoun, Ori Shemla, Alexandra Al
 
 ## How to contribute
 
-There are many ways to contribute to **PhysioZoo**:
+The **PhysioZoo** project is dynamic and so novel contributions are welcomed. You can contribute by:
 
   * **Fork it** fork the repository on the  project's main page
   + **Create a pull request** contribute algorithms and improvements to the **PhysioZoo** toolbox
