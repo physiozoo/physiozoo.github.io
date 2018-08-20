@@ -1,18 +1,16 @@
 ---
 layout: single
-title: Getting started with PhysioZoo
+title: PhysioZoo project
 permalink: /getting-started/
 author_profile: false
 ---
-
-Rename this section to Project
 
 
 ## Reference
 
 When using **PhysioZoo** please reference the following paper:
 
-Joachim A Behar, Aviv A Rosenberg, Ido Weiser-Bitoun, Ori Shemla, Alexandra Alexandrovich, Evgene Konyukhov, Yael Yaniv. 2018.  "PhysioZoo: a novel open access platform for heart rate variability analysis of mammalian electrocardiographic data." Accepted for publication in Frontiers in Physiology.
+Joachim A Behar*, Aviv A Rosenberg*, Ido Weiser-Bitoun, Ori Shemla, Alexandra Alexandrovich, Evgene Konyukhov, Yael Yaniv. 2018.  "PhysioZoo: a novel open access platform for heart rate variability analysis of mammalian electrocardiographic data." Accepted for publication in Frontiers in Physiology. *Co-first authors.
 
 ## How to contribute
 
