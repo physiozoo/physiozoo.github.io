@@ -1,13 +1,13 @@
-Tutorial: Formats supported in PhysioZoo
+Formats supported
 ==========
 
-In this tutorial you will learn how to prepare your data for their usage in PhysioZoo.
+In this tutorial you will learn about how to prepare your data for importing them in **PhysioZoo**.
 
 
 **Introduction**
 ---------------------
 
-PhysioZoo supports three types of formats: WFDB, text and mat. The text and mat files structures are specific to PhysioZoo whereas the WFDB follows the standard structure of WFDB powered by Physionet (physionet.org). If you are experienced with WFDB then we recommend you use this standard format.
+**PhysioZoo** supports three types of formats: `WFDB <https://www.physionet.org/physiotools/matlab/wfdb-app-matlab>`_, text (.txt) and MATLAB (.mat). The text and mat files structures are specific to **PhysioZoo** whereas the WFDB follows the standard structure of WFDB powered by Physionet (physionet.org) with some additional fields in the WFDB header files. If you are experienced with WFDB then we recommend you use this format.
 
 For any of the three formats a file consists of a header and the data:
 
@@ -18,23 +18,23 @@ For any of the three formats a file consists of a header and the data:
 
 For each of the files the following information can be specified in the header:
 
-  * Mammal: dog, mouse, rabbit, human etc.
-  * Fs: the sampling frequency in Hertz
-  * Integration_Level: electrocardiogram, electrogram or action potential
+  * Mammal: the ame of the mammal (e.g. dog, mouse, rabbit, human),
+  * Fs: the sampling frequency in Hertz,
+  * Integration_Level: electrocardiogram, electrogram or action potential.
 
 As part of the header, information characterizing each Channel available can be entered:
 
-  * type: peak, signal quality, time, interval, beating rate and electrography. See definitions of these in the next section
-  * name: any name you want to give to the channel
-  * unit: millisecond, second, index, bpm, millivolt, microvolt and volt
-  * enable: yes or no. If you specify 'no' then this channel will be ignored when the file will be loaded by the PZ Loader. Only specify 'yes' for the channels you want to use.
+  * type: peak, signal quality, time, interval, beating rate and electrography. See definitions of these in the next section,
+  * name: a name you want to give to the channel (of note this information is not used by the `PZ Loader <../tutorials/tutorial_pz_loader.rst>`_ to load the data),
+  * unit: millisecond, second, index, bpm, millivolt, microvolt and volt,
+  * enable: yes or no. If you specify 'no' then this channel will be ignored when the file is loaded by the PZ Loader. Only specify 'yes' for the channels you want to use.
   
-In the case all or part of these information are not specified then you will be prompted to enter it though the PZ Loader (link).
+In the case all or part of these information are not specified then you will be prompted to enter them though the `PZ Loader <../tutorials/tutorial_pz_loader.rst>`_.
 
 **Channels Type**
 ---------------------
 
-A Channel can have the following 'type' which will be handled by PhysioZoo:
+A Channel can have the following 'type' which will be handled by **PhysioZoo**:
 
 Annotations
   * peak: the location of the peaks (e.g. R-peak from an ECG time series). The peaks location can be specified in millisecond/second or index.
@@ -49,24 +49,28 @@ Time series
 **Headers in the different formats**
 ------------------------------------------
 
-Text format (.txt)
+Explanation of the structure of the different format supported is provided below. Examples in all formats are also available in the `Examples' folder installed with **PhysioZoo**.
+
+**Text format (.txt)**
 
 .. image:: ../../_static/example_header.png
 
-Matlab format (.mat)
+**Matlab format (.mat)**
 
 A .mat file need to contain the following fields:
 
 .. image:: ../../_static/example_format_matlab_1.jpg
 
-The Channels field is a structure. Each element of the structure will contain the following information:
+The Channels field is a structure. Each element of the structure will contain the following information corresponding to each of the channel (column) in the `ecg' matrix:
 
-.. image:: ../../_static/example_format_matlab_2.jpg
 
-WFDB
-This need to be redefined.
 
-Example of appropriate structure for a text file; the file is divided in two parts, the 'Header' and the 'Data'.
+**WFDB (.hea)**
+
+WFDB files (annotation or data) will be accompanied by a header (.hea) file specifying the relevant information for reading an annotation or data file. Refer to the `WFDB <https://www.physionet.org/physiotools/matlab/wfdb-app-matlab>`_ documentation for that. To the standard WFDB format of the header, you will need to add one comment line at the end of the header and starting '#' then followed by the mammal type and the integration level. In addition, you need to specify for each channel the type of data that is represented ('electrography' on the example below).
+
+.. image:: ../../_static/example_format_wfdb.jpg
+
 
 
 

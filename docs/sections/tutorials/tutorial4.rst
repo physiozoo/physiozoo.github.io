@@ -6,7 +6,14 @@ In this tutorial you will learn how to process data, compute the Heart Rate Vari
 **Introduction**
 ----------------------
 
-HRV is particularly interesting because it provides a non-invasive way to monitor cardiac function and the autonomic system activity. In particular, in the context of animal studies, HRV tools can be used to study the effects of mutations and pharmacological treatments. **PhysioZoo** provides the framework and tools for performing HRV analysis from humans and animal models data.
+HRV analysis is particularly interesting because it provides a non-invasive way to monitor cardiac function and the autonomic system activity. In particular, in the context of animal studies, HRV tools can be used to study the effects of mutations and pharmacological treatments. **PhysioZoo** provides the framework and tools for performing HRV analysis from humans and animal models data.
+
+
+**Why mammal specific HRV?**
+----------------------
+Because the heart rate range, dynamics and autonomic control can vary significantly between mammals, some HRV measures need to be adapted to the mammal which data are analyses. As an example, the following figure illustrates the important differences in the location of the characteristic power spectral peaks in analysing RR time series from different mammals using power spectral analysis. This hilights the need to re-define the spectral bands (VLF, LF and HF) for each mammal. 
+
+.. image:: ../../_static/Figure_2.png
 
 
 **Performing HRV analysis**
@@ -22,7 +29,7 @@ Congrats! You have made your first HRV analysis with **PhysioZoo**!
 
 NOTE: Every time you move the analysis window to another location the newly selected segment will be automatically analyzed. You can disable this by deselecting the checkbox “Auto Compute” under the “Compute” button.
 
-IMPORTANT: The length of the selected window is important. A number of HRV measures assumes that the RR time series is stationary over the selected window. In our context stationary means that the statistical properties of a signal (such as mean and standard deviation) are about constant. Other measures such as the detrended fluctuation analysis measures do not assume stationarity and so a long window can be used.
+IMPORTANT: The length of the selected window is important. A number of HRV measures assumes that the RR time series is stationary over the selected window. In our context stationary means that the statistical properties of a signal (such as mean and standard deviation) are about constant. Other measures such as the detrended fluctuation analysis ones do not assume stationarity and so a long window can be used.
 
 **Exporting HRV measures**
 --------------------------------------------
@@ -43,7 +50,7 @@ For exporting figures click Main -> Export Figures. You will be prompted with th
 **Consecutive windows analysis**
 --------------------------------------------
 
-You might want to track the evolution of the HRV measures over time. For example if you are injecting some drug to the mammal and want to observe the resulting changes on the HRV measures. For that purpose **PhysioZoo** enables to perform the analysis on consecutive segments.
+You might want to track the evolution of the HRV measures over time. For example if you are injecting some drug to the mammal and want to observe the resulting changes on the HRV measures over time. For that purpose **PhysioZoo** enables to perform the analysis on consecutive segments.
 
 Let’s use a long RR time series: File -> Open File -> Mouse.
 
@@ -55,7 +62,7 @@ You can also enable the analysis window to be overlapping by using the “Overla
 
 You can export all HRV measures from all consecutive windows (Main -> Save HRV measures as).
 
-If you want to export figures, then select with the mouse the window you want to plot the figures for.
+If you want to export figures, then select with the mouse the window you want to save the figures of.
 
 NOTE: while using the successive segment analysis feature, it is possible to export the HRV measures and PSD from all the analyzed consecutive windows together. However, you can only export the figures from one single window at the time i.e. from the window that you select with the mouse (i.e. the ‘selected window’).
 
