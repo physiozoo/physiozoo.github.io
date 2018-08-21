@@ -25,7 +25,14 @@ feature_row:
     url: "https://physiozoo.readthedocs.io/en/latest/sections/tutorials/pz_installation.html"
     btn_label: "Install"
     btn_class: "btn--primary"
-
+  - image_path: "_pages/home_page_interface.png"
+    alt: "placeholder image 2"
+    title: "PhysioZoo user interface"
+    excerpt: 'Source code.'
+    url: "https://physiozoo.readthedocs.io/en/latest/sections/tutorials/pz_installation.html"
+    btn_label: "Install"
+    btn_class: "btn--primary"
+    
 feature_row2:
   - image_path: "_pages/peak_detection.png"
     alt: "placeholder image 1"
