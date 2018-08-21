@@ -19,11 +19,13 @@ Representative example of the R-peaks detected  (A) using the original **gqrs** 
 **Performing peak detection in PhysioZoo**
 -----------------------------
 
-  1. Click "Peak Detection" on the Menu bar to open the peak detection interface.
+  1. Open PhysioZoo  
+
+  2. Click "Peak Detection" on the Menu bar to open the peak detection interface.
   
   2. Load an ECG recording (e.g. File -> Open File -> Rabbit_example.txt). The ECG will be displayed. The default R-peak detector (rqrs) will run automatically. You will see some red crosses appearing on the ECG signal at the locations that have been detected (pannel A).
 
-  3. You can browse through the recording by stretching and moving the red window displayed in pannel B. You can also move through the recording by using the arrows circled in red on the right hand side.
+  4. You can browse through the recording by stretching and moving the red window displayed in pannel B. You can also move through the recording by using the arrows circled in red on the right hand side.
 
 .. image:: ../../_static/peak_detection_fig1.png
 
@@ -38,7 +40,7 @@ Sometime the R-peak detector might make mistakes and miss some R-peaks/detect so
 
   2. Point your cursor on a misdetected peak or at the location where a peak is missing. When you click, **PhysioZoo** will automatically remove/add a peak at this location.
   
-  3. If a whole segment contains misdetection and you need to clear all the peaks within this section then you can do that by drawing a rectangle on the area where you want the peaks to be deleted (see figure bellow). When you drop the rectangle, all the peaks contained within it will be deleted.
+  3. If a whole segment contains misdetection and you need to clear all the peaks within this section then you can do that by drawing a rectangle on the area where you want the peaks to be deleted (see dotted rectangle figure bellow). When you drop the rectangle, all the peaks contained within it will be deleted.
   
   4. Save your R-peak time series: File -> Save Peaks.
 

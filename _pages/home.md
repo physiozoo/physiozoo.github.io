@@ -11,58 +11,54 @@ header:
   cta_url: "https://github.com/physiozoo/physiozoo/archive/master.zip"
   caption: ""
 
-excerpt: "Toolbox for HRV analysis of human and animal electrophysiological data"
+excerpt: "Heart Rate Variability analysis of human and animal electrophysiological data"
 
 intro: 
-  - excerpt: 'Nullam suscipit et nam, tellus velit pellentesque at malesuada, enim eaque. Quis nulla, netus tempor in diam gravida tincidunt, *proin faucibus* voluptate felis id sollicitudin. Centered with `type="center"`'
+  - excerpt: 'PhysioZoo is a collaborative platform dedicated to the study of the heart rate variability (HRV) in mammals’ electrophysiological recordings.'
+
 
 feature_row:
-  - image_path: ""
+  - image_path: "_pages/home_page_interface.png"
     alt: "placeholder image 1"
-    title: "Placeholder 1"
-    excerpt: "This is some sample content that goes here with **Markdown** formatting."
-  - image_path: ""
-    alt: "placeholder image 2"
-    title: "Placeholder 2"
-    excerpt: "This is some sample content that goes here with **Markdown** formatting."
-    url: "#test-link"
-    btn_label: "Read More"
+    title: "PhysioZoo user interface"
+    excerpt: 'A user friendly interface to perform Heart Rate Variability analysis.'
+    url: "https://physiozoo.readthedocs.io/en/latest/sections/tutorials/pz_installation.html"
+    btn_label: "Install"
     btn_class: "btn--primary"
-  - image_path: ""
-    title: "Placeholder 3"
-    excerpt: "This is some sample content that goes here with **Markdown** formatting."
 
 feature_row2:
-  - image_path: ""
-    alt: "placeholder image 2"
-    title: "Placeholder Image Left Aligned"
-    excerpt: 'This is some sample content that goes here with **Markdown** formatting. Left aligned with `type="left"`'
-    url: "#test-link"
+  - image_path: "_pages/peak_detection.png"
+    alt: "placeholder image 1"
+    title: "Peak detection"
+    excerpt: 'PhysioZoo provides algorithms and a user interface for R-peak detection of mammalian ECG data. In addition, it provides manual annotations tools (peak and data quality) to ensure the reliability of the analyzed data.'
+    url: "https://physiozoo.readthedocs.io/en/latest/sections/tutorials/tutorial1.html"
     btn_label: "Read More"
     btn_class: "btn--primary"
 
 feature_row3:
-  - image_path: ""
-    alt: "placeholder image 2"
-    title: "Placeholder Image Right Aligned"
-    excerpt: 'This is some sample content that goes here with **Markdown** formatting. Right aligned with `type="right"`'
-    url: "#test-link"
+  - image_path: "_pages/Figure_S3.png"
+    alt: "placeholder image 1"
+    title: "Prefiltering"
+    excerpt: 'PhysioZoo includes a number of prefiltering methods in order to remove sudden drop or increase in the beat to beat intervals due to transcient noise or ectopic beats.'
+    url: "https://physiozoo.readthedocs.io/en/latest/sections/tutorials/tutorial3.html"
     btn_label: "Read More"
     btn_class: "btn--primary"
 
 feature_row4:
-  - image_path: ""
-    alt: "placeholder image 2"
-    title: "Placeholder Image Center Aligned"
-    excerpt: 'This is some sample content that goes here with **Markdown** formatting. Centered with `type="center"`'
-    url: "#test-link"
+  - image_path: "_pages/Dog_example_qrs_Poincare.png"
+    alt: "placeholder image 1"
+    title: "HRV measures and data visualization"
+    excerpt: 'PhysioZoo includes state of the art HRV measures tailored to the type of mammal that is studied and data visualization features including Poincare plots, power spectrum, distribution of NN intervals, multi scale entropy.'
+    url: "https://physiozoo.readthedocs.io/en/latest/sections/tutorials/tutorial4.html"
     btn_label: "Read More"
     btn_class: "btn--primary"
+    
+
 ---
 
 {% include feature_row id="intro" type="center" %}
 
-{% include feature_row %}
+{% include feature_row id="feature_row" type="center" %}
 
 {% include feature_row id="feature_row2" type="left" %}
 
