@@ -40,7 +40,7 @@ The following individuals have contributed to the PhysioZoo project:
 - Ido Weiser-Bitoun
 - Ori Shemla
 - Alexandra Alexandrovitch
-- Evgene Konyukhov
+- Eugene Konyukhov
 - Yael Yaniv
 
 ## License
