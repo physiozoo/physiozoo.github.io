@@ -91,5 +91,6 @@ In order to locate the peaks accurately from the electrophysiological signal it 
 
 Sometimes a peak detector will fail to detect the R-peaks. This is due to the fact that these detectors were originally built for Human ECG analysis. In animal ECGs the position and type (e.g. subcutaneous) of the electrodes are not as standardized as for the Human. For that reason we included a set of three R-peak detectors so that it is possible to change to the one that is performing best on your specific dataset.
 
+Long recordings: if you deal with long recordings then use **rqrs** or **wptqrs**.
 
 
