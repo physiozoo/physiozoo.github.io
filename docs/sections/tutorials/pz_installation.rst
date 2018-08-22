@@ -5,13 +5,15 @@ PhysioZoo can be run from Matlab or be installed as a standalone application. Th
 
 Running PhysioZoo in Matlab
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+Versions supported: MATLAB 2016a and above
 
 1)	Download the source code
 
-2)	launch PhysioZoo by running the file "PhysioZoo.m"
+2)	From MATLAB launch PhysioZoo by running the file "PhysioZoo.m"
 
 Stand alone PhysioZoo (executable)
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+Operating system: Windows
 
 After downloading the software click the “MyAppInstaller_web.exe” file. This will start the installation process. You can then go through the following steps.
 
