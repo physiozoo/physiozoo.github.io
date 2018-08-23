@@ -7,11 +7,15 @@ PhysioZoo ``mhrv`` (source code) toolbox
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 Versions supported: MATLAB 2016a and above
 
+`Documentation <https://physiozoo.readthedocs.io/en/latest/#>`_
+
 You can download the ``mhrv`` toolbox here.
 
 Running PhysioZoo-UI in Matlab
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 Versions supported: MATLAB 2016a and above
+
+`Documentation <https://physiozoo.readthedocs.io/en/latest/#>`_
 
 1)	Download the source code
 
@@ -20,6 +24,8 @@ Versions supported: MATLAB 2016a and above
 Stand alone PhysioZoo-UI (executable)
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 Operating system: Windows
+
+`Documentation <https://physiozoo.readthedocs.io/en/latest/#>`_
 
 After downloading the software click the “MyAppInstaller_web.exe” file. This will start the installation process. You can then go through the following steps.
 
