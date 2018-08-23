@@ -1,24 +1,14 @@
 Introduction
 ************
-
-The **PhysioZoo** platform is an open source project dedicated to the study of
-the heart rate variability (HRV) in electrophysiological recordings of humans
-and other mammals.  The main components of the platform are:
+**PhysioZoo** is a collaborative platform dedicated to the study of the heart rate variability (HRV) in Humans and other mammals’ electrophysiological recordings. The main components of the platform are:
 
 - *Software*
 
-  - An open-source algorithmic toolbox for matlab (``mhrv``), which implements
-    all standard HRV analysis algorithms (and more). This can be used by your
-    own data analysis code using it's matlab-like API.
+  - An open-source algorithmic toolbox for matlab (``mhrv``), which implements all standard HRV analysis algorithms, peak detection algorithms and prefiltering routines. This can be used within your own data analysis code using the ``mhrv`` API.
     
-  - An open-source graphical user interface (GUI) that allows performing
-    advanced multi-window or multi-record HRV analysis of both ECG and
-    RR-intervals data in various formats while also exporting results and
-    figures. This can be performed easily by non-technical users without writing
-    any code.
+  - An open-source graphical user interface (GUI) that provides a user friendly interface for advanced HRV analysis of RR-intervals time series and data visualization tools. This enables easy access to HRV analysis without writing any code.
 
-- *Databases*: A set of annotated databases of electrophysiological signals, both raw
-  electrocardiogram and beat-interval time series, from dog, rabbit and mouse.
+- *Databases*: a set of annotated databases (dog, rabbit and mouse) of electrophysiological signals including raw electrocardiogram, manually audited peak locations and signal quality annotations.
 
 - *Configuration*
   
@@ -36,6 +26,8 @@ also aims to encourage the scientific community to contribute their
 electrophysiological databases and novel HRV algorithms/analysis tools for
 advancing the research in the field.
 
-We always welcome your feedback on how to improve the **PhysioZoo** software to
-best serve your research needs. Do not hesitate to drop us an email at:
+Feedback on how to improve the **PhysioZoo** platform is welcomed. Do not hesitate to drop us an email at:
+
 physiozoolab@gmail.com.
+
+Source code, data or interface enhancement contributions are welcomed. Look here on how to contribute to PhysioZoo.
