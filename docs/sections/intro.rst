@@ -8,7 +8,11 @@ Introduction
     
   - An open-source graphical user interface (GUI) that provides a user friendly interface for advanced HRV analysis of RR-intervals time series and data visualization tools. This enables easy access to HRV analysis without writing any code.
 
-- *Databases*: a set of annotated databases (dog, rabbit and mouse) of electrophysiological signals including raw electrocardiogram, manually audited peak locations and signal quality annotations.
+- *Databases*:
+
+  - a set of annotated databases (dog, rabbit and mouse) of electrophysiological signals.
+
+  - manually audited peak locations and signal quality annotations.
 
 - *Configuration*
   
