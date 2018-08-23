@@ -6,7 +6,7 @@ Introduction
 
   - An open-source algorithmic toolbox for matlab (``mhrv``), which implements all standard HRV analysis algorithms, peak detection algorithms and prefiltering routines. This can be used within your own data analysis code using the ``mhrv`` API.
     
-  - An open-source graphical user interface (GUI) that provides a user friendly interface for advanced HRV analysis of RR-intervals time series and data visualization tools. This enables easy access to HRV analysis without writing any code.
+  - An open-source graphical user interface (``PhysioZoo-UI``) that provides a user friendly interface for advanced HRV analysis of RR-intervals time series and data visualization tools. This enables easy access to HRV analysis without writing any code.
 
 - *Databases*:
 
