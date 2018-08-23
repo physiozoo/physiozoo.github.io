@@ -30,4 +30,4 @@ Feedback on how to improve the **PhysioZoo** platform is welcomed. Do not hesita
 
 physiozoolab@gmail.com.
 
-Source code, data or interface enhancement contributions are welcomed. Look here on how to contribute to PhysioZoo.
+Source code, data or interface enhancement contributions are welcomed. Look `here <https://physiozoo.github.io/project/>`_ on how to contribute to PhysioZoo.
