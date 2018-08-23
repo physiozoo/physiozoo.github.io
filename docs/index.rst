@@ -20,6 +20,7 @@ PhysioZoo documentation
    sections/tutorials/tutorial2.rst
    sections/tutorials/tutorial_pz_loader.rst
    sections/tutorials/tutorial_formats.rst
+   sections/tutorials/changelog.rst
 
 Indices and tables
 ==================
