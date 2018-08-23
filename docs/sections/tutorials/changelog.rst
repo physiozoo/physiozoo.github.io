@@ -1,8 +1,4 @@
----
-layout: default
-title: Changelog
-priority: 4
----
+
 
 **Changelog**
 -------------
