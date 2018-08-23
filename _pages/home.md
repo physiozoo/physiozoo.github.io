@@ -48,7 +48,7 @@ feature_row4:
   - image_path: "_pages/Dog_example_qrs_Poincare.png"
     alt: "placeholder image 1"
     title: "HRV measures and data visualization"
-    excerpt: 'PhysioZoo includes state of the art HRV measures tailored to the type of mammal that is studied and data visualization features including Poincare plots, power spectrum, distribution of NN intervals, multi scale entropy.'
+    excerpt: 'PhysioZoo includes state of the art HRV measures tailored to the type of mammal that is studied and data visualization features including Poincare plots, power spectrum, distribution of NN intervals and multi scale entropy plot.'
     url: "https://physiozoo.readthedocs.io/en/latest/sections/tutorials/tutorial4.html"
     btn_label: "Read More"
     btn_class: "btn--primary"
