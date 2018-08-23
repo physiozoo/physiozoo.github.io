@@ -4,7 +4,8 @@ title: Changelog
 priority: 4
 ---
 
-#Changelog#
+**Changelog**
+-------------
 
 Here is a list of changes made on each version of the **PhysioZoo** toolbox.
 
