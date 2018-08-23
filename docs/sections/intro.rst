@@ -10,9 +10,9 @@ Introduction
 
 - *Databases*:
 
-  - a set of annotated databases (dog, rabbit and mouse) of electrophysiological signals.
+  - A set of annotated databases (dog, rabbit and mouse) of electrophysiological signals.
 
-  - manually audited peak locations and signal quality annotations.
+  - Manually audited peak locations and signal quality annotations for each recording.
 
 - *Configuration*
   
