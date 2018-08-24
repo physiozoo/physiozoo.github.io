@@ -60,6 +60,9 @@ GNU General Public License for more details.
 You should have received a copy of the GNU General Public License
 along with this program.  If not, see <http://www.gnu.org/licenses/>.
 
+
+If you are a company and want to use PhysioZoo then please email us at: physiozoolab@gmail.com
+
 ## Disclaimer
 
 This toolbox makes use of several other pre-existing open source algorithms listed below:
