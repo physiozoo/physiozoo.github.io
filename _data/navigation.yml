@@ -1,6 +1,6 @@
 main:
   - title: "Installation"
-    url: https://physiozoo.readthedocs.io/en/latest/sections/tutorials/pz_installation.html
+    url: https://physiozoo.readthedocs.io/en/latest/sections/tutorials/installation.html
   - title: "Documentation"
     url: https://physiozoo.readthedocs.io
   - title: "About"
