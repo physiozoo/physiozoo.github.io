@@ -1,7 +1,7 @@
 Installing PhysioZoo
 ====================
 
-``PhysioZoo-UI`` can be run from Matlab or be installed as a standalone application. The current version was tested for Matlab 2016a and above running on Windows. 
+``PhysioZoo-UI`` can be run from Matlab or be installed as a standalone application. If you do not need the graphic user interface then you can directly download the hrv source code (``mhrv`` toolbox). The current version was tested for Matlab 2016a and above running on Windows. 
 
 PhysioZoo ``mhrv`` (source code) toolbox
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
