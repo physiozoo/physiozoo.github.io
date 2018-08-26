@@ -1,7 +1,7 @@
 Peak detection
 ==============
 
-In this tutorial you will learn how to load an electrocardiogram (ECG) recording and perform R-peak detection. You will also learn how to manually correct miss-detections.
+In this tutorial you will learn how to load an electrocardiogram (ECG) recording and perform R-peak detection. You will also learn how to manually correct miss-detected peaks.
 
 **Introduction**
 ---------------------
@@ -9,9 +9,9 @@ Accurate peak detection is critical for performing a meaningfull HRV analysis. *
 
 **Why mammal specific peak detection?**
 -----------------------------
-Numerous algorithms for finding R-peaks in Human ECGs have been developped. However, these need to be adapted to the different dynamic accross mammalian species. **PhysioZoo** provides a set of three peak detection algorithms (rqrs, ptqrs and wptqrs) with parameters preset for Human, dog, rabbit and mouse. The parameters for other mammals can be specified by the user from the configuration panel.
+Numerous algorithms for finding R-peaks in Human ECGs have been developped. However, these need to be adapted to the different dynamic accross mammalian species. **PhysioZoo** provides a set of three peak detection algorithms (``rqrs``, ``ptqrs`` and ``wptqrs``) with parameters preset for Human, dog, rabbit and mouse. Suitable parameters for other mammals can be specified by the user from the configuration panel.
 
-Representative example of the R-peaks detected  (A) using the original **gqrs** human peak detector and (B) using the **rqrs** PhysioZoo detector with parameters adapted for the different mammals. This figure illustrates the need for mammal-specific R-peak detectors to ensure accuracy.
+Representative example of the R-peaks detected  (A) using the original ``gqrs`` human peak detector and (B) using the ``rqrs`` PhysioZoo detector with parameters adapted for the different mammals. This figure illustrates the need for mammal-specific R-peak detectors to ensure correct evaluation of the RR time series.
 
 
 .. image:: ../../_static/Figure_1.png
@@ -19,11 +19,11 @@ Representative example of the R-peaks detected  (A) using the original **gqrs** 
 **Performing peak detection in PhysioZoo**
 -----------------------------
 
-  1. Open PhysioZoo  
+  1. Open ``PhysioZoo-UI``.
 
   2. Click "Peak Detection" on the Menu bar to open the peak detection interface.
   
-  2. Load an ECG recording (e.g. File -> Open File -> Rabbit_example.txt). The ECG will be displayed. The default R-peak detector (rqrs) will run automatically. You will see some red crosses appearing on the ECG signal at the locations that have been detected (pannel A).
+  3. Load an ECG recording (e.g. File -> Open File -> Rabbit_example.txt). The ECG will be displayed. The default R-peak detector (``rqrs``) will run automatically. You will see some red crosses appearing on the ECG signal at the locations that have been detected (pannel A).
 
   4. You can browse through the recording by stretching and moving the red window displayed in pannel B. You can also move through the recording by using the arrows circled in red on the right hand side.
 
@@ -49,11 +49,11 @@ Sometime the R-peak detector might make mistakes and miss some R-peaks/detect so
 
 **Configuration for other mammals**
 ----------------------------------
-The **PhysioZoo** R-peak detectors are readily adapted for humans, dogs, rabbits and mice ECG data. If you need to use them on another specie then you will need to adapt their parameters accordingly. The parameters for the peak detectors can be found under the "Config Params" tab. You can save the configuration of the peak detectors in order to re-use it by going to File -> Save configuration file.
+The **PhysioZoo** R-peak detectors are readily adapted for Humans, dogs, rabbits and mice ECG data. If you need to use them on another specie then you will need to adapt their parameters accordingly. The parameters for the peak detectors can be found under the "Config Params" tab. You can save the configuration of the peak detectors in order to re-use it by going to File -> Save configuration file.
 
 .. image:: ../../_static/peak_detection_fig3.png
 
-For **rqrs**:
+For ``rqrs``:
 
 - HRm: Typical heart rate (beats/min)
 
@@ -70,7 +70,7 @@ For **rqrs**:
 - QRSamin: Minimum QRS peak-to-peak amplitude (microVolt)
 
 
-For **ptqrs** and **wptqrs**:
+For ``ptqrs`` and ``wptqrs``:
 
 - Lower cutoff frequency: the lower cutoff frequency of the bandpass filter used to prefilter the ECG (Hz)
 
@@ -80,17 +80,17 @@ For **ptqrs** and **wptqrs**:
 
 - Refractory period: the minimal time interval tolerated between two consecutive peaks (sec)
 
-- Window size: this parameter is only used with wptqrs. This peak detector is applied on consecutive windows of size 'Window size'. (sec)
+- Window size: this parameter is only used with ``wptqrs``. This peak detector is applied on consecutive (non-overlapping) windows of size 'Window size' (sec).
 
 ..  3. Select the type of mammal the ECG was recorded from. This can be done by choosing the mammal type in the dropdown menu "Mammal".    After selecting the mammal type, the R-peak detector will run automatically. After the R-peak detector has finished running you will see some red crosses appearing on the ECG signal at the locations that have been detected.
 
 **Practical remarks**
 ----------------------
 
-In order to locate the peaks accurately from the electrophysiological signal it is important to work with data sampled at a sufficiantly high frequency. In particular, for animals with a high beating rate such as the mouse, the QRS is only a few milliseconds long (~ 7 ms). Thus even at a relatively high sampling rate such as 1000 Hz the QRS will only be described by very few (~7) samples.
+In order to locate the peaks accurately from the electrophysiological signal it is important to work with data sampled at a sufficiantly high frequency. In particular, for animal data with a high heart rate such as the mouse, the QRS is only a few milliseconds long (~ 7 ms). Thus even at a relatively high sampling rate such as 1000 Hz the QRS will only be described by very few (~7) samples.
 
-Sometimes a peak detector will fail to detect the R-peaks. This is due to the fact that these detectors were originally built for Human ECG analysis. In animal ECGs the position and type (e.g. subcutaneous) of the electrodes are not as standardized as for the Human. For that reason we included a set of three R-peak detectors so that it is possible to change to the one that is performing best on your specific dataset.
+Sometime a peak detector will fail to detect the R-peaks. This is due to the fact that these detectors were originally built for Human ECG analysis. In animal ECGs the position and type (e.g. subcutaneous) of the electrodes are not as standardized as for the Human. For that reason we included a set of three R-peak detectors so that it is possible to change to the one that is performing best for your specific dataset and electrodes configuration.
 
-Long recordings: if you deal with long recordings then use **rqrs** or **wptqrs**.
+Long recordings: if you deal with long recordings then use ``rqrs`` or ``wptqrs``.
 
 
