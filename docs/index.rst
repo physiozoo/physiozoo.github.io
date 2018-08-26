@@ -13,13 +13,13 @@ PhysioZoo documentation
    :maxdepth: 2
    :caption: Tutorials
    
-   sections/tutorials/pz_installation.rst
-   sections/tutorials/tutorial1.rst
-   sections/tutorials/tutorial3.rst   
-   sections/tutorials/tutorial4.rst
-   sections/tutorials/tutorial2.rst
-   sections/tutorials/tutorial_pz_loader.rst
-   sections/tutorials/tutorial_formats.rst
+   sections/tutorials/installation.rst
+   sections/tutorials/peakdetection.rst
+   sections/tutorials/preprocessing.rst   
+   sections/tutorials/hrvanalysis.rst
+   sections/tutorials/sqanalysis.rst
+   sections/tutorials/pzloader.rst
+   sections/tutorials/pzformats.rst
    sections/tutorials/changelog.rst
 
 Indices and tables
