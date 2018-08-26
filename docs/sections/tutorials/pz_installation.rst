@@ -1,7 +1,7 @@
 Installing PhysioZoo
 ====================
 
-PhysioZoo-UI can be run from Matlab or be installed as a standalone application. The current version was tested for Matlab 2016a and above running on a Windows. 
+``PhysioZoo-UI`` can be run from Matlab or be installed as a standalone application. The current version was tested for Matlab 2016a and above running on Windows. 
 
 PhysioZoo ``mhrv`` (source code) toolbox
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
@@ -9,9 +9,9 @@ Versions supported: MATLAB 2016a and above
 
 `Documentation <https://physiozoo.readthedocs.io/en/latest/#>`_
 
-You can download the ``mhrv`` toolbox here.
+Download the ``mhrv`` toolbox and follow the set-up instructions.
 
-Running PhysioZoo-UI in Matlab
+Running ``PhysioZoo-UI`` in Matlab
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 Versions supported: MATLAB 2016a and above
 
@@ -21,17 +21,16 @@ Versions supported: MATLAB 2016a and above
 
 2)	From MATLAB launch PhysioZoo by running the file "PhysioZoo.m"
 
-Stand alone PhysioZoo-UI (executable)
+Stand alone ``PhysioZoo-UI`` executable
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~
-Operating system: Windows
+Operating system: Windows 10 (and above), 64 bits
 
 `Documentation <https://physiozoo.readthedocs.io/en/latest/#>`_
 
 After downloading the software click the “MyAppInstaller_web.exe” file. This will start the installation process. You can then go through the following steps.
 
-NOTE: some of the screen might be slightly different depending on the version of Windows you are using or whether you already have the MATLAB runtime compiler installed.
+Note: some of the screen might be slightly different depending on the version of Windows you are using or whether you already have the MATLAB runtime compiler installed.
 
-NOTE2: the installer was tested for Windows 64 bits version 10 and above.
 
 1)	If you get the following screen displayed then click “Run”
 
@@ -53,7 +52,7 @@ NOTE2: the installer was tested for Windows 64 bits version 10 and above.
 
 .. image:: ../../_static/installation_s5.png
 
-6)	The installation will start. Wait until it is finished. Note that this might take some time.
+6)	The installation will start. Wait until it is finished. Note that this might take quite some time.
 
 .. image:: ../../_static/installation_s6.png
 
@@ -61,4 +60,4 @@ NOTE2: the installer was tested for Windows 64 bits version 10 and above.
 
 .. image:: ../../_static/installation_s7.png
 
-You can then click on the PhysioZoo logo located on your desktop or in the list of programs. (Note: if you launch the program from the list of programs you will need to perform a right click on the PhysioZoo program and "Run as administrator").
+You can then click on the **PhysioZoo** logo located on your desktop or in the list of programs.
