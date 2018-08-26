@@ -18,30 +18,30 @@ For any of the three formats a file consists of a header and the data:
 
 For each of the files the following information can be specified in the header:
 
-  * Mammal: the ame of the mammal (e.g. dog, mouse, rabbit, human),
+  * Mammal: the name of the mammal (e.g. dog, mouse, rabbit, human),
   * Fs: the sampling frequency in Hertz,
   * Integration_Level: electrocardiogram, electrogram or action potential.
 
-As part of the header, information characterizing each Channel available can be entered:
+As part of the header, information characterizing each channel available can be entered:
 
   * type: peak, signal quality, time, interval, beating rate and electrography. See definitions of these in the next section,
   * name: a name you want to give to the channel (of note this information is not used by the `PZ Loader <../tutorials/tutorial_pz_loader.rst>`_ to load the data),
   * unit: millisecond, second, index, bpm, millivolt, microvolt and volt,
-  * enable: yes or no. If you specify 'no' then this channel will be ignored when the file is loaded by the PZ Loader. Only specify 'yes' for the channels you want to use.
+  * enable: 'yes' or 'no'. If you specify 'no' then this channel will be ignored when the file is loaded by the PZ Loader. Only specify 'yes' for the channels you want to use.
   
 In the case all or part of these information are not specified then you will be prompted to enter them though the `PZ Loader <../tutorials/tutorial_pz_loader.rst>`_.
 
 **Channels Type**
 ---------------------
 
-A Channel can have the following 'type' which will be handled by **PhysioZoo**:
+A Channel can be of the following `type' which will be handled by **PhysioZoo**:
 
 Annotations
   * peak: the location of the peaks (e.g. R-peak from an ECG time series). The peaks location can be specified in millisecond/second or index.
   * signal quality: annotation on the signal quality. The signal quality annotations can be specified in millisecond/second or index.
 
 Time series
-  * time: a time vector giving the position of each sample of another time series. An entry of type 'time' need to be associated with another time series.
+  * time: a time vector giving the position of each sample of another time series. An entry of type `time' need to be associated with another time series and must be in units of seconds or milliseconds.
   * interval: the time interval between consecutive beats (e.g. RR time series). The interval length can be specified in second/millisecond or index.
   * beating rate: the reciprocal of the interval in units of beats per minute (e.g. heart rate).
   * electrography: the amplitude of an electrography time series (e.g. ECG). The electrography amplitude is given in microvolt, millivolt or volt. Thus only physiological units are allowed.
@@ -49,7 +49,7 @@ Time series
 **Headers in the different formats**
 ------------------------------------------
 
-Explanation of the structure of the different format supported is provided below. Examples in all formats are also available in the `Examples' folder installed with **PhysioZoo**.
+Explanation of the structure of the different format supported is provided below. Examples in all formats are also available in the `Examples' folder provided with **PhysioZoo**.
 
 **Text format (.txt)**
 
@@ -61,7 +61,7 @@ A .mat file need to contain the following fields:
 
 .. image:: ../../_static/example_format_matlab_1.jpg
 
-The Channels field is a structure. Each element of the structure will contain the following information corresponding to each of the channel (column) in the `ecg' matrix:
+The Channels field is a Cell. Each element of the Channel Cell will contain the following fields : type, name, unit and enable.
 
 
 
