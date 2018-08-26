@@ -1,7 +1,7 @@
 Heart Rate Variability analysis
 ==========
 
-In this tutorial you will learn how to process data, compute the Heart Rate Variability (HRV) measures and export the computed values. You will learn how to analyse a single window of defined length and a series of consecutive windows.
+In this tutorial you will learn how to compute the Heart Rate Variability (HRV) measures and export the computed values using **PhysioZoo**. You will learn how to analyse a single window of defined length and a series of consecutive windows.
 
 **Introduction**
 ----------------------
@@ -27,9 +27,9 @@ On the upper figure (A) the selected window (colored in blue) defines the time i
 
 Congrats! You have made your first HRV analysis with **PhysioZoo**!
 
-NOTE: Every time you move the analysis window to another location the newly selected segment will be automatically analyzed. You can disable this by deselecting the checkbox “Auto Compute” under the “Compute” button.
+NOTE: Every time you move the analysis window to another location the newly selected segment will be automatically analyzed. You can disable this by deselecting the checkbox “Auto Compute” located under the “Compute” button.
 
-IMPORTANT: The length of the selected window is important. A number of HRV measures assumes that the RR time series is stationary over the selected window. In our context stationary means that the statistical properties of a signal (such as mean and standard deviation) are about constant. Other measures such as the detrended fluctuation analysis ones do not assume stationarity and so a long window can be used.
+IMPORTANT: The length of the selected window is important. A number of HRV measures assumes that the RR time series is stationary over the selected window. In our context stationary means that the statistical properties of the RR time series (such as mean and standard deviation) are about constant. Other measures such as the detrended fluctuation analysis ones do not assume stationarity and so a long window can be used.
 
 **Exporting HRV measures**
 --------------------------------------------
@@ -62,7 +62,7 @@ You can also enable the analysis window to be overlapping by using the “Overla
 
 You can export all HRV measures from all consecutive windows (Main -> Save HRV measures as).
 
-If you want to export figures, then select with the mouse the window you want to save the figures of.
+If you want to export figures, then select with the mouse the window you want to save the figures for.
 
 NOTE: while using the successive segment analysis feature, it is possible to export the HRV measures and PSD from all the analyzed consecutive windows together. However, you can only export the figures from one single window at the time i.e. from the window that you select with the mouse (i.e. the ‘selected window’).
 
