@@ -4,19 +4,12 @@ layout: splash
 permalink: /
 
 header:
-  - overlay_color: "#f33"
-    overlay_filter: "0.5"
-    overlay_image: ""
-    cta_label: "Download"
-    cta_url: "https://github.com/physiozoo/physiozoo/archive/master.zip"
-    caption: ""
-  
-  - overlay_color: "#f33"
-    overlay_filter: "0.5"
-    overlay_image: ""
-    cta_label: "Download"
-    cta_url: "https://github.com/physiozoo/physiozoo/archive/master.zip"
-    caption: ""
+  overlay_color: "#f33"
+  overlay_filter: "0.5"
+  overlay_image: ""
+  cta_label: "Download"
+  cta_url: "https://github.com/physiozoo/physiozoo/archive/master.zip"
+  caption: ""
 
 excerpt: "Heart Rate Variability analysis of human and animal electrophysiological data"
 
