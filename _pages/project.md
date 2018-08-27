@@ -67,6 +67,8 @@ If you are a company and want to use PhysioZoo then please email us at: physiozo
 
 ## Disclaimer
 
+For building **PhysioZoo** we made use of the following packages:
+
 - WFDB Toolbox for MATLAB and Octave, v.0.10.0, by Dr. Ikaro Silva, available here (licensed under GNU GPL 2.0)
 
 - GUI Layout Toolbox. Layout manager for MATLAB graphical user interfaces. Version 2.3.1. Copyright (c) 2018, The MathWorks, Inc. All rights reserved. [License](https://github.com/physiozoo/physiozoo.github.io/blob/master/_pages/license-GUI-Layout.txt)
