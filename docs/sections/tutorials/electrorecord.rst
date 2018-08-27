@@ -22,6 +22,10 @@ frequency and quantization level of the recording device.
 Examples below of typical issues
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
+The following examples shows what happens when a mouse ECG recording is downsampled from 1000 Hz to 250 Hz thus simulating the type of signal you would record if your original sampling rate is below 1000 Hz. As you will observe the exact peak location is affected importantly by the sampling frequency. It is degraded at 500 Hz and at 250 Hz even further. For mouse, 1000 Hz is really the minimal sampling frequency to use in order to ensure a meaningful HRV analysis.
+
 .. image:: ../../_static/effect_sampling_frequency.jpg
+
+The following example shows a rabbit recording where the quantization level was poorly set. This can be observed by the low discretization levels / high amplitude `jump' between consecutive samples.
 
 .. image:: ../../_static/example_quantization.jpg
