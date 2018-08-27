@@ -26,6 +26,6 @@ The following example shows what happens when a mouse ECG recording is downsampl
 
 .. image:: ../../_static/effect_sampling_frequency.jpg
 
-The following example shows a rabbit recording where the quantization level was poorly set. This can be observed by the low discretization levels / high amplitude `jump' between consecutive samples. A poor quantization can affect the HRV analysis (as well as any morphological analysis).
+The following example shows a rabbit recording where the quantization level was poorly set. This can be observed by the low discretization levels / high amplitude `jumps' between consecutive samples. A poor quantization can affect the HRV analysis (as well as any morphological analysis).
 
 .. image:: ../../_static/example_quantization.jpg
