@@ -1,4 +1,4 @@
-Electrocardiographic recording
+Electrocardiographic recordings
 ====================
 
 To work with electrophysiological signals they need to be digitized. 
