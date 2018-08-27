@@ -21,6 +21,11 @@ PhysioZoo documentation
    sections/tutorials/sqanalysis.rst
    sections/tutorials/pzloader.rst
    sections/tutorials/pzformats.rst
+   
+.. toctree::
+   :glob:
+   :maxdepth: 2
+   :caption: changelog   
    sections/tutorials/changelog.rst
 
 Indices and tables
