@@ -2,7 +2,7 @@ Electrocardiographic recording
 ====================
 
 To work with electrophysiological signals they need to be digitized. 
-For that purpose both the range and domain need to be digitized.
+For that purpose both the range and domain need to be digitized. Important attention should be given to the sampling frequency and quantization level in order to ensure the integrity of the data and a meaningul HRV analysis.
 
 Sampling frequency and quantization level
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
