@@ -14,6 +14,7 @@ PhysioZoo documentation
    :caption: Tutorials
    
    sections/tutorials/installation.rst
+   sections/tutorials/electrorecord.rst
    sections/tutorials/peakdetection.rst
    sections/tutorials/preprocessing.rst   
    sections/tutorials/hrvanalysis.rst
