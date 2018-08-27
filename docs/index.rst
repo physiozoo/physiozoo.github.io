@@ -26,6 +26,7 @@ PhysioZoo documentation
    :glob:
    :maxdepth: 2
    :caption: changelog   
+   
    sections/tutorials/changelog.rst
 
 Indices and tables
