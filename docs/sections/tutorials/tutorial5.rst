@@ -18,7 +18,7 @@ In the current version of the software these adaptations are already available f
 
 In the `Peak detection module <../tutorials/peakdetection.rst>`_:
 
-      1. By choosing Mammal->Custom this will prompt you with a selection window. Select the configuration file of the closest mammal to the one you want to use. This will set the default HRV configuration parameters.
+      1. By choosing Mammal->Custom this will prompt you with a selection window. Select the configuration file of the closest mammal to the one you want to use. This will set the default HRV configuration parameters. Follow the following steps:
       
       2. Modify the configuration of the peak detector you choose to use uder Configuration.
       
@@ -30,10 +30,7 @@ In the `Peak detection module <../tutorials/peakdetection.rst>`_:
 
 In the `HRV module <../tutorials/hrvanalysis.rst>`_:
 
-Under the “Main” tab you can change the Mammal type to one of the following options: Human, Dog, Rabbit, Mouse and Custom. In built in the software are configuration files for human, dog, rabbit and mouse electrocardiographic data. By choosing thee “Custom” option under `Mammal' you can define an HRV configuration file of your own.
-
-.. image:: ../../_static/select_mammal_type.png
-
+Under the “Main” tab you can change the Mammal type to one of the following options: Human, Dog, Rabbit, Mouse and Custom. In built in the software are configuration files for human, dog, rabbit and mouse electrocardiographic data. By choosing thee “Custom” option under `Mammal' you can define an HRV configuration file of your own. Follow the following steps:
 
       1. By choosing Mammal->Custom this will prompt you with a selection window. Select the configuration file of the closest mammal to the one you want to use. This will set the default HRV configuration parameters.
 
@@ -42,6 +39,8 @@ Under the “Main” tab you can change the Mammal type to one of the following 
       3. Go to File->Save config file and save the configuration file under the name of the mammal you are using.
 
       4. To use this configuration file when you next use **PhysioZoo** you can: (1) File->Load custom config file or (2) Main->Mammal->Custom and choose your configuration file.
+
+.. image:: ../../_static/select_mammal_type.png
 
 .. image:: ../../_static/change_config.png
 
