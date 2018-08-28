@@ -21,6 +21,7 @@ PhysioZoo documentation
    sections/tutorials/sqanalysis.rst
    sections/tutorials/pzloader.rst
    sections/tutorials/pzformats.rst
+   sections/tutorials/configfiles.rst
    
 .. toctree::
    :glob:
