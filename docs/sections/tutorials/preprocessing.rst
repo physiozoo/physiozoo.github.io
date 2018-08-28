@@ -38,11 +38,23 @@ The image below shows an example of a rabbit RR time (blue time series) series w
 
 .. image:: ../../_static/prefiltering_step.png
 
-**Practical remarks**
+**Frequently asked questions**
 ----------------------
 
-Preprocessing methods are useful to remove local miss-labelled beats caused by noise or sudden drop/increase in RR due to ectopic beats. However, in the presence of large segments of noise it will not help. Rather such large segments of bad quality data should be discarded from the analysis. You can annotate `the quality <../tutorials/tutorial_formats.html>`_ of the electrophysiological time series in order to have this contexttual information when performing HRV analysis.
+**Why preprocessing the RR time series?**
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
+Preprocessing methods are useful to remove local miss-labelled beats caused by noise or sudden drop/increase in the RR time series due to ectopic beats. 
+
+**What is the limitation of preprocessing routines?**
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+In the presence of large segments of noise it will not help. Rather such large segments of bad quality data should be discarded from the analysis. You can annotate `the quality <../tutorials/tutorial_formats.html>`_ of the electrophysiological time series in order to have this contexttual information when performing HRV analysis.
+
+**Is there instances when not to preprocess the RR time series?**
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+If your aim is to use HRV measures for identifying arrythmic episodes for example then you might want to avoid preprocessing the RR time series or to use a weak preprocessing in order to only remove outliers beats. Indeed, in this use case you will want to capture the important irregularities (e.g. atrial fibrillation) in the RR intervals of the time series.
 
 
 
