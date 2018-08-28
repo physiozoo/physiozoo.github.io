@@ -1,4 +1,4 @@
-Tutorial 5: Configuration files
+Configuration files
 ==========
 
 In this tutorial you will learn how to create your custom configuration files for R-peak detection and for performing HRV analysis.
@@ -8,7 +8,7 @@ In this tutorial you will learn how to create your custom configuration files fo
 
 **PhysioZoo** enables you to work with HRV data from different mammals. Since the beating rate and its variability patterns vary across species then some parameters of the peak detectors and of the time, frequency and nonlinear HRV measures must be adjusted.
 
-In the current version of the software these adaptations are already available for the processing of Human, dog, rabbit and mouse electrocardiographic data. For processing data from other species or if you are using other data than ECG (e.g. electrogram, action potential) you will need to define your own configuration files. There are two types of configuration files in PhysioZoo: peak detection configuration file and HRV configuration file. 
+In the current version of the software these adaptations are already available for the processing of Human, dog, rabbit and mouse electrocardiographic data. For processing data from other species or if you are using other data than ECG (e.g. electrogram, action potential) you will need to define your own configuration files. There are two types of configuration files in **PhysioZoo**: the peak detection configuration file and the HRV configuration file. 
 
 **PhysioZoo software**
 ----------------------
@@ -23,6 +23,8 @@ In the `Peak detection module <../tutorials/peakdetection.rst>`_:
       2. Modify the configuration of the peak detector you choose to use uder Configuration.
       
       3. Save the peak detector configuration by clicking File -> Save configuration file.
+      
+      4. To use this configuration file when you next use the **PhysioZoo** peak detection module: (1) File->Load custom config file or (2) Main->Mammal->Custom and choose your configuration file.
 
 
 **Defining an HRV configuration file**
@@ -38,15 +40,11 @@ Under the “Main” tab you can change the Mammal type to one of the following 
 
       3. Go to File->Save config file and save the configuration file under the name of the mammal you are using.
 
-      4. To use this configuration file when you next use **PhysioZoo** you can: (1) File->Load custom config file or (2) Main->Mammal->Custom and choose your configuration file.
+      4. To use this configuration file when you next use **PhysioZoo** HRV module: (1) File->Load custom config file or (2) Main->Mammal->Custom and choose your configuration file.
 
 .. image:: ../../_static/select_mammal_type.png
 
 .. image:: ../../_static/change_config.png
-
-
-
-
 
 
 **Frequently asked questions**
