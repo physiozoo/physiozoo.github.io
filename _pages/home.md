@@ -16,8 +16,8 @@ excerpt: "Heart Rate Variability analysis of human and animal electrophysiologic
 intro: 
   - excerpt: 'PhysioZoo is a collaborative platform dedicated to the study of the heart rate variability (HRV) in mammals’ electrophysiological recordings.'
 
-News: 
-  - 2018.09.01: Release of the `v1.0-Beta https://github.com/physiozoo/physiozoo.github.io/blob/master/docs/sections/tutorials/changelog.rst>`_ version of PhysioZoo.'
+news: 
+  - News! 2018.09.01: Release of the `v1.0-Beta https://github.com/physiozoo/physiozoo.github.io/blob/master/docs/sections/tutorials/changelog.rst>`_ version of PhysioZoo.'
 
 feature_row:
   - image_path: "_pages/home_page_interface.png"
@@ -59,6 +59,8 @@ feature_row4:
 ---
 
 {% include feature_row id="intro" type="center" %}
+
+{% include feature_row id="news" type="center" %}
 
 {% include feature_row id="feature_row" type="center" %}
 
