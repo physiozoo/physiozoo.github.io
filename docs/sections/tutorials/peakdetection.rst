@@ -9,7 +9,7 @@ Accurate peak detection is critical for performing a meaningfull HRV analysis. *
 
 **Why mammal specific peak detection?**
 -----------------------------
-Numerous algorithms for finding R-peaks in Human ECGs have been developped. However, these need to be adapted to the different dynamic accross mammalian species. **PhysioZoo** provides a set of three peak detection algorithms (``rqrs``, ``ptqrs`` and ``wptqrs``) with parameters preset for Human, dog, rabbit and mouse. Suitable parameters for other mammals can be specified by the user from the configuration panel.
+Numerous algorithms for finding R-peaks in Human ECGs have been developped. However, these need to be adapted to the different dynamic accross mammalian species. **PhysioZoo** provides a set of three peak detection algorithms (``rqrs``, ``jqrs`` and ``wjqrs``) with parameters preset for Human, dog, rabbit and mouse. Suitable parameters for other mammals can be specified by the user from the configuration panel.
 
 Representative example of the R-peaks detected  (A) using the original ``gqrs`` human peak detector and (B) using the ``rqrs`` PhysioZoo detector with parameters adapted for the different mammals. This figure illustrates the need for mammal-specific R-peak detectors to ensure correct evaluation of the RR time series.
 
