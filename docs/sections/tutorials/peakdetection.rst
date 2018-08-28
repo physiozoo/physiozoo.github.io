@@ -84,13 +84,22 @@ For ``ptqrs`` and ``wptqrs``:
 
 ..  3. Select the type of mammal the ECG was recorded from. This can be done by choosing the mammal type in the dropdown menu "Mammal".    After selecting the mammal type, the R-peak detector will run automatically. After the R-peak detector has finished running you will see some red crosses appearing on the ECG signal at the locations that have been detected.
 
-**Practical remarks**
-----------------------
+**Frequently asked questions**
+----------------------------------
 
-In order to locate the peaks accurately from the electrophysiological signal it is important to work with data sampled at a sufficiantly high frequency. In particular, for animal data with a high heart rate such as the mouse, the QRS is only a few milliseconds long (~ 7 ms). Thus even at a relatively high sampling rate such as 1000 Hz the QRS will only be described by very few (~7) samples.
+**What is a good sampling frequency for my electrophysiological data?**
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+In order to locate the peaks accurately from the electrophysiological signal it is important to work with data sampled at a sufficiantly high frequency. For example, for animal data with a high heart rate such as the mouse ECG, the QRS is only a few milliseconds long (~ 7 ms). Thus even at a relatively high sampling rate such as 1000 Hz the QRS will only be described by very few (~7) samples.
+
+**What's the difference between peak detectors?**
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
 Sometime a peak detector will fail to detect the R-peaks. This is due to the fact that these detectors were originally built for Human ECG analysis. In animal ECGs the position and type (e.g. subcutaneous) of the electrodes are not as standardized as for the Human. For that reason we included a set of three R-peak detectors so that it is possible to change to the one that is performing best for your specific dataset and electrodes configuration.
 
-Long recordings: if you deal with long recordings then use ``rqrs`` or ``wptqrs``.
+**How best to deal with long recordings?**
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+If you deal with long recordings (i.e. hours long) then use ``rqrs`` or ``wptqrs``.
 
 
