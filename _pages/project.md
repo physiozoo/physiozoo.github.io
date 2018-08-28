@@ -54,12 +54,16 @@ The following individuals have contributed to the PhysioZoo project:
 
 - Joachim A. Behar
 - Aviv A. Rosenberg
+- Yael Yaniv
 - Ido Weiser-Bitoun
 - Ori Shemla
 - Alexandra Alexandrovitch
 - Eugene Konyukhov
 - Moran Davoodi
-- Yael Yaniv
+- Kevin Murphy
+- Gideon Koren
+- George Billman
+
 
 ## License
 
