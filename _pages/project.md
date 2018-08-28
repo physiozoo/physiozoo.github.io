@@ -5,25 +5,41 @@ permalink: /project/
 author_profile: false
 ---
 
-## Reference
+## Referencing
 
 When using **PhysioZoo** please reference the following paper:
 
-Joachim A Behar*, Aviv A Rosenberg*, Ido Weiser-Bitoun, Ori Shemla, Alexandra Alexandrovich, Evgene Konyukhov, Yael Yaniv. 2018.  "PhysioZoo: a novel open access platform for heart rate variability analysis of mammalian electrocardiographic data." Accepted for publication in Frontiers in Physiology. *Co-first authors.
+Joachim A. Behar<sup>&#8224;</sup>, Aviv A. Rosenberg<sup>&#8224;</sup>, Ido
+Weiser-Bitoun, Ori Shemla, Alexandra Alexandrovich, Evgene Konyukhov, Yael
+Yaniv. 2018.  "PhysioZoo: a novel open access platform for heart rate
+variability analysis of mammalian electrocardiographic data." Accepted for
+publication in Frontiers in Physiology.
+
+<sup>&#8224;</sup>Co-first authors.
 
 ## Support
-Click [here](https://github.com/physiozoo/physiozoo.github.io/issues) to browse through the issues.
+Click [here](https://github.com/physiozoo/physiozoo.github.io/issues) to browse
+through the issues.
 
 Contact us at: physiozoolab@gmail.com
 
 ## How to contribute?
 
-The **PhysioZoo** project is dynamic and so novel contributions are welcomed. You can contribute by:
+The **PhysioZoo** project is dynamic and so novel contributions are welcomed.
+You can contribute by:
 
   * **Fork it** fork the repository on the  project's main page
-  + **Create a pull request** contribute algorithms and improvements to the **PhysioZoo** toolbox
-  + **Eeww bugs!** In case you in encounter a bug and cannot figure out the solution, please have a look on the opened issues before creating a new bug issue. Issues can be consulted and posted [here](https://github.com/physiozoo/physiozoo.github.io/issues)
-  + **Pitch in your new ideas** for future releases by suggesting an enhancement.
+
+  * **Create a pull request** contribute algorithms and improvements to the
+    **PhysioZoo** toolbox
+
+  * **Eeww bugs!** In case you in encounter a bug and cannot figure out the
+    solution, please have a look on the opened issues before creating a new bug
+    issue. Issues can be consulted and posted
+    [here](https://github.com/physiozoo/physiozoo.github.io/issues).
+
+  * **Pitch in your new ideas** for future releases by suggesting an
+    enhancement.
 
 ## Benefits of Contributing
 
@@ -69,8 +85,12 @@ If you are a company and want to use PhysioZoo then please email us at: physiozo
 
 For building **PhysioZoo** we made use of the following packages:
 
-- WFDB Toolbox for MATLAB and Octave, v.0.10.0, by Dr. Ikaro Silva, available here (licensed under GNU GPL 2.0)
+- WFDB Toolbox for MATLAB and Octave, v.0.10.0, by Dr. Ikaro Silva, available
+  here (licensed under GNU GPL 2.0)
 
-- GUI Layout Toolbox. Layout manager for MATLAB graphical user interfaces. Version 2.3.1. Copyright (c) 2018, The MathWorks, Inc. All rights reserved. [License](https://github.com/physiozoo/physiozoo.github.io/blob/master/_pages/license-GUI-Layout.txt)
+- GUI Layout Toolbox. Layout manager for MATLAB graphical user interfaces.
+  Version 2.3.1. Copyright (c) 2018, The MathWorks, Inc. All rights reserved.
+  [License](https://github.com/physiozoo/physiozoo.github.io/blob/master/_pages/license-GUI-Layout.txt)
 
-- YAML Toolbox: yaml-matlab-0.4.3. [MIT-license](https://github.com/physiozoo/physiozoo.github.io/blob/master/_pages/MIT-license-YML-Toolbox.txt)
+- YAML Toolbox: yaml-matlab-0.4.3.
+  [MIT-license](https://github.com/physiozoo/physiozoo.github.io/blob/master/_pages/MIT-license-YML-Toolbox.txt)
