@@ -84,6 +84,10 @@ For ``ptqrs`` and ``wptqrs``:
 
 ..  3. Select the type of mammal the ECG was recorded from. This can be done by choosing the mammal type in the dropdown menu "Mammal".    After selecting the mammal type, the R-peak detector will run automatically. After the R-peak detector has finished running you will see some red crosses appearing on the ECG signal at the locations that have been detected.
 
+Other:
+
+- Peaks window: onto manual annotation click, this is the window size for which to look for a local maximum / minimum around the click location.
+
 **Frequently asked questions**
 ----------------------------------
 
