@@ -90,7 +90,7 @@ For ``ptqrs`` and ``wptqrs``:
 **What is a good sampling frequency for my electrophysiological data?**
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
-In order to locate the peaks accurately from the electrophysiological signal it is important to work with data sampled at a sufficiantly high frequency. For example, for animal data with a high heart rate such as the mouse ECG, the QRS is only a few milliseconds long (~ 7 ms). Thus even at a relatively high sampling rate such as 1000 Hz the QRS will only be described by very few (~7) samples.
+In order to locate the peaks accurately from the electrophysiological signal it is important to work with data sampled at a sufficiantly high frequency. For example, for animal data with a high heart rate such as the mouse ECG, the QRS is only a few milliseconds long (~ 7 ms). Thus even at a relatively high sampling rate such as 1000 Hz the QRS will only be described by very few (~7) samples. See `This tutorial <https://physiozoo.readthedocs.io/en/latest/sections/tutorials/peakdetection.html>`_ for a visual example.
 
 **What's the difference between peak detectors?**
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
