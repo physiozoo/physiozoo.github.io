@@ -18,8 +18,8 @@ publication in Frontiers in Physiology.
 <sup>&#8224;</sup>Co-first authors.
 
 ## Support
-Click [here](https://github.com/physiozoo/physiozoo.github.io/issues) to browse
-through the issues.
+Click [here](https://github.com/physiozoo/physiozoo/issues) to browse
+through the issues and open new ones.
 
 Contact us at: physiozoolab@gmail.com
 
@@ -36,7 +36,7 @@ You can contribute by:
   * **Eeww bugs!** In case you in encounter a bug and cannot figure out the
     solution, please have a look on the opened issues before creating a new bug
     issue. Issues can be consulted and posted
-    [here](https://github.com/physiozoo/physiozoo.github.io/issues).
+    [here](https://github.com/physiozoo/physiozoo/issues).
 
   * **Pitch in your new ideas** for future releases by suggesting an
     enhancement.
