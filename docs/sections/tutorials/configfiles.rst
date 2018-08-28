@@ -1,4 +1,4 @@
-Tutorial 5: Configuration file and custom configurations
+Tutorial 5: Configuration files
 ==========
 
 In this tutorial you will learn how to create your custom configuration files for R-peak detection and for performing HRV analysis.
