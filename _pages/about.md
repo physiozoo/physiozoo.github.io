@@ -60,9 +60,9 @@ The following individuals have contributed to the PhysioZoo project:
 - Alexandra Alexandrovitch
 - Eugene Konyukhov
 - Moran Davoodi
-- Kevin Murphy
-- Gideon Koren
 - George Billman
+- Gideon Koren
+- Kevin Murphy
 
 
 ## License
