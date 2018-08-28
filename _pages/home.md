@@ -20,7 +20,7 @@ news:
   - News! 2018.09.01: Release of the `v1.0-Beta https://github.com/physiozoo/physiozoo.github.io/blob/master/docs/sections/tutorials/changelog.rst>`_ version of PhysioZoo.'
 
 feature_row:
-  - image_path: "_pages/home_page_interface.png"
+  - image_path: "assets/images/home_page_interface.png"
     alt: "placeholder image 1"
     title: "PhysioZoo user interface"
     excerpt: 'A user friendly interface to perform Heart Rate Variability analysis.'
@@ -29,7 +29,7 @@ feature_row:
     btn_class: "btn--primary"
     
 feature_row2:
-  - image_path: "_pages/peak_detection.png"
+  - image_path: "assets/images/peak_detection.png"
     alt: "placeholder image 1"
     title: "Peak detection"
     excerpt: 'PhysioZoo provides algorithms and a user interface for R-peak detection of mammalian ECG data. In addition, it provides manual annotations tools (peak and data quality) to ensure the reliability of the analyzed data.'
@@ -38,7 +38,7 @@ feature_row2:
     btn_class: "btn--primary"
 
 feature_row3:
-  - image_path: "_pages/Figure_S3.png"
+  - image_path: "assets/images/Figure_S3.png"
     alt: "placeholder image 1"
     title: "Prefiltering"
     excerpt: 'PhysioZoo includes a number of prefiltering methods in order to remove sudden drop or increase in the beat to beat intervals due to transcient noise or ectopic beats.'
@@ -47,7 +47,7 @@ feature_row3:
     btn_class: "btn--primary"
 
 feature_row4:
-  - image_path: "_pages/Dog_example_qrs_Poincare.png"
+  - image_path: "assets/images/Dog_example_qrs_Poincare.png"
     alt: "placeholder image 1"
     title: "HRV measures and data visualization"
     excerpt: 'PhysioZoo includes state of the art HRV measures tailored to the type of mammal that is studied and data visualization features including Poincare plots, power spectrum, distribution of NN intervals and multi scale entropy plot.'
