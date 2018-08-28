@@ -81,16 +81,20 @@ along with this program.  If not, see <http://www.gnu.org/licenses/>.
 
 If you are a company and want to use PhysioZoo then please email us at: physiozoolab@gmail.com
 
-## Disclaimer
+## Third-party attribution
 
-For building **PhysioZoo** we made use of the following packages:
+**PhysioZoo** makes use of the following open-source software packages:
 
-- WFDB Toolbox for MATLAB and Octave, v.0.10.0, by Dr. Ikaro Silva, available
-  here (licensed under GNU GPL 2.0)
+- [WFDB Toolbox for MATLAB](https://github.com/ikarosilva/wfdb-app-toolbox)
 
-- GUI Layout Toolbox. Layout manager for MATLAB graphical user interfaces.
-  Version 2.3.1. Copyright (c) 2018, The MathWorks, Inc. All rights reserved.
-  [License](https://github.com/physiozoo/physiozoo.github.io/blob/master/_pages/license-GUI-Layout.txt)
+- [GUI Layout
+  Toolbox](https://www.mathworks.com/matlabcentral/fileexchange/47982-gui-layout-toolbox)
 
-- YAML Toolbox: yaml-matlab-0.4.3.
-  [MIT-license](https://github.com/physiozoo/physiozoo.github.io/blob/master/_pages/MIT-license-YML-Toolbox.txt)
+- [yamlmatlab](https://code.google.com/archive/p/yamlmatlab/)
+
+- [GetFullPath](https://www.mathworks.com/matlabcentral/fileexchange/28249-getfullpath)
+
+- [matlab-jsystem](https://github.com/avivrosenberg/matlab-jsystem)
+
+Consult the project page of each above package for it's respective license and
+copyright holder.
