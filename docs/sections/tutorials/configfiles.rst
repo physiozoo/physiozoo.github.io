@@ -8,7 +8,7 @@ In this tutorial you will learn how to create your custom configuration files fo
 
 **PhysioZoo** enables you to work with HRV data from different mammals. Since the beating rate and its variability patterns vary across species then some parameters of the peak detectors and of the time, frequency and nonlinear HRV measures must be adjusted.
 
-In the current version of the software these adaptations are already available for the processing of Human, dog, rabbit and mouse electrocardiographic data. For processing data from other species or if you are using other data than ECG (e.g. electrogram, action potential) you will need to define your own configuration files. There are two types of configuration files in **PhysioZoo**: the peak detection configuration file and the HRV configuration file. 
+In the current version of the software these adaptations are readily available for the processing of Human, dog, rabbit and mouse electrocardiographic data. For processing data from other species or if you are using other data than ECG (e.g. electrogram, action potential) you will need to define your own configuration files. There are two types of configuration files in **PhysioZoo**: the peak detection configuration file and the HRV configuration file. 
 
 **PhysioZoo software**
 ----------------------
