@@ -70,7 +70,7 @@ For ``rqrs``:
 - QRSamin: Minimum QRS peak-to-peak amplitude (microVolt)
 
 
-For ``ptqrs`` and ``wptqrs``:
+For ``jqrs`` and ``wjqrs``:
 
 - Lower cutoff frequency: the lower cutoff frequency of the bandpass filter used to prefilter the ECG (Hz)
 
@@ -80,7 +80,7 @@ For ``ptqrs`` and ``wptqrs``:
 
 - Refractory period: the minimal time interval tolerated between two consecutive peaks (sec)
 
-- Window size: this parameter is only used with ``wptqrs``. This peak detector is applied on consecutive (non-overlapping) windows of size 'Window size' (sec).
+- Window size: this parameter is only used with ``wjqrs``. This peak detector is applied on consecutive (non-overlapping) windows of size 'Window size' (sec).
 
 ..  3. Select the type of mammal the ECG was recorded from. This can be done by choosing the mammal type in the dropdown menu "Mammal".    After selecting the mammal type, the R-peak detector will run automatically. After the R-peak detector has finished running you will see some red crosses appearing on the ECG signal at the locations that have been detected.
 
@@ -104,6 +104,6 @@ Sometime a peak detector will fail to detect the R-peaks. This is due to the fac
 **How best to deal with long recordings?**
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
-If you deal with long recordings (i.e. hours long) then use ``rqrs`` or ``wptqrs``.
+If you deal with long recordings (i.e. hours long) then use ``rqrs`` or ``wjqrs``.
 
 
