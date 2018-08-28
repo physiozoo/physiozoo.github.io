@@ -34,7 +34,7 @@ In the case all or part of these information are not specified then you will be 
 **Channels Type**
 ---------------------
 
-A Channel can be of the following `type' which will be handled by **PhysioZoo**:
+There are two categories of Channels: `Annotations' and `Timeseries'. Within these two categories the Channel can be one of the following `type' (as specified in the header) which will be handled by **PhysioZoo**:
 
 Annotations
   * peak: the location of the peaks (e.g. R-peak from an ECG time series). The peaks location can be specified in millisecond/second or index.
