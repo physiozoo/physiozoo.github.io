@@ -37,7 +37,7 @@ After the quality annotations are loaded, you will see green and red bar appeari
 
 .. image:: ../../_static/signal_quality_fig2.png
 
-**Frequently asked questions?**
+**Frequently asked questions**
 ----------------------------
 
 **When do we need to make signal quality annotations?**
