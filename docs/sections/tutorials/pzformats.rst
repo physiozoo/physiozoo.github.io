@@ -25,11 +25,11 @@ For each of the files the following information can be specified in the header:
 As part of the header, information characterizing each channel available can be entered:
 
   * type: peak, signal quality, time, interval, beating rate and electrography. See definitions of these in the next section,
-  * name: a name you want to give to the channel (of note this information is not used by the `PZ Loader <../tutorials/tutorial_pz_loader.rst>`_ to load the data),
+  * name: a name you want to give to the channel (of note this information is not used by the `PZ Loader <../tutorials/pzloader.rst>`_ to load the data),
   * unit: millisecond, second, index, bpm, millivolt, microvolt and volt,
   * enable: 'yes' or 'no'. If you specify 'no' then this channel will be ignored when the file is loaded by the PZ Loader. Only specify 'yes' for the channels you want to use.
   
-In the case all or part of these information are not specified then you will be prompted to enter them though the `PZ Loader <../tutorials/tutorial_pz_loader.rst>`_.
+In the case all or part of these information are not specified then you will be prompted to enter them though the `PZ Loader <../tutorials/pzloader.rst>`_.
 
 **Channels Type**
 ---------------------
