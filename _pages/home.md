@@ -11,7 +11,7 @@ header:
   cta_url: "https://github.com/physiozoo/physiozoo/archive/master.zip"
   caption: ""
 
-excerpt: "Heart Rate Variability analysis of human and animal electrophysiological data"
+excerpt: "Heart Rate Variability analysis of Human and animal electrophysiological data"
 
 intro: 
   - excerpt: 'PhysioZoo is a collaborative platform dedicated to the study of the heart rate variability (HRV) in mammals’ electrophysiological recordings.'
