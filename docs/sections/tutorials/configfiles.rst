@@ -3,6 +3,8 @@ Configuration files
 
 In this tutorial you will learn how to create your custom configuration files for R-peak detection and for performing HRV analysis.
 
+Important note: in the next version of PhysioZoo the two configuration files will be merged in one unique configuration file.
+
 **Introduction**
 ----------------------
 
