@@ -28,6 +28,7 @@ In the `Peak detection module <../tutorials/peakdetection.rst>`_:
       
       4. To use this configuration file when you next use the **PhysioZoo** peak detection module: (1) File->Load custom config file or (2) Main->Mammal->Custom and choose your configuration file.
 
+
 .. image:: ../../_static/config_qrs.png
 
 
