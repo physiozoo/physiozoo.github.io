@@ -7,14 +7,23 @@ header:
   overlay_color: "#f33"
   overlay_filter: "0.5"
   overlay_image: ""
-  cta_label: "Download"
-  cta_url: "https://github.com/physiozoo/physiozoo/archive/master.zip"
   caption: ""
+  # cta_label: ""
+  # cta_url: ""
+  actions:
+    - label: "Download Installer"
+      icon: cogs
+      url: "https://github.com/physiozoo/physiozoo/archive/master.zip"
+    - label: "Download Source"
+      icon: laptop-code
+      url: "https://github.com/physiozoo/physiozoo/"
 
 excerpt: "Heart Rate Variability analysis of Human and animal electrophysiological data"
 
 intro: 
-  - excerpt: 'PhysioZoo is a collaborative platform dedicated to the study of the heart rate variability (HRV) in mammals’ electrophysiological recordings.'
+  - excerpt: 'PhysioZoo is a collaborative platform dedicated to the study of
+        the heart rate variability (HRV) in mammals’ electrophysiological
+        recordings.'
 
 news: 
   - excerpt: News! 2018.09.01 Release of the ``v1.0.0-Beta`` version of PhysioZoo.
