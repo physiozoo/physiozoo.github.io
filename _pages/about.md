@@ -1,7 +1,7 @@
 ---
 layout: single
 title: PhysioZoo project
-permalink: /project/
+permalink: /about/
 author_profile: false
 ---
 
