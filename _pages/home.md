@@ -24,7 +24,7 @@ feature_row:
     alt: "placeholder image 1"
     title: "PhysioZoo user interface"
     excerpt: 'A user friendly interface to perform Heart Rate Variability analysis.'
-    url: "https://physiozoo.readthedocs.io/en/latest/sections/tutorials/pz_installation.html"
+    url: "https://docs.physiozoo.com/en/latest/sections/tutorials/pz_installation.html"
     btn_label: "Install"
     btn_class: "btn--primary"
     
@@ -33,7 +33,7 @@ feature_row2:
     alt: "placeholder image 1"
     title: "Peak detection"
     excerpt: 'PhysioZoo provides algorithms and a user interface for R-peak detection of mammalian ECG data. In addition, it provides manual annotations tools (peak and data quality) to ensure the reliability of the analyzed data.'
-    url: "https://physiozoo.readthedocs.io/en/latest/sections/tutorials/tutorial1.html"
+    url: "https://docs.physiozoo.com/en/latest/sections/tutorials/tutorial1.html"
     btn_label: "Read More"
     btn_class: "btn--primary"
 
@@ -42,7 +42,7 @@ feature_row3:
     alt: "placeholder image 1"
     title: "Prefiltering"
     excerpt: 'PhysioZoo includes a number of prefiltering methods in order to remove sudden drop or increase in the beat to beat intervals due to transcient noise or ectopic beats.'
-    url: "https://physiozoo.readthedocs.io/en/latest/sections/tutorials/tutorial3.html"
+    url: "https://docs.physiozoo.com/en/latest/sections/tutorials/tutorial3.html"
     btn_label: "Read More"
     btn_class: "btn--primary"
 
@@ -51,7 +51,7 @@ feature_row4:
     alt: "placeholder image 1"
     title: "HRV measures and data visualization"
     excerpt: 'PhysioZoo includes state of the art HRV measures tailored to the type of mammal that is studied and data visualization features including Poincare plots, power spectrum, distribution of NN intervals and multi scale entropy plot.'
-    url: "https://physiozoo.readthedocs.io/en/latest/sections/tutorials/tutorial4.html"
+    url: "https://docs.physiozoo.com/en/latest/sections/tutorials/tutorial4.html"
     btn_label: "Read More"
     btn_class: "btn--primary"
     
