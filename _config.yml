@@ -79,9 +79,9 @@ social:
 
 # Analytics
 analytics:
-  provider               : google-gtag
+  provider               : "google-gtag"
   google:
-    tracking_id          : UA-124850400-1
+    tracking_id          : "UA-124850400-1"
 
 
 # Site Author
