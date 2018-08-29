@@ -21,8 +21,8 @@ from recommonmark.parser import CommonMarkParser
 # -- Project information -----------------------------------------------------
 
 project = 'PhysioZoo'
-copyright = '2018, Aviv A. Rosenberg, Joachim A. Behar'
-author = 'Aviv A. Rosenberg, Joachim A. Behar'
+copyright = '2018, PhysioZoo Team'
+author = 'PhysioZoo Team'
 
 # The short X.Y version
 version = ''
@@ -152,7 +152,7 @@ latex_elements = {
 #  author, documentclass [howto, manual, or own class]).
 latex_documents = [
     (master_doc, 'PhysioZoo.tex', 'PhysioZoo Documentation',
-     'Aviv A. Rosenberg, Joachim A. Behar', 'manual'),
+     'PhysioZoo Team', 'manual'),
 ]
 
 
