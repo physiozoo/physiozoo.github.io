@@ -9,9 +9,13 @@ In this tutorial you will learn about how to prepare your data for importing the
 
 **PhysioZoo** supports three types of formats: `WFDB <https://www.physionet.org/physiotools/matlab/wfdb-app-matlab>`_, text (.txt) and MATLAB (.mat). The text and mat files structures are specific to **PhysioZoo** whereas the WFDB follows the standard structure of WFDB powered by Physionet (physionet.org) with some additional fields in the WFDB header files. If you are experienced with WFDB then we recommend you use this format.
 
-For any of the three formats a file consists of a header and the data:
+For any of the three formats a file consists of a "header" and the "data":
 
 .. image:: ../../_static/example_header.png
+   :align: center
+
+.. note:: 
+   When downloading **PhysioZoo** a set of examples (WFDB,.txt and .mat) are provided with the stucture that is needed in **PhysioZoo**.
 
 **General structure of the header**
 ---------------------
@@ -25,11 +29,11 @@ For each of the files the following information can be specified in the header:
 As part of the header, information characterizing each channel available can be entered:
 
   * type: peak, signal quality, time, interval, beating rate and electrography. See definitions of these in the next section,
-  * name: a name you want to give to the channel (of note this information is not used by the `PZ Loader <../tutorials/pzloader.rst>`_ to load the data),
+  * name: a name you want to give to the channel (of note this information is not used by the `PZ Loader <../tutorials/pzloader.html>`_ to load the data),
   * unit: millisecond, second, index, bpm, millivolt, microvolt and volt,
-  * enable: 'yes' or 'no'. If you specify 'no' then this channel will be ignored when the file is loaded by the PZ Loader. Only specify 'yes' for the channels you want to use.
+  * enable: 'yes' or 'no'. If you specify 'no' then this channel will be ignored when the file is loaded by the ``PZ Loader``. Only specify 'yes' for the channels you want to use.
   
-In the case all or part of these information are not specified then you will be prompted to enter them though the `PZ Loader <../tutorials/pzloader.rst>`_.
+In the case all or part of these information are not specified then you will be prompted to enter them though the `PZ Loader <../tutorials/pzloader.html>`_.
 
 **Channels Type**
 ---------------------
@@ -54,12 +58,14 @@ Explanation of the structure of the different format supported is provided below
 **Text format (.txt)**
 
 .. image:: ../../_static/example_header.png
+   :align: center
 
 **Matlab format (.mat)**
 
 A .mat file need to contain the following fields:
 
 .. image:: ../../_static/example_format_matlab_1.jpg
+   :align: center
 
 The Channels field is a Cell. Each element of the Channel Cell will contain the following fields : type, name, unit and enable.
 
@@ -70,9 +76,19 @@ The Channels field is a Cell. Each element of the Channel Cell will contain the 
 WFDB files (annotation or data) will be accompanied by a header (.hea) file specifying the relevant information for reading an annotation or data file. Refer to the `WFDB <https://www.physionet.org/physiotools/matlab/wfdb-app-matlab>`_ documentation for that. To the standard WFDB format of the header, you will need to add one comment line at the end of the header and starting '#' then followed by the mammal type and the integration level. In addition, you need to specify for each channel the type of data that is represented ('electrography' on the example below).
 
 .. image:: ../../_static/example_format_wfdb.jpg
+   :align: center
 
 
+**Frequently asked questions**
+----------------------
 
+**What if I am used to another format?**
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
-  
+For now **PhysioZoo** only supports the WFDB, text and mat formats. Most commercial softwares enable you to export your data in text format which you can then import in **PhysioZoo** using the ``PZ Loader`` (see `here <../tutorials/pzloader.html>`_)
+
+**Is there a more direct way to import data?**
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+Yes you can use the ``PZ Loader`` (see `here <../tutorials/pzloader.html>`_) to import data which do not have a Header. You will use the ``PZ Loader`` user interface to fill in the information that are needed and it will be opened in **PhysioZoo**.
   

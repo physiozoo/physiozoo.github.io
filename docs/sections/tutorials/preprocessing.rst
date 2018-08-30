@@ -1,7 +1,7 @@
 Preprocessing
 ==========
 
-In this tutorial you will learn how to preprocess your RR time series. The resulting preprocessed time series is traditionally called the 'NN' time series.
+In this tutorial you will learn how to preprocess your RR time series within the ``HRV analysis`` module. The resulting preprocessed time series is traditionally called the 'NN' time series.
 
 **Introduction**
 ----------------------
@@ -22,12 +22,12 @@ A preprocessing step is usually performed in HRV analysis to filter out suspecte
 The example below shows an ECG segment with some transient noise. Note the miss-detected R-peaks. Leaving these miss-detected R-peaks could lead to the evaluation of incorrect HRV measures.
 
 .. image:: ../../_static/Figure_S2.png
-
+   :align: center
 
 Below, the corresponding RR interval time series that is filtered. The filtering allows to remove the sudden increase and decrease in the RR time series that are caused by the miss-detected beats.
 
 .. image:: ../../_static/Figure_S3.png
-
+   :align: center
 
 **Preprocessing methods in PhysioZoo**
 ----------------------
@@ -37,6 +37,7 @@ You can select the preprocessing filter with the dropdown "Preprocessing" locate
 The image below shows an example of a rabbit RR time (blue time series) series which has been filtered over the selected window (green time series) using the Moving average filter .
 
 .. image:: ../../_static/prefiltering_step.png
+   :align: center
 
 **Frequently asked questions**
 ----------------------
