@@ -28,7 +28,7 @@ intro:
 news: 
   - title: News
     excerpt: |
-        * 2018-09-01 Release of PhysioZoo `v1.0.0-Beta`!
+        * 07-09-2018: Release of PhysioZoo `v1.0.0-Beta`!
 
 feature_row:
   - image_path: "assets/images/home_page_interface.png"
