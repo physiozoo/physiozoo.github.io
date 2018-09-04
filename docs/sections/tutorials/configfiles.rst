@@ -35,9 +35,7 @@ In the `Peak detection module <../tutorials/peakdetection.html>`_:
 **Defining an HRV configuration file**
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
-In the `HRV module <../tutorials/hrvanalysis.rst>`_:
-
-Under the “Main” tab you can change the Mammal type to one of the following options: Human, Dog, Rabbit, Mouse and Custom. In built in the software are configuration files for human, dog, rabbit and mouse electrocardiographic data. By choosing thee “Custom” option under `Mammal' you can define an HRV configuration file of your own. Follow the following steps:
+In the `HRV module <../tutorials/hrvanalysis.rst>`_: under the “Main” tab you can change the Mammal type to one of the following options: Human, Dog, Rabbit, Mouse and Custom. In built in the software are configuration files for human, dog, rabbit and mouse electrocardiographic data. By choosing thee “Custom” option under `Mammal' you can define an HRV configuration file of your own. Follow the following steps:
 
       1. By choosing Mammal->Custom this will prompt you with a selection window. Select the configuration file of the closest mammal to the one you want to use. This will set the default HRV configuration parameters.
 

@@ -46,14 +46,14 @@ Sometime the R-peak detector might make mistakes and miss some R-peaks/detect so
   
   4. Save your R-peak time series: File -> Save Peaks.
 
-.. image:: ../../_static/peak_detection_fig2.png
+.. image:: ../../_static/peakdetection_correction.png
    :align: center
 
 **Configuration for other mammals**
 ----------------------------------
 The **PhysioZoo** R-peak detectors are readily adapted for Humans, dogs, rabbits and mice ECG data. If you need to use them on another specie then you will need to adapt their parameters accordingly. The parameters for the peak detectors can be found under the "Config Params" tab. You can save the configuration of the peak detectors in order to re-use it by going to File -> Save configuration file.
 
-.. image:: ../../_static/peak_detection_fig3.png
+.. image:: ../../_static/peakdetection_configuration.png
    :align: center
 
 For ``rqrs``:

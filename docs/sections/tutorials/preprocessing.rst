@@ -34,9 +34,9 @@ Below, the corresponding RR interval time series that is filtered. The filtering
   
 You can select the preprocessing filter with the dropdown "Preprocessing" located under the Main tab. You can vary the level of preprocessing by using the dropdown "Preprocessing level" located under the Main tab. Three levels of preprocessing are available: Weak, Moderate and Strong. If you want to customize the preprocessing filters further then you can access each of the parameters of each filter by going to Options -> Filtering.
 
-The image below shows an example of a rabbit RR time (blue time series) series which has been filtered over the selected window (green time series) using the Moving average filter .
+The image below shows an example of a rabbit RR time (blue time series) series which has been filtered over the selected window (green time series) using the Moving average filter.
 
-.. image:: ../../_static/prefiltering_step.png
+.. image:: ../../_static/preprocessing_interface.png
    :align: center
 
 **Frequently asked questions**

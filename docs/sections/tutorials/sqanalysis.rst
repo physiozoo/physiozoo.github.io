@@ -20,7 +20,7 @@ To annotate the quality of an electrophysiological signal time series, follow th
 
 	3. Look for a segment with some bad quality data and draw a rectangle around it with the mouse. The background of the area you have selected became red.
 
-.. image:: ../../_static/signal_quality_fig1.png
+.. image:: ../../_static/sqanalysis_interface.png
    :align: center
 
 In **PhysioZoo** we define three levels of signal quality:
@@ -36,7 +36,7 @@ When using a recording for which you have performed signal quality annotations, 
 
 After the quality annotations are loaded, you will see green and red bar appearing on the top of the RR interval time series figure. The part in green correspond to good quality data (i.e. data which analysis can be trusted) and the part in red correspond to bad quality data (i.e. data which should not be trusted.) In addition, the RR time series is highlighted in red for the intervals which are indicated as bad quality.
 
-.. image:: ../../_static/signal_quality_fig2.png
+.. image:: ../../_static/sqanalysis_usage.png
    :align: center
 
 **Frequently asked questions**

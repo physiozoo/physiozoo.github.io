@@ -35,7 +35,7 @@ When all the fields have been filled then click OK and the data will be opened i
 
 For the example provided, fill the fields as in the screenshot below and click OK:
 
-.. image:: ../../_static/PZ_loader.png
+.. image:: ../../_static/pzloader_ui.png
    :align: center
 
 

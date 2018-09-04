@@ -11,7 +11,7 @@ In this tutorial you will learn about how to prepare your data for importing the
 
 For any of the three formats a file consists of a "header" and the "data":
 
-.. image:: ../../_static/example_header.png
+.. image:: ../../_static/pzformats_eg.png
    :align: center
 
 .. note:: 
@@ -57,14 +57,14 @@ Explanation of the structure of the different format supported is provided below
 
 **Text format (.txt)**
 
-.. image:: ../../_static/example_header.png
+.. image:: ../../_static/pzformats_eg.png
    :align: center
 
 **Matlab format (.mat)**
 
 A .mat file need to contain the following fields:
 
-.. image:: ../../_static/example_format_matlab_1.jpg
+.. image:: ../../_static/pzformats_eg_matlab.jpg
    :align: center
 
 The Channels field is a Cell. Each element of the Channel Cell will contain the following fields : type, name, unit and enable.
@@ -75,7 +75,7 @@ The Channels field is a Cell. Each element of the Channel Cell will contain the 
 
 WFDB files (annotation or data) will be accompanied by a header (.hea) file specifying the relevant information for reading an annotation or data file. Refer to the `WFDB <https://www.physionet.org/physiotools/matlab/wfdb-app-matlab>`_ documentation for that. To the standard WFDB format of the header, you will need to add one comment line at the end of the header and starting '#' then followed by the mammal type and the integration level. In addition, you need to specify for each channel the type of data that is represented ('electrography' on the example below).
 
-.. image:: ../../_static/example_format_wfdb.jpg
+.. image:: ../../_static/pzformats_eg_wfdb.jpg
    :align: center
 
 
