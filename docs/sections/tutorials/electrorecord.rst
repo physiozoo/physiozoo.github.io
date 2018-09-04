@@ -19,7 +19,7 @@ quality of the HRV analysis and thus it is important to inspect the raw data
 that are being recorded and eventually, when necessary, adjust the sampling 
 frequency and quantization level of the recording device.
 
-Examples below of typical issues
+Examples of typical issues
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
 The following example shows what happens when a mouse ECG recording is downsampled from 1000 Hz to 500 Hz and 250 Hz thus simulating the type of signal you would record if your original sampling rate was below 1000 Hz. As you will observe the exact peak location is affected in an important manner by the sampling frequency. It is degraded at 500 Hz and at 250 Hz it will be very poor. Thus for mouse, 1000 Hz is really the minimal sampling frequency to use in order to ensure a meaningful HRV analysis. However, note that the adequate sampling frequency will be mammal specific.

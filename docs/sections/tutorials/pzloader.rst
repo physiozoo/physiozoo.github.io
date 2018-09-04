@@ -12,18 +12,18 @@ Data loading in **PhysioZoo** is centralized and done through the ``PZ Loader`` 
 ---------------------
 - ``PZ Loader``: three types of formats can be loaded in **PhysioZoo**. This is done through the ``PZ Loader``. The ``PZ Loader`` will ensure that the data that enter the ``PZ-UI`` are properly formatted.
 
-- Header: it is possible to include a header at the beginning of a file. This header will specify all the information that **PhysioZoo** needs to open a file. If all the information is specified in the header, then you will not need to go through populating the ``PZ Loader`` User Interface and the file will be directly opened in **PhysioZoo**. 
+- Header: it is possible to include a header at the beginning of a record. This header will specify all the information that **PhysioZoo** needs to open a record. If all the information is specified in the header, then you will not need to go through populating the ``PZ Loader`` User Interface and the record will be directly opened in **PhysioZoo**. 
 
 See `here <../tutorials/pzformats.html>`_ for the formats supported and how to create **PhysioZoo** headers.
 
-The figure bellow illustrates the pathway for loading data: the ``PZ Loader`` is used to load data from one of the supported formats. If no header is available, then the ``PZ Loader`` user interface is opened and the user is prompted to enter the necessary information. If the header is available, then the file is directly loaded in **PhysioZoo**.
+The figure bellow illustrates the pathway for loading a recording: the ``PZ Loader`` is used to load a recording from one of the supported formats. If no header is available, then the ``PZ Loader`` user interface is opened and the user is prompted to enter the necessary information. If the header is available, then the record is directly loaded in **PhysioZoo**.
 
 .. image:: ../../_static/PZ_formats.png
    :align: center
 
-In this tutorial we will see how to make use of the ``PZ Loader`` UI when no header is available.
+In this tutorial we will see how to make use of the ``PZ Loader`` user interface (UI) when no header is available.
 
-**PZ Loader UI**
+**PZ Loader User Interface**
 ---------------------
 
 Open an example annotation file:

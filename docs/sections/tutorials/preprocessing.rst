@@ -8,7 +8,7 @@ In this tutorial you will learn how to preprocess your RR time series within the
 
 When loading an RR time series in the HRV module, one of the parameters you need to set is the preprocessing method.
 
-We implemented in **PhysioZoo** three methods (and one combination of methods) for pre-filtering the RR-interval:
+We implemented in **PhysioZoo** three methods (and one combination of methods) for pre-filtering the RR-interval time series:
 
   * Range, 
   * Moving average,
@@ -32,7 +32,7 @@ Below, the corresponding RR interval time series that is filtered. The filtering
 **Preprocessing methods in PhysioZoo**
 ----------------------
   
-You can select the preprocessing filter with the dropdown "Preprocessing" located under the Main tab. You can vary the level of preprocessing by using the dropdown "Preprocessing level" located under the Main tab. Three levels of preprocessing are available: Weak, Moderate and Strong. If you want to customize the preprocessing filters further then you can access each of the parameters of each filter by going to Options -> Filtering.
+You can select the preprocessing filter with the dropdown "Preprocessing" located under the Main tab. You can vary the level of preprocessing by using the dropdown "Preprocessing level" located under the Main tab. Three levels of preprocessing are available: "Weak", "Moderate" and "Strong". If you want to customize the preprocessing filters further then you can access each of the parameters of each filter by going to Options -> Filtering.
 
 The image below shows an example of a rabbit RR time (blue time series) series which has been filtered over the selected window (green time series) using the Moving average filter.
 
@@ -55,7 +55,7 @@ In the presence of large segments of noise it will not help. Rather such large s
 **Is there instances when not to preprocess the RR time series?**
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
-If your aim is to use HRV measures for identifying arrythmic episodes for example then you might want to avoid preprocessing the RR time series or to use a weak preprocessing in order to only remove outliers beats. Indeed, in this use case you will want to capture the important irregularities (e.g. atrial fibrillation) in the RR intervals of the time series.
+If your aim is to use HRV measures for identifying certain arrythmic episodes for example then you might want to avoid preprocessing the RR time series or to use a weak preprocessing in order to only remove outliers beats. Indeed, in this use case you will want to capture the important irregularities (e.g. atrial fibrillation) in the RR intervals of the time series.
 
 
 

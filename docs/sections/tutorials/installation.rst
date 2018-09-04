@@ -5,7 +5,7 @@ The PhysioZoo user interface (``PZ-UI``) can be run from Matlab or be installed 
 
 PhysioZoo ``mhrv`` (source code) toolbox
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
-Versions supported: MATLAB 2016a and above
+Versions supported: MATLAB 2016a and above.
 
 `Documentation <../intro.html>`_
 
@@ -22,7 +22,7 @@ Running ``PZ-UI`` from within Matlab
 ~~~~~~~~~~~~~~~~~~~~~~~~
 ~~~~~~~~~~~~~~~~~~~~~~~~
 
-Versions supported: MATLAB 2016a and above
+Versions supported: MATLAB 2016a and above.
 
 `Documentation <../intro.html>`_
 
@@ -37,7 +37,7 @@ Running ``PZ-UI`` as a standalone (.exe) software
 ~~~~~~~~~~~~~~~~~~~~~~~~
 
 
-Operating system: Windows 10 (and above), 64 bits
+Operating system: Windows 10 (and above), 64 bits.
 
 `Documentation <../intro.html>`_
 

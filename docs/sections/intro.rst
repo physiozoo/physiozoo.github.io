@@ -12,13 +12,13 @@ Introduction
 
   - A set of annotated databases (``PZ-DB``) of electrophysiological signals from different mammals (dog, rabbit and mouse). Available `here <https://drive.google.com/file/d/1waDbfJlCWLGWTfaV7_tJ1j2-4Re5N5OG/view?usp=sharing>`_.
 
-  - Manually audited peak locations and signal quality annotations for each recording.
+  - Manually audited peak locations and signal quality annotations for each of the recordings.
 
 
 
 - *Configuration*
   
-  - A set of configuration files that adapt the HRV measures and algorithms to
+  - A set of configuration files that adapt the HRV measures and ``mhrv`` algorithms to
     work with data from different mammals.
     
   - All HRV measures can be further adapted for the analysis of other mammals by

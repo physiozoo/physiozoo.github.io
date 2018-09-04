@@ -45,7 +45,7 @@ After the quality annotations are loaded, you will see green and red bar appeari
 **When do we need to make signal quality annotations?**
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
-It is likely that small bad quality segments (couple of beats) will be 'cleaned up' by the `prefiltering step <../tutorials/preprocessing.html>`_ and so one should not worry too much about it. The signal quality annotations are more useful when a 'large' section of the recording is of bad quality in which case the prefiltering step will be useless or even misleading. Analysing such sections with large segments of bad quality data will provide meaningless results - the signal quality annotations are useful to prevent that.
+Small bad quality segments (couple of beats) will be 'cleaned up' by the `prefiltering step <../tutorials/preprocessing.html>`_ and so one should not worry too much about it. The signal quality annotations are more useful when a 'large' section of the recording is of bad quality in which case the prefiltering step will be useless or even misleading. Analysing such sections with large segments of bad quality data will provide meaningless results - the signal quality annotations are useful to prevent that.
 
 
 
