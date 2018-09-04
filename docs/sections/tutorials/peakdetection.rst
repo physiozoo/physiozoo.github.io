@@ -28,7 +28,7 @@ Representative example of the R-peaks detected  (A) using the original ``gqrs`` 
 
   4. You can browse through the recording by stretching and moving the red window displayed in pannel B. You can also move through the recording by using the arrows circled in red on the right hand side.
 
-.. image:: ../../_static/peak_detection_fig1.png
+.. image:: ../../_static/peakdetection_interface.png
    :align: center
 
 .. warning:: The input ECG data imported in **PhysioZoo** MUST be in mV (i.e. physiological units). The R-peak detector might not run appropriately if the data are not correctly scaled.

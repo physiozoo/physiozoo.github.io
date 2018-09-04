@@ -48,7 +48,7 @@ You can save the following:
 
 - **Multi Scale Entropy**: the value of sample entropy for a range of scales as specified under Options->NonLinear and displayed under the NonLinear tab.
 
-- **Preprocessed NN intervals**: the RR interval time series after it was preprocessed by the filter you specified under Main-> Preprocessing.
+- **Preprocessed RR intervals**: the RR interval time series after it was preprocessed by the filter you specified under Main-> Preprocessing.
 
 Select the location where you want to save the HRV measures. Open the HRV Measures file and you will see the list of HRV measures together with their definitions and values for the window that was selected. For that purpose open the text file (Mouse_example_qrs_hrv.txt) you just saved.
 
