@@ -64,7 +64,7 @@ The following individuals have contributed to the PhysioZoo project:
 - Gideon Koren
 - Kevin Murphy
 
-![Alt text](assets/images/Technion.jpg?raw=true "Title")
+![Alt text](assets/images/Technion.jpg)
 
 ## License
 
