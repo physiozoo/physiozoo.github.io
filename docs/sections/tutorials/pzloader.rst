@@ -6,9 +6,7 @@ In this tutorial you will learn how to import data in **PhysioZoo**.
 **Introduction**
 ---------------------
 
-Data loading in **PhysioZoo** is centralized and done through the ``PZ Loader`` tool. Three types of input formats are supported by **PhysioZoo** - see `formats supported <../tutorials/pzformats.html>`_.
-
-
+Data loading in **PhysioZoo** is centralized and done through the ``PZ Loader`` tool. Three types of input formats are supported by **PhysioZoo** - see `formats supported <../tutorials/pzformats.html>`_. 
 
 **Concepts**
 ---------------------
