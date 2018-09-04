@@ -66,6 +66,8 @@ The following individuals have contributed to the PhysioZoo project:
 
 ![Technion logo](../assets/images/Technion.jpg)
 
+![Technion BME logo](../assets/images/Faculty-logo-Classic.png)
+
 ## License
 
 Released under the GNU General Public License
