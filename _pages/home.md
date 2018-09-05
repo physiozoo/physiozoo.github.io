@@ -11,12 +11,12 @@ header:
   # cta_label: ""
   # cta_url: ""
   actions:
-    - label: "Download Installer"
-      icon: cogs
-      url: "https://github.com/physiozoo/physiozoo/archive/master.zip"
     - label: "Download Source"
       icon: laptop-code
-      url: "https://github.com/physiozoo/physiozoo/"
+      url: "https://github.com/physiozoo/physiozoo/archive/v1.0.0.zip"
+    - label: "Download Installer"
+      icon: cogs
+      url: "https://github.com/physiozoo/physiozoo/releases/download/v1.0.0/PhysioZoo-1.0.0_Installer.exe"
 
 excerpt: "Heart Rate Variability analysis of human and animal electrophysiological data"
 
@@ -28,7 +28,8 @@ intro:
 news: 
   - title: News
     excerpt: |
-        * 07-09-2018: Release of PhysioZoo `v1.0.0-Beta`!
+        * 2018-09-06: [PhysioZoo `v1.0.0`](https://github.com/physiozoo/physiozoo/releases/tag/v1.0.0)
+          is now publicly available!
 
 feature_row:
   - image_path: "assets/images/home_page_interface.png"
