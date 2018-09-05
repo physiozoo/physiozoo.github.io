@@ -85,10 +85,14 @@ If you want to export figures, then select with the mouse the window you want to
 .. note:: While using the successive segment analysis feature, it is possible to export the HRV measures and PSD from all the analyzed consecutive windows together. However, you can only export the figures from one single window at the time i.e. from the window that you select with the mouse (i.e. the ‘selected window’).
 
 
+**Adapting HRV measures to alternative mammals**
+--------------------------------------------
+
+If you want to adapt the HRV measures to other mammals you can create a new 'Configuration file' (see `here <../tutorials/configfiles.html>`_) with parameters suitable to the specie you are studying. For some of the HRV measures (power frequency bands and pNNxx) you will find a button 'E' next to their parameters value under Options->Time/Frequency. You can use click on this button to adapt the HRV measure to the alternative mammalian model you are using.
 
 
-
-
+.. image:: ../../_static/hrvanalysis_adapt.png
+   :align: center
 
 
 
