@@ -1,6 +1,6 @@
 Introduction
 ************
-**PhysioZoo** is a collaborative platform dedicated to the study of the heart rate variability (HRV) from Humans and other mammals’ electrophysiological recordings. The main components of the platform are:
+**PhysioZoo** is a collaborative platform dedicated to the study of heart rate variability (HRV) from the electrophysiological recordings of humans and other mammals. The main components of the platform are:
 
 - *Software*
 

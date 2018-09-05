@@ -43,7 +43,7 @@ Operating system: Windows 10 (and above), 64 bits.
 
 After downloading the software ([here](https://)) click the “physiozoo.exe” file. This will start the installation process. You can then go through the following steps.
 
-.. note:: Some of the screen might be slightly different depending on the version of Windows you are using and whether you already have the MATLAB runtime compiler installed. If Matlab runtime compiler is not installed then it will be done through this process but the installation might take some time.
+.. note:: Some of the screens might be slightly different depending on the version of Windows you are using and whether you already have the MATLAB runtime compiler installed. If Matlab runtime compiler is not installed then it will be done through this process but the installation might take some time.
 
 
 1)	If you get the following screen displayed then click “Run”

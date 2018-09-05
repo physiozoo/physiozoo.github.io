@@ -3,7 +3,7 @@
 **Changelog**
 -------------
 
-Here is a list of changes made on each version of the **PhysioZoo** toolbox:
+Here is a list of changes made in each version of the **PhysioZoo** toolbox:
 
 - **v1.0-Beta : 2018.09.01**
   Beta release of PhysioZoo

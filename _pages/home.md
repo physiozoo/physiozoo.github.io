@@ -18,7 +18,7 @@ header:
       icon: laptop-code
       url: "https://github.com/physiozoo/physiozoo/"
 
-excerpt: "Heart Rate Variability analysis of Human and animal electrophysiological data"
+excerpt: "Heart Rate Variability analysis of human and animal electrophysiological data"
 
 intro: 
   - excerpt: 'PhysioZoo is a collaborative platform dedicated to the study of
