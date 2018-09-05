@@ -39,34 +39,34 @@ For the example provided, fill the fields as in the screenshot below and click O
    :align: center
 
 
-**Saving a file with a header**
----------------------
+.. **Saving a file with a header**
+.. ---------------------
 
-In the case where you will need to re-load the same file later on then after filling the fields of the ``PZ Loader`` you can click 'Save As'. This will save your file with a header which will contain all the information you filled in the ``PZ Loader``. When you will load this file again then you will not need to fill the fields again. 
+.. In the case where you will need to re-load the same file later on then after filling the fields of the ``PZ Loader`` you can click 'Save As'. This will save your file with a header which will contain all the information you filled in the ``PZ Loader``. When you will load this file again then you will not need to fill the fields again. 
 
-Here is an example to illustrate that. First using a text editor open the following `example <../../_static/Dog_example_ecg_no_header.txt>`_ file.
+.. Here is an example to illustrate that. First using a text editor open the following `example <../../_static/Dog_example_ecg_no_header.txt>`_ file.
 
-You will see the following file which consists of a time series. There is no information on what this time series is and neither its units, sampling frequency etc. 
+.. You will see the following file which consists of a time series. There is no information on what this time series is and neither its units, sampling frequency etc. 
 
-.. image:: ../../_static/PZ_Loader_eg.PNG
+.. .. image:: ../../_static/PZ_Loader_eg.PNG
    :align: center
 
-Now load the same example using the ``PZ Loader``.
+.. Now load the same example using the ``PZ Loader``.
 
-This file has no header and you will need to enter the necessary information on the ``PZ Loader`` interface. Enter the following information:
+.. This file has no header and you will need to enter the necessary information on the ``PZ Loader`` interface. Enter the following information:
 
-  * Integration_level: electrocardiogram
+..  * Integration_level: electrocardiogram
   * Mammal: dog
   * Fs: 500
   * Type: electrography
   * Unit: millivolt
 
-Then click "Save As" and save the file under the name "PZ_Loader_eg_with_header.txt". Open the text file with a text editor. You will see on your screen the following:
+.. Then click "Save As" and save the file under the name "PZ_Loader_eg_with_header.txt". Open the text file with a text editor. You will see on your screen the following:
 
-.. image:: ../../_static/PZ_Loader_eg_with_header.PNG
+.. .. image:: ../../_static/PZ_Loader_eg_with_header.PNG
    :align: center
 
-The time series was saved with its header consisting of all the information you entered using the ``PZ Loader``. Next time you will need to load this file you will not need to re-fill the ``PZ Loader`` UI fields. They will be populated automatically from the header.
+.. The time series was saved with its header consisting of all the information you entered using the ``PZ Loader``. Next time you will need to load this file you will not need to re-fill the ``PZ Loader`` UI fields. They will be populated automatically from the header.
 
-Check it for yourself!
+.. Check it for yourself!
 
