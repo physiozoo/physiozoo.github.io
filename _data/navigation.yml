@@ -3,6 +3,8 @@ main:
     url: https://docs.physiozoo.com/en/latest/sections/tutorials/installation.html
   - title: "Documentation"
     url: https://docs.physiozoo.com
+  - title: "Changelog"
+    url: https://github.com/physiozoo/physiozoo/blob/master/CHANGELOG.md
   - title: "About"
     url: /about/  
 
