@@ -60,9 +60,7 @@ The following individuals have contributed to the PhysioZoo project:
 - Alexandra Alexandrovitch
 - Eugene Konyukhov
 - Moran Davoodi
-- George Billman
-- Gideon Koren
-- Kevin Murphy
+
 
 
 ![Technion logo](../assets/images/Technion.jpg) ![Technion BME logo](../assets/images/Faculty-logo-Classic.png)
