@@ -61,7 +61,9 @@ The following individuals have contributed to the PhysioZoo project:
 - Eugene Konyukhov
 - Moran Davoodi
 
+The databases provided with the software were decribed in:
 
+Joachim A. Behar, Aviv A. Rosenberg, Ori Shemla, Kevin R. Murphy, Gideon Koren, George E. Billman, and Yael Yaniv. "A universal scaling relation for defining power spectral bands in mammalian heart rate variability analysis." Frontiers in physiology 9 (2018).
 
 ![Technion logo](../assets/images/Technion.jpg) ![Technion BME logo](../assets/images/Faculty-logo-Classic.png)
 
