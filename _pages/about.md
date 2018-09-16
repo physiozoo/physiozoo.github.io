@@ -23,6 +23,16 @@ through the issues and open new ones.
 
 Contact us at: physiozoolab@gmail.com
 
+## Why PhysioZoo?
+
+- Human and animal HRV analysis: **PhysioZoo** is designed for HRV analysis of multiple mammalian types including Human but not limited to it.
+
+- Data visualisation: graphical user interface which enables HRV analysis and data visualisation without writing any code.
+
+- Reproducibility of research: Human readable configuration files which contain all the parameters of the peak detectors, preprocessing routines and HRV measures. This file is self containing and ensure research can be reproduced using this configuration file and the original data.
+
+- Source code: for developper and when batch processing is needed.
+
 ## How to contribute?
 
 The **PhysioZoo** project is dynamic and so novel contributions are welcomed.
