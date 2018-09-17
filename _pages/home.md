@@ -13,10 +13,10 @@ header:
   actions:
     - label: "Download Source"
       icon: laptop-code
-      url: "https://github.com/physiozoo/physiozoo/archive/v1.0.0.zip"
+      url: "https://github.com/physiozoo/physiozoo/archive/v1.0.1.zip"
     - label: "Download Installer"
       icon: cogs
-      url: "https://github.com/physiozoo/physiozoo/releases/download/v1.0.0/PhysioZoo-1.0.0_Installer.exe"
+      url: "https://github.com/physiozoo/physiozoo/releases/download/v1.0.1/PhysioZoo-1.0.1_Installer.exe"
 
 excerpt: "Heart Rate Variability analysis of human and animal electrophysiological data"
 
