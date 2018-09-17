@@ -38,7 +38,7 @@ feature_row:
     alt: "placeholder image 1"
     title: "PhysioZoo user interface"
     excerpt: 'A user friendly interface to perform Heart Rate Variability analysis.'
-    url: "https://docs.physiozoo.com/en/latest/index.html"
+    url: "https://docs.physiozoo.com/en/stable/index.html"
     btn_label: "Install"
     btn_class: "btn--primary"
     
@@ -47,7 +47,7 @@ feature_row2:
     alt: "placeholder image 1"
     title: "Peak detection"
     excerpt: 'PhysioZoo provides algorithms and a user interface for R-peak detection of mammalian ECG data. In addition, it provides manual annotations tools (peak and data quality) to ensure the reliability of the analyzed data.'
-    url: "https://docs.physiozoo.com/en/latest/sections/tutorials/peakdetection.html"
+    url: "https://docs.physiozoo.com/en/stable/sections/tutorials/peakdetection.html"
     btn_label: "Read More"
     btn_class: "btn--primary"
 
@@ -56,7 +56,7 @@ feature_row3:
     alt: "placeholder image 1"
     title: "Prefiltering"
     excerpt: 'PhysioZoo includes a number of prefiltering methods in order to remove sudden drop or increase in the beat to beat intervals due to transcient noise or ectopic beats.'
-    url: "https://docs.physiozoo.com/en/latest/sections/tutorials/preprocessing.html"
+    url: "https://docs.physiozoo.com/en/stable/sections/tutorials/preprocessing.html"
     btn_label: "Read More"
     btn_class: "btn--primary"
 
@@ -65,7 +65,7 @@ feature_row4:
     alt: "placeholder image 1"
     title: "HRV measures and data visualization"
     excerpt: 'PhysioZoo includes state of the art HRV measures tailored to the type of mammal that is studied and data visualization features including Poincare plots, power spectrum, distribution of NN intervals and multi scale entropy plot.'
-    url: "https://docs.physiozoo.com/en/latest/sections/tutorials/hrvanalysis.html"
+    url: "https://docs.physiozoo.com/en/stable/sections/tutorials/hrvanalysis.html"
     btn_label: "Read More"
     btn_class: "btn--primary"
     
