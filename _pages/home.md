@@ -28,6 +28,8 @@ intro:
 news: 
   - title: News
     excerpt: |
+        * 2018-09-17: [PhysioZoo `v1.0.1`](https://github.com/physiozoo/physiozoo/releases/tag/v1.0.1)
+          bugfix release.
         * 2018-09-06: [PhysioZoo `v1.0.0`](https://github.com/physiozoo/physiozoo/releases/tag/v1.0.0)
           is now publicly available!
 
