@@ -40,7 +40,7 @@ Contact us at: physiozoolab@gmail.com
   processing code.
 
 - **Open-source collaborative platform**: Both the source code and
-  documentation is not only freely available, it's also easy to modify and
+  documentation are not only freely available, they're also easy to modify and
   update using git and GitHub.
 
 ## How to contribute?
