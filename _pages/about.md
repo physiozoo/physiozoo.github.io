@@ -25,13 +25,23 @@ Contact us at: physiozoolab@gmail.com
 
 ## Why PhysioZoo?
 
-- **Human and animal HRV analysis**: **PhysioZoo** is designed for HRV analysis of multiple mammalian types including Human but not limited to it.
+- **Human and animal HRV analysis**: **PhysioZoo** is designed for HRV analysis
+  of multiple mammalian types including Human but not limited to it.
 
-- **Data visualisation**: graphical user interface which enables HRV analysis and data visualisation without writing any code.
+- **Data visualization**: graphical user interface which enables HRV analysis
+  and data visualization without writing any code.
 
-- **Reproducibility of research**: Human readable configuration files which contain all the parameters of the peak detectors, preprocessing routines and HRV measures. This file is self containing and ensure research can be reproduced using this configuration file and the original data.
+- **Reproducibility of research**: Human readable configuration files which
+  contain all the parameters of the peak detectors, preprocessing routines and
+  HRV measures. This file is self containing and ensure research can be
+  reproduced using this configuration file and the original data.
 
-- **Source code**: for developper and when batch processing is needed.
+- **Algorithmic toolbox**: Completely scriptable for embedding into your custom
+  processing code.
+
+- **Open-source collaborative platform**: Both the source code and
+  documentation is not only freely available, it's also easy to modify and
+  update using git and GitHub.
 
 ## How to contribute?
 
@@ -43,10 +53,10 @@ You can contribute by:
   * **Create a pull request** contribute algorithms and improvements to the
     **PhysioZoo** toolbox
 
-  * **Eeww bugs!** In case you in encounter a bug and cannot figure out the
-    solution, please have a look on the opened issues before creating a new bug
-    issue. Issues can be consulted and posted
-    [here](https://github.com/physiozoo/physiozoo/issues).
+  * **Bugs!** In case you in encounter a bug and cannot figure out the
+    solution, please have a look at the [issues
+    page](https://github.com/physiozoo/physiozoo/issues) and don't hesitate to
+    open a new issue if you can't find an answer.
 
   * **Pitch in your new ideas** for future releases by suggesting an
     enhancement.
@@ -55,9 +65,9 @@ You can contribute by:
 
 Collaborative research has various benefits, here are some of those:
 
-* enable other researchers to contribute, debug and build on your work
-+ advertise your research, published algorithms are linked in the documentation
-+ ensure reproducibility of your results
+- Enable other researchers to contribute, debug and build on your work
+- Advertise your research, published algorithms are linked in the documentation
+- Ensure reproducibility of your results
 
 ## Contributors
 The following individuals have contributed to the PhysioZoo project:
@@ -67,13 +77,16 @@ The following individuals have contributed to the PhysioZoo project:
 - Yael Yaniv
 - Ido Weiser-Bitoun
 - Ori Shemla
-- Alexandra Alexandrovitch
+- Alexandra Alexandrovich
 - Eugene Konyukhov
 - Moran Davoodi
 
-The databases provided with the software were decribed in:
+The databases provided with the software were described in:
 
-Joachim A. Behar, Aviv A. Rosenberg, Ori Shemla, Kevin R. Murphy, Gideon Koren, George E. Billman, and Yael Yaniv. "A universal scaling relation for defining power spectral bands in mammalian heart rate variability analysis." Frontiers in physiology 9 (2018).
+Joachim A. Behar, Aviv A. Rosenberg, Ori Shemla, Kevin R. Murphy, Gideon Koren,
+George E. Billman, and Yael Yaniv. "A universal scaling relation for defining
+power spectral bands in mammalian heart rate variability analysis." Frontiers in
+physiology 9 (2018).
 
 ![Technion logo](../assets/images/Technion.jpg) ![Technion BME logo](../assets/images/Faculty-logo-Classic.png)
 
