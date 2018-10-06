@@ -12,8 +12,7 @@ When using **PhysioZoo** please reference the following paper:
 Joachim A. Behar<sup>&#8224;</sup>, Aviv A. Rosenberg<sup>&#8224;</sup>, Ido
 Weiser-Bitoun, Ori Shemla, Alexandra Alexandrovich, Evgene Konyukhov, Yael
 Yaniv. 2018.  "PhysioZoo: a novel open access platform for heart rate
-variability analysis of mammalian electrocardiographic data." Accepted for
-publication in Frontiers in Physiology.
+variability analysis of mammalian electrocardiographic data." Frontiers in Physiology 9 (2018): 1390.
 
 <sup>&#8224;</sup>Co-first authors.
 
