@@ -4,9 +4,9 @@ layout: splash
 permalink: /
 
 header:
-  overlay_color: "#f33"
-  overlay_filter: "0.5"
-  overlay_image: ""
+  overlay_color: "#fff"
+  overlay_filter: "0.3"
+  overlay_image: "assets/images/splash2.jpg"
   caption: ""
   # cta_label: ""
   # cta_url: ""
