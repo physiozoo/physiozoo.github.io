@@ -8,14 +8,10 @@ header:
   overlay_filter: "0.3"
   overlay_image: "assets/images/splash2.jpg"
   caption: ""
-  # cta_label: ""
-  # cta_url: ""
   actions:
-    - label: "Download Source"
-      icon: laptop-code
+    - label: '<i class="fas fa-laptop-code"></i> Download Source'
       url: "https://github.com/physiozoo/physiozoo/archive/1.0.2.zip"
-    - label: "Download Installer"
-      icon: cogs
+    - label: '<i class="fas fa-cogs"></i> Download Installer'
       url: "https://github.com/physiozoo/physiozoo/releases/download/1.0.2/PhysioZoo-1.0.2_Installer.exe"
 
 excerpt: "Heart Rate Variability analysis of human and animal electrophysiological data"
