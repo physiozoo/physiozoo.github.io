@@ -13,10 +13,10 @@ header:
   actions:
     - label: "Download Source"
       icon: laptop-code
-      url: "https://github.com/physiozoo/physiozoo/archive/v1.0.1.zip"
+      url: "https://github.com/physiozoo/physiozoo/archive/1.0.2.zip"
     - label: "Download Installer"
       icon: cogs
-      url: "https://github.com/physiozoo/physiozoo/releases/download/v1.0.1/PhysioZoo-1.0.1_Installer.exe"
+      url: "https://github.com/physiozoo/physiozoo/releases/download/1.0.2/PhysioZoo-1.0.2_Installer.exe"
 
 excerpt: "Heart Rate Variability analysis of human and animal electrophysiological data"
 
@@ -24,14 +24,6 @@ intro:
   - excerpt: 'PhysioZoo is a collaborative platform dedicated to the study of
         the heart rate variability (HRV) in mammals’ electrophysiological
         recordings.'
-
-news: 
-  - title: News
-    excerpt: |
-        * 2018-09-17: [PhysioZoo `v1.0.1`](https://github.com/physiozoo/physiozoo/releases/tag/v1.0.1)
-          bugfix release.
-        * 2018-09-06: [PhysioZoo `v1.0.0`](https://github.com/physiozoo/physiozoo/releases/tag/v1.0.0)
-          is now publicly available!
 
 feature_row:
   - image_path: "assets/images/home_page_interface.png"
@@ -68,13 +60,20 @@ feature_row4:
     url: "https://docs.physiozoo.com/en/stable/sections/tutorials/hrvanalysis.html"
     btn_label: "Read More"
     btn_class: "btn--primary"
-    
-
 ---
 
 {% include feature_row id="intro" type="center" %}
 
-{% include feature_row id="news" type="center" %}
+## News
+
+* 2018-10-25: [PhysioZoo `v1.0.2`](https://github.com/physiozoo/physiozoo/releases/tag/1.0.2)
+    released.
+* 2018-09-17: [PhysioZoo `v1.0.1`](https://github.com/physiozoo/physiozoo/releases/tag/v1.0.1)
+    bugfix release.
+* 2018-09-06: [PhysioZoo `v1.0.0`](https://github.com/physiozoo/physiozoo/releases/tag/v1.0.0)
+    is now publicly available!
+
+## PhysioZoo Features
 
 {% include feature_row id="feature_row" type="center" %}
 
