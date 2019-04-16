@@ -126,3 +126,7 @@ If you are a company and want to use PhysioZoo then please email us at: physiozo
 
 Consult the project page of each above package for it's respective license and
 copyright holder.
+
+## Acknowledgement
+
+We kindly acknowledge the support of the Steve and Ilene Berger Portable Biomedicine Innovation Laboratory Fund.
