@@ -62,6 +62,8 @@ feature_row4:
 
 {% include feature_row id="intro" type="center" %}
 
+{% include video provider="youtube" id="JkE2FUSlq2g" %}
+
 ## News
 
 * 2019-04-15: [PhysioZoo `v1.2.0`](https://github.com/physiozoo/physiozoo/releases/tag/1.2.0)
@@ -77,7 +79,7 @@ feature_row4:
 
 ## PhysioZoo Features
 
-{% include feature_row id="feature_row" type="center" %}
+<!-- {% include feature_row id="feature_row" type="center" %} -->
 
 {% include feature_row id="feature_row2" type="left" %}
 
