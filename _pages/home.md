@@ -12,7 +12,7 @@ header:
     - label: '<i class="fas fa-laptop-code"></i> Download Source'
       url: "https://github.com/physiozoo/physiozoo/archive/1.4.0.zip"
     - label: '<i class="fas fa-newspaper"></i> Download Examples'
-      url: "https://github.com/physiozoo/physiozoo/releases/download/1.4.0/ExamplesTXT.zip"   
+      url: "https://github.com/physiozoo/physiozoo/releases/download/1.3.0/ExamplesTXT.zip"   
     - label: '<i class="fas fa-cogs"></i> Download Installer'
       url: "https://github.com/physiozoo/physiozoo/releases/download/1.4.0/PhysioZoo-1.4.0_Installer.exe"
 
