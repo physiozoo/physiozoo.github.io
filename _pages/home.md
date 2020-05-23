@@ -10,11 +10,11 @@ header:
   caption: ""
   actions:
     - label: '<i class="fas fa-laptop-code"></i> Download Source'
-      url: "https://github.com/physiozoo/physiozoo/archive/1.4.0.zip"
+      url: "https://github.com/physiozoo/physiozoo/archive/v1.4.0.zip"
     - label: '<i class="fas fa-newspaper"></i> Download Examples'
-      url: "https://github.com/physiozoo/physiozoo/releases/download/1.3.0/ExamplesTXT.zip"   
+      url: "https://github.com/physiozoo/physiozoo/releases/download/v1.4.0/ExamplesTXT.zip"   
     - label: '<i class="fas fa-cogs"></i> Download Installer'
-      url: "https://github.com/physiozoo/physiozoo/releases/download/1.4.0/PhysioZoo-1.4.0_Installer.exe"
+      url: "https://github.com/physiozoo/physiozoo/releases/download/v1.4.0/PhysioZoo-1.4.0_Installer.exe"
 
 excerpt: "Heart Rate Variability analysis of human and animal electrophysiological data"
 
@@ -66,8 +66,8 @@ feature_row4:
 
 ## News
 
-* 2020-05-22: [PhysioZoo `v1.4.0`](https://github.com/physiozoo/physiozoo/releases/tag/1.4.0)
-    released.
+* 2020-05-22: [PhysioZoo `v1.4.0`](https://github.com/physiozoo/physiozoo/releases/tag/v1.4.0)
+    released New Rhythms support.
 * 2020-05-01: [PhysioZoo `v1.3.0`](https://github.com/physiozoo/physiozoo/releases/tag/1.3.0)
     released.
 * 2019-04-15: [PhysioZoo `v1.2.0`](https://github.com/physiozoo/physiozoo/releases/tag/1.2.0)
