@@ -81,6 +81,7 @@ The following individuals have contributed to the PhysioZoo project:
 - Moran Davoodi
 - Armand Chocron
 - Jeremy Levy
+- Snir Lugassy
 - Daniel Álvarez
 - Felix del Campo
 
