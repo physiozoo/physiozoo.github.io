@@ -79,6 +79,10 @@ The following individuals have contributed to the PhysioZoo project:
 - Alexandra Alexandrovich
 - Eugene Konyukhov
 - Moran Davoodi
+- Armand Chocron
+- Jeremy Levy
+- Daniel Álvarez
+- Felix del Campo
 
 The databases provided with the software were described in:
 
