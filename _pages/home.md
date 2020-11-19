@@ -10,11 +10,11 @@ header:
   caption: ""
   actions:
     - label: '<i class="fas fa-laptop-code"></i> Download Source'
-      url: "https://github.com/physiozoo/physiozoo/archive/v1.5.6.zip"
+      url: "https://github.com/physiozoo/physiozoo/archive/v1.5.7.zip"
     - label: '<i class="fas fa-newspaper"></i> Download Examples'
-      url: "https://github.com/physiozoo/physiozoo/releases/download/v1.5.6/ExamplesTXT.zip"   
+      url: "https://github.com/physiozoo/Examples/archive/v1.5.7.zip"   
     - label: '<i class="fas fa-cogs"></i> Download Installer'
-      url: "https://github.com/physiozoo/physiozoo/releases/download/v1.5.6/PhysioZooInstaller_1_5_6.exe"
+      url: "https://github.com/physiozoo/physiozoo/releases/download/v1.5.7/PhysioZooInstaller_1_5_7.exe"
 
 excerpt: "Heart Rate Variability analysis of human and animal electrophysiological data"
 
@@ -65,7 +65,7 @@ feature_row4:
 {% include video provider="youtube" id="JkE2FUSlq2g" %}
 
 ## News
-* 2020-11-15: [PhysioZoo `v1.5.6`](https://github.com/physiozoo/physiozoo/releases/tag/v1.5.6)
+* 2020-11-19: [PhysioZoo `v1.5.7`](https://github.com/physiozoo/physiozoo/releases/tag/v1.5.7)
     released.
 * 2020-06-15: [PhysioZoo `v1.4.2`](https://github.com/physiozoo/physiozoo/releases/tag/v1.4.2)
     released.
