@@ -26,7 +26,7 @@ url                      : "https://physiozoo.github.io" # the base hostname & p
 baseurl                  : # the subpath of your site, e.g. "/blog"
 repository               : "physiozoo/physiozoo.github.io"
 teaser                   : "https://placehold.it/500x300"
-masthead_title           : # overrides the website title displayed in the masthead, use " " for no title
+masthead_title           : ""
 # breadcrumbs            : false # true, false (default)
 words_per_minute         : 200
 comments:
