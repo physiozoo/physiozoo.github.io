@@ -4,5 +4,15 @@
 
 @charset "utf-8";
 
+.technion-logo {
+    float: inline-end; 
+    margin: 1em;
+    width: 5em;
+}
+
+.page__footer footer {
+    display: inline-block;
+}
+
 @import "minimal-mistakes/skins/{{ site.minimal_mistakes_skin | default: 'default' }}"; // skin
 @import "minimal-mistakes"; // main partials

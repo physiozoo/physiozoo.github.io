@@ -12,10 +12,23 @@
           {% if site.subtitle %}<span class="site-subtitle">{{ site.subtitle }}</span>{% endif %}
         </a>
         <ul class="visible-links">
-          {%- for link in site.data.navigation.main -%}
+          <!-- {%- for link in site.data.navigation.main -%}
             <li class="masthead__menu-item">
               <a href="{{ link.url | relative_url }}"{% if link.description %} title="{{ link.description }}"{% endif %}>{{ link.title }}</a>
             </li>
+          {%- endfor -%} -->
+          {%- for link in site.data.navigation.main -%}
+            <li class="dropdown masthead__menu-item">
+              <a href="{{ link.url | relative_url }}" class="dropbtn">{{ link.title }}</a>
+               {% if link.children %}
+                <div class="dropdown-content">
+                  {%- for child in link.children -%}
+                    <a href="{{ child.url }}">{{ child.title }}</a>
+                  {%- endfor -%}
+                </div>
+              {% endif %}
+            </li>
+
           {%- endfor -%}
         </ul>
         {% if site.search == true %}
@@ -35,3 +48,4 @@
     </div>
   </div>
 </div>
+

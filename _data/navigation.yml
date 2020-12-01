@@ -1,12 +1,14 @@
-# main links
 main:
-  - title: "Quick-Start Guide"
-    url: https://mmistakes.github.io/minimal-mistakes/docs/quick-start-guide/
-  # - title: "About"
-  #   url: https://mmistakes.github.io/minimal-mistakes/about/
-  # - title: "Sample Posts"
-  #   url: /year-archive/
-  # - title: "Sample Collections"
-  #   url: /collection-archive/
-  # - title: "Sitemap"
-  #   url: /sitemap/
+  - title: "Installation"
+    url: https://docs.physiozoo.com/en/stable/sections/tutorials/installation.html
+  - title: "Documentation"
+    url: javascript:void(0)
+    children: 
+      - title: "PhysioZoo HRV"
+        url: https://docs.physiozoo.com/en/stable/
+      - title: "PhysioZoo OBM"
+        url: https://oximetry-toolbox.readthedocs.io/en/latest/pobm.obm.html
+  - title: "Changelog"
+    url: https://github.com/physiozoo/physiozoo/blob/master/CHANGELOG.md
+  - title: "About"
+    url: /about/  
