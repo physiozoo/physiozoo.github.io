@@ -16,12 +16,11 @@ header:
     - label: '<i class="fas fa-cogs"></i> Download Installer'
       url: "https://github.com/physiozoo/physiozoo/releases/download/v1.5.7/PhysioZooInstaller_1_5_7.exe"
 
-excerpt: "Heart Rate Variability analysis of human and animal electrophysiological data"
+excerpt: "Continuous physiological time series analysis from Human and other mammals"
 
 intro: 
   - excerpt: 'PhysioZoo is a collaborative platform dedicated to the study of
-        the heart rate variability (HRV) in mammals’ electrophysiological
-        recordings.'
+        continuous physiological time series analysis from Human and other mammals.'
 
 feature_row:
   - image_path: "assets/images/home_page_interface.png"
@@ -118,7 +117,7 @@ data_visualization:
 
 # PhysioZoo HRV
 
-PhysioZoo is a collaborative platform dedicated to the study of the heart rate variability (HRV) from Humans and other mammals’ electrophysiological recordings.
+PhysioZoo HRV is a collaborative platform dedicated to the study of the heart rate variability (HRV) from Humans and other mammals’ electrophysiological recordings.
 
 <!-- {% include feature_row id="feature_row" type="center" %} -->
 
@@ -131,6 +130,8 @@ PhysioZoo is a collaborative platform dedicated to the study of the heart rate v
 <br/>
 
 # PhysioZoo OBM
+
+PhysioZoo OBM is a collaborative platform dedicated to the study of oximetry digital biomarkers (OBM) analysis from Human continuous oximetry (SpO2) time series.
 
 {% include feature_row id="desat_detection" type="left" %}
 
