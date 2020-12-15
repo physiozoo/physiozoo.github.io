@@ -61,7 +61,7 @@ hrv_measures:
 
 
 desat_detection:
-  - image_path: "assets/images/desaturation_detection.png"
+  - image_path: "assets/images/desat_detection.png"
     alt: "placeholder image 1"
     title: "Desaturation detection"
     excerpt: 'PhysioZoo OBM provides algorithms for detecting oxygen desaturations in continuous oximetry time series as well as visualization tools delimiting the beginnings and ends of the detected desaturations.'
