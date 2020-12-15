@@ -32,7 +32,7 @@ feature_row:
     btn_label: "Install"
     btn_class: "btn--primary"
     
-feature_row2:
+peak_detection:
   - image_path: "assets/images/peak_detection.png"
     alt: "placeholder image 1"
     title: "Peak detection"
@@ -41,7 +41,7 @@ feature_row2:
     btn_label: "Read More"
     btn_class: "btn--primary"
 
-feature_row3:
+prefiltering:
   - image_path: "assets/images/Figure_S3.png"
     alt: "placeholder image 1"
     title: "Prefiltering"
@@ -50,12 +50,40 @@ feature_row3:
     btn_label: "Read More"
     btn_class: "btn--primary"
 
-feature_row4:
+hrv_measures:
   - image_path: "assets/images/Dog_example_qrs_Poincare.png"
     alt: "placeholder image 1"
     title: "HRV measures and data visualization"
     excerpt: 'PhysioZoo includes state of the art HRV measures tailored to the type of mammal that is studied and data visualization features including Poincare plots, power spectrum, distribution of NN intervals and multi scale entropy plot.'
     url: "https://docs.physiozoo.com/en/stable/sections/tutorials/hrvanalysis.html"
+    btn_label: "Read More"
+    btn_class: "btn--primary"
+
+
+desat_detection:
+  - image_path: "assets/images/desaturation_detection.png"
+    alt: "placeholder image 1"
+    title: "Desaturation detection"
+    excerpt: 'PhysioZoo OBM provides algorithms for detecting oxygen desaturations in continuous oximetry time series as well as visualization tools delimiting the beginnings and ends of the detected desaturations.'
+    url: "https://oximetry-toolbox.readthedocs.io"
+    btn_label: "Read More"
+    btn_class: "btn--primary"
+
+prefiltering_obm:
+  - image_path: "assets/images/prefiltering_obm.png"
+    alt: "placeholder image 1"
+    title: "Prefiltering"
+    excerpt: 'PhysioZoo OBM includes a number of prefiltering methods that can be used to remove sudden drop or increase in the oximetry time series due to transient noise or other technical issues.'
+    url: "https://oximetry-toolbox.readthedocs.io"
+    btn_label: "Read More"
+    btn_class: "btn--primary"
+
+data_visualization:
+  - image_path: "assets/images/spo2_vis_example.png"
+    alt: "placeholder image 1"
+    title: "OBM measures and data visualization"
+    excerpt: 'PhysioZoo OBM includes a set of oximetry digital biomarkers broadly divided into five categories: general statistics, complexity, periodicity, desaturations and hypoxic burden'
+    url: "https://oximetry-toolbox.readthedocs.io"
     btn_label: "Read More"
     btn_class: "btn--primary"
 ---
@@ -86,12 +114,24 @@ feature_row4:
 * 2018-09-06: [PhysioZoo `v1.0.0`](https://github.com/physiozoo/physiozoo/releases/tag/v1.0.0)
     is now publicly available!
 
-## PhysioZoo Features
+<br/>
+
+# PhysioZoo HRV Features
 
 <!-- {% include feature_row id="feature_row" type="center" %} -->
 
-{% include feature_row id="feature_row2" type="left" %}
+{% include feature_row id="peak_detection" type="left" %}
 
-{% include feature_row id="feature_row3" type="right" %}
+{% include feature_row id="prefiltering" type="right" %}
 
-{% include feature_row id="feature_row4" type="center" %}
+{% include feature_row id="hrv_measures" type="left" %}
+
+<br/>
+
+# PhysioZoo OBM Features
+
+{% include feature_row id="desat_detection" type="left" %}
+
+{% include feature_row id="prefiltering_obm" type="right" %}
+
+{% include feature_row id="data_visualization" type="left" %}

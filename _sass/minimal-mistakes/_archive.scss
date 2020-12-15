@@ -240,8 +240,9 @@
 
 .feature__wrapper {
   @include clearfix();
-  margin-bottom: 2em;
-  border-bottom: 1px solid $border-color;
+  padding-bottom: auto;
+  padding-top: 2em;
+  border-top: 1px solid $border-color;
 
   .archive__item-title {
     margin-bottom: 0;
