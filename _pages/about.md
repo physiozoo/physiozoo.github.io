@@ -7,14 +7,18 @@ author_profile: false
 
 ## Referencing
 
-When using **PhysioZoo** please reference the following paper:
+When using **PhysioZoo HRV** please reference the following paper:
 
 Joachim A. Behar<sup>&#8224;</sup>, Aviv A. Rosenberg<sup>&#8224;</sup>, Ido
 Weiser-Bitoun, Ori Shemla, Alexandra Alexandrovich, Evgene Konyukhov, Yael
-Yaniv. 2018.  "PhysioZoo: a novel open access platform for heart rate
+Yaniv. "PhysioZoo: a novel open access platform for heart rate
 variability analysis of mammalian electrocardiographic data." Frontiers in Physiology 9 (2018): 1390.
 
 <sup>&#8224;</sup>Co-first authors.
+
+When using **PhysioZoo OBM** please reference the following paper:
+
+Jeremy Levy, Daniel Álvarez, Aviv A. Rosenberg, Alexandra Alexandrovich, Felix del Campo and Joachim A. Behar. “Digital oximetry biomarkers for assessing respiratory function: standards of measurement, physiological interpretation, and clinical use”. Accepted for publication in NPJ Digital Medicine.
 
 ## Support
 Click [here](https://github.com/physiozoo/physiozoo/issues) to browse
