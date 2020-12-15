@@ -116,7 +116,9 @@ data_visualization:
 
 <br/>
 
-# PhysioZoo HRV Features
+# PhysioZoo HRV
+
+PhysioZoo is a collaborative platform dedicated to the study of the heart rate variability (HRV) from Humans and other mammals’ electrophysiological recordings.
 
 <!-- {% include feature_row id="feature_row" type="center" %} -->
 
@@ -128,7 +130,7 @@ data_visualization:
 
 <br/>
 
-# PhysioZoo OBM Features
+# PhysioZoo OBM
 
 {% include feature_row id="desat_detection" type="left" %}
 
