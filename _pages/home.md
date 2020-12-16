@@ -64,7 +64,7 @@ desat_detection:
     alt: "placeholder image 1"
     title: "Desaturation detection"
     excerpt: 'PhysioZoo OBM provides algorithms for detecting oxygen desaturations in continuous oximetry time series as well as visualization tools delimiting the beginnings and ends of the detected desaturations.'
-    url: "https://oximetry-toolbox.readthedocs.io"
+    url: "https://oximetry-toolbox.readthedocs.io/en/latest/"
     btn_label: "Read More"
     btn_class: "btn--primary"
 
@@ -73,7 +73,7 @@ prefiltering_obm:
     alt: "placeholder image 1"
     title: "Prefiltering"
     excerpt: 'PhysioZoo OBM includes a number of prefiltering methods that can be used to remove sudden drop or increase in the oximetry time series due to transient noise or other technical issues.'
-    url: "https://oximetry-toolbox.readthedocs.io"
+    url: "https://oximetry-toolbox.readthedocs.io/en/latest/"
     btn_label: "Read More"
     btn_class: "btn--primary"
 
@@ -82,7 +82,7 @@ data_visualization:
     alt: "placeholder image 1"
     title: "OBM measures and data visualization"
     excerpt: 'PhysioZoo OBM includes a set of oximetry digital biomarkers broadly divided into five categories: general statistics, complexity, periodicity, desaturations and hypoxic burden'
-    url: "https://oximetry-toolbox.readthedocs.io"
+    url: "https://oximetry-toolbox.readthedocs.io/en/latest/"
     btn_label: "Read More"
     btn_class: "btn--primary"
 ---
