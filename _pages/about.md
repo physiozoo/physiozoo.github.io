@@ -14,7 +14,7 @@ Weiser-Bitoun, Ori Shemla, Alexandra Alexandrovich, Evgene Konyukhov, Yael
 Yaniv. "PhysioZoo: a novel open access platform for heart rate
 variability analysis of mammalian electrocardiographic data." Frontiers in Physiology 9 (2018): 1390.
 
-Click [here](https://www.frontiersin.org/articles/10.3389/fphys.2018.01390/full)
+Link to the paper: [here](https://www.frontiersin.org/articles/10.3389/fphys.2018.01390/full)
 
 <sup>&#8224;</sup>Co-first authors.
 
@@ -22,7 +22,7 @@ When using **PhysioZoo OBM** please reference the following paper:
 
 Jeremy Levy, Daniel Álvarez, Aviv A. Rosenberg, Alexandra Alexandrovich, Felix del Campo and Joachim A. Behar. “Digital oximetry biomarkers for assessing respiratory function: standards of measurement, physiological interpretation, and clinical use”. NPJ digital medicine 4.1 (2021): 1-14.
 
-Click [here](https://www.nature.com/articles/s41746-020-00373-5)
+Link to the paper: [here](https://www.nature.com/articles/s41746-020-00373-5)
 
 ## Support
 Click [here](https://github.com/physiozoo/physiozoo/issues) to browse
