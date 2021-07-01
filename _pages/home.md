@@ -94,26 +94,6 @@ data_visualization:
 ## News
 * 2021-03-16: [PhysioZoo `v1.5.9`](https://github.com/physiozoo/physiozoo/releases/tag/v1.5.9)
     released.
-* 2021-02-14: [PhysioZoo `v1.5.8`](https://github.com/physiozoo/physiozoo/releases/tag/v1.5.8)
-    released.
-* 2020-11-19: [PhysioZoo `v1.5.7`](https://github.com/physiozoo/physiozoo/releases/tag/v1.5.7)
-    released.
-* 2020-06-15: [PhysioZoo `v1.4.2`](https://github.com/physiozoo/physiozoo/releases/tag/v1.4.2)
-    released.
-* 2020-06-12: [PhysioZoo `v1.4.1`](https://github.com/physiozoo/physiozoo/releases/tag/v1.4.1)
-    released.
-* 2020-05-22: [PhysioZoo `v1.4.0`](https://github.com/physiozoo/physiozoo/releases/tag/v1.4.0)
-    released.
-* 2020-05-01: [PhysioZoo `v1.3.0`](https://github.com/physiozoo/physiozoo/releases/tag/1.3.0)
-    released.
-* 2019-04-15: [PhysioZoo `v1.2.0`](https://github.com/physiozoo/physiozoo/releases/tag/1.2.0)
-    released.
-* 2018-12-04: [PhysioZoo `v1.1.3`](https://github.com/physiozoo/physiozoo/releases/tag/v1.1.3)
-    released.
-* 2018-10-25: [PhysioZoo `v1.0.2`](https://github.com/physiozoo/physiozoo/releases/tag/1.0.2)
-    released.
-* 2018-09-17: [PhysioZoo `v1.0.1`](https://github.com/physiozoo/physiozoo/releases/tag/v1.0.1)
-    bugfix release.
 * 2018-09-06: [PhysioZoo `v1.0.0`](https://github.com/physiozoo/physiozoo/releases/tag/v1.0.0)
     is now publicly available!
 
