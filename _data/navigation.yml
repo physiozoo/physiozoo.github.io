@@ -8,8 +8,8 @@ main:
         url: https://docs.physiozoo.com/en/stable/
       - title: "PhysioZoo OBM"
         url: https://oximetry-toolbox.readthedocs.io/en/latest/
-      - title: "PhysioZoo PEBM"
-        url: https://oximetry-toolbox.readthedocs.io/en/latest/
+      # - title: "PhysioZoo PEBM"
+      #   url: https://oximetry-toolbox.readthedocs.io/en/latest/
   - title: "Changelog"
     url: https://github.com/physiozoo/physiozoo/blob/master/CHANGELOG.md
   - title: "About"
