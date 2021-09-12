@@ -96,7 +96,7 @@ waveform_delineator:
     btn_class: "btn--primary"
 
 measures_data_visualization:
-  - image_path: "assets/images/fiducials.png"
+  - image_path: "assets/images/violin plot _ quality control.png"
     alt: "placeholder image 1"
     title: "ECG measures and data visualization"
     excerpt: 'PhysioZoo ECG includes a set of electrocardiogram digital biomarkers broadly divided into two categories: (1) interval and segments and (2) waves characteristics.'
