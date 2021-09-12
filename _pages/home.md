@@ -10,11 +10,11 @@ header:
   caption: ""
   actions:
     - label: '<i class="fas fa-laptop-code"></i> Download Source'
-      url: "https://github.com/physiozoo/physiozoo/archive/v1.5.9.zip"
+      url: "https://github.com/physiozoo/physiozoo/archive/v1.6.1.zip"
     - label: '<i class="fas fa-newspaper"></i> Download Examples'
-      url: "https://github.com/physiozoo/Examples/archive/v1.5.8.zip"   
+      url: "https://github.com/physiozoo/Examples/archive/v1.6.1.zip"   
     - label: '<i class="fas fa-cogs"></i> Download Installer'
-      url: "https://github.com/physiozoo/physiozoo/releases/download/v1.5.9/PhysioZooInstaller_1_5_9.exe"
+      url: "https://github.com/physiozoo/physiozoo/releases/download/v1.6.1/PhysioZooInstaller_1_6_1.exe"
 
 excerpt: "Continuous physiological time series analysis from Human and other mammals"
 
@@ -85,6 +85,24 @@ data_visualization:
     url: "https://oximetry-toolbox.readthedocs.io/en/latest/"
     btn_label: "Read More"
     btn_class: "btn--primary"
+
+waveform_delineator:
+  - image_path: "assets/images/fiducials.png"
+    alt: "placeholder image 1"
+    title: "ECG waveform delineator"
+    excerpt: 'PhysioZoo ECG provides algorithms for detecting fiducial points in continuous ECG time series.'
+    url: "https://physiozoo.com/"
+    btn_label: "Read More"
+    btn_class: "btn--primary"
+
+measures_data_visualization:
+  - image_path: "assets/images/fiducials.png"
+    alt: "placeholder image 1"
+    title: "ECG measures and data visualization"
+    excerpt: 'PhysioZoo ECG includes a set of electrocardiogram digital biomarkers broadly divided into two categories: (1) interval and segments and (2) waves characteristics.'
+    url: "https://physiozoo.com/"
+    btn_label: "Read More"
+    btn_class: "btn--primary"    
 ---
 
 {% include feature_row id="intro" type="center" %}
@@ -92,6 +110,8 @@ data_visualization:
 {% include video provider="youtube" id="JkE2FUSlq2g" %}
 
 ## News
+* 2021-09-12: [PhysioZoo `v1.6.1`](https://github.com/physiozoo/physiozoo/releases/tag/v1.6.1)
+    released.
 * 2021-03-16: [PhysioZoo `v1.5.9`](https://github.com/physiozoo/physiozoo/releases/tag/v1.5.9)
     released.
 * 2018-09-06: [PhysioZoo `v1.0.0`](https://github.com/physiozoo/physiozoo/releases/tag/v1.0.0)
@@ -122,3 +142,14 @@ PhysioZoo OBM is a collaborative platform dedicated to the study of oximetry dig
 {% include feature_row id="prefiltering_obm" type="right" %}
 
 {% include feature_row id="data_visualization" type="left" %}
+
+<br/>
+
+# PhysioZoo ECG
+
+PhysioZoo ECG is a collaborative platform dedicated to the study of digital electrocardiography biomarkers
+to assess cardiac conduction.
+
+{% include feature_row id="waveform_delineator" type="left" %}
+
+{% include feature_row id="measures_data_visualization" type="right" %}
