@@ -26,7 +26,7 @@ Link to the paper: [here](https://www.nature.com/articles/s41746-020-00373-5)
 
 When using **PhysioZoo ECG** please reference the following paper:
 
-Sheina Gendelman, Shany Biton, Raphael Derman, Eran Zvuloni1, Jeremy Levy, Snir Lugassy, Alexandra Alexandrovich and Joachim A. Behar.
+Sheina Gendelman, Shany Biton, Raphael Derman, Eran Zvuloni, Jeremy Levy, Snir Lugassy, Alexandra Alexandrovich and Joachim A. Behar.
 PhysioZoo ECG: Digital electrocardiography biomarkers to assess cardiac conduction. Computing in Cardiology 2021, Brno, Czech Republic
 
 Link to the paper: [here](https://www.cinc.org/2021/Program/accepted/25_Preprint.pdf)
