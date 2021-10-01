@@ -35,7 +35,7 @@ peak_detection:
   - image_path: "assets/images/peak_detection.png"
     alt: "placeholder image 1"
     title: "Peak detection"
-    excerpt: 'PhysioZoo provides algorithms and a user interface for R-peak detection of mammalian ECG data. In addition, it provides manual annotations tools (peak and data quality) to ensure the reliability of the analyzed data.'
+    excerpt: 'PhysioZoo HRV provides algorithms and a user interface for R-peak detection of mammalian ECG data. In addition, it provides manual annotations tools (peak and data quality) to ensure the reliability of the analyzed data.'
     url: "https://docs.physiozoo.com/en/stable/sections/tutorials/peakdetection.html"
     btn_label: "Read More"
     btn_class: "btn--primary"
@@ -44,7 +44,7 @@ prefiltering:
   - image_path: "assets/images/Figure_S3.png"
     alt: "placeholder image 1"
     title: "Prefiltering"
-    excerpt: 'PhysioZoo includes a number of prefiltering methods in order to remove sudden drop or increase in the beat to beat intervals due to transcient noise or ectopic beats.'
+    excerpt: 'PhysioZoo HRV includes a number of prefiltering methods in order to remove sudden drop or increase in the beat to beat intervals due to transient noise or ectopic beats.'
     url: "https://docs.physiozoo.com/en/stable/sections/tutorials/preprocessing.html"
     btn_label: "Read More"
     btn_class: "btn--primary"
