@@ -14,7 +14,7 @@ header:
     - label: '<i class="fas fa-newspaper"></i> Download Examples'
       url: "https://github.com/physiozoo/Examples/archive/v1.6.1.zip"   
     - label: '<i class="fas fa-cogs"></i> Download Installer'
-      url: "https://github.com/physiozoo/physiozoo/releases/download/v1.6.3/PhysioZooInstaller_1_6_4.exe"
+      url: "https://github.com/physiozoo/physiozoo/releases/download/v1.6.4/PhysioZooInstaller_1_6_4.exe"
 
 excerpt: "Continuous physiological time series analysis from Human and other mammals"
 
