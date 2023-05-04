@@ -26,8 +26,7 @@ Link to the paper: [here](https://www.nature.com/articles/s41746-020-00373-5)
 
 When using **PhysioZoo ECG** please reference the following paper:
 
-Sheina Gendelman, Shany Biton, Raphael Derman, Eran Zvuloni, Jeremy Levy, Snir Lugassy, Alexandra Alexandrovich and Joachim A. Behar.
-PhysioZoo ECG: Digital electrocardiography biomarkers to assess cardiac conduction. Computing in Cardiology 2021, Brno, Czech Republic
+Sheina Gendelman, Shany Biton, Raphael Derman, Eran Zvuloni, Jeremy Levy, Snir Lugassy, Alexandra Alexandrovich and Joachim A. Behar. PhysioZoo ECG: Digital electrocardiography biomarkers to assess cardiac conduction. Computing in Cardiology. Brno, Czech Republic, 12-15th September 2021 (hybrid event). Vol. 48. IEEE, 2021
 
 Link to the paper: [here](https://www.cinc.org/2021/Program/accepted/25_Preprint.pdf)
 
@@ -90,9 +89,9 @@ The following individuals have contributed to the PhysioZoo project:
 - Joachim A. Behar
 - Aviv A. Rosenberg
 - Yael Yaniv
+- Alexandra Alexandrovich
 - Ido Weiser-Bitoun
 - Ori Shemla
-- Alexandra Alexandrovich
 - Eugene Konyukhov
 - Moran Davoodi
 - Armand Chocron
@@ -101,6 +100,8 @@ The following individuals have contributed to the PhysioZoo project:
 - Daniel Álvarez
 - Felix del Campo
 - Sheina Gendelman
+- Eran Zvuloni
+- Jonathan Sobel
 
 The databases provided with the software were described in:
 
