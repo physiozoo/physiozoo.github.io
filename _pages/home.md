@@ -10,11 +10,11 @@ header:
   caption: ""
   actions:
     - label: '<i class="fas fa-laptop-code"></i> Download Source'
-      url: "https://github.com/physiozoo/physiozoo/archive/v1.6.5.zip"
+      url: "https://github.com/physiozoo/physiozoo/archive/v1.6.6.zip"
     - label: '<i class="fas fa-newspaper"></i> Download Examples'
-      url: "https://github.com/physiozoo/Examples/archive/v1.6.1.zip"   
+      url: "https://github.com/physiozoo/Examples/archive/refs/tags/v1.6.6.zip"   
     - label: '<i class="fas fa-cogs"></i> Download Installer'
-      url: "https://github.com/physiozoo/physiozoo/releases/download/v1.6.5/PhysioZooInstaller_1_6_5.exe"
+      url: "https://github.com/physiozoo/physiozoo/releases/download/v1.6.6/PhysioZooInstaller_1_6_6.exe"
 
 excerpt: "Continuous physiological time series analysis from Human and other mammals"
 
@@ -110,7 +110,7 @@ measures_data_visualization:
 {% include video provider="youtube" id="JkE2FUSlq2g" %}
 
 ## News
-* 2022-05-04: [PhysioZoo `v1.6.5`](https://github.com/physiozoo/physiozoo/releases/tag/v1.6.5)
+* 2022-06-06: [PhysioZoo `v1.6.6`](https://github.com/physiozoo/physiozoo/releases/tag/v1.6.6)
     released.
 * 2022-03-04: [PhysioZoo `v1.6.4`](https://github.com/physiozoo/physiozoo/releases/tag/v1.6.4)
     released.
