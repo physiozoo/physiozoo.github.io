@@ -6,7 +6,7 @@ main:
     children: 
       - title: "PhysioZoo HRV"
         url: https://docs.physiozoo.com/en/stable/
-      - title: "PhysioZoo OBM"
+      - title: "PhysioZoo SPO2"
         url: https://oximetry-toolbox.readthedocs.io/en/latest/
       - title: "PhysioZoo ECG"
         url: https://pecg.readthedocs.io/en/latest/  
