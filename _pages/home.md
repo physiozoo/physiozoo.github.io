@@ -63,7 +63,7 @@ desat_detection:
   - image_path: "assets/images/desat_detection.png"
     alt: "placeholder image 1"
     title: "Desaturation detection"
-    excerpt: 'PhysioZoo OBM provides algorithms for detecting oxygen desaturations in continuous oximetry time series as well as visualization tools delimiting the beginnings and ends of the detected desaturations.'
+    excerpt: 'PhysioZoo SPO2 provides algorithms for detecting oxygen desaturations in continuous oximetry time series as well as visualization tools delimiting the beginnings and ends of the detected desaturations.'
     url: "https://oximetry-toolbox.readthedocs.io/en/latest/"
     btn_label: "Read More"
     btn_class: "btn--primary"
@@ -72,7 +72,7 @@ prefiltering_obm:
   - image_path: "assets/images/prefiltering_obm.png"
     alt: "placeholder image 1"
     title: "Prefiltering"
-    excerpt: 'PhysioZoo OBM includes a number of prefiltering methods that can be used to remove sudden drop or increase in the oximetry time series due to transient noise or other technical issues.'
+    excerpt: 'PhysioZoo SPO2 includes a number of prefiltering methods that can be used to remove sudden drop or increase in the oximetry time series due to transient noise or other technical issues.'
     url: "https://oximetry-toolbox.readthedocs.io/en/latest/"
     btn_label: "Read More"
     btn_class: "btn--primary"
@@ -81,7 +81,7 @@ data_visualization:
   - image_path: "assets/images/spo2_vis_example.png"
     alt: "placeholder image 1"
     title: "OBM measures and data visualization"
-    excerpt: 'PhysioZoo OBM includes a set of oximetry digital biomarkers broadly divided into five categories: general statistics, complexity, periodicity, desaturations and hypoxic burden'
+    excerpt: 'PhysioZoo SPO2 includes a set of oximetry digital biomarkers broadly divided into five categories: general statistics, complexity, periodicity, desaturations and hypoxic burden'
     url: "https://oximetry-toolbox.readthedocs.io/en/latest/"
     btn_label: "Read More"
     btn_class: "btn--primary"
@@ -135,9 +135,9 @@ PhysioZoo HRV is a collaborative platform dedicated to the study of the heart ra
 
 <br/>
 
-# PhysioZoo OBM
+# PhysioZoo SPO2
 
-PhysioZoo OBM is a collaborative platform dedicated to the study of oximetry digital biomarkers (OBM) analysis from Human continuous oximetry (SpO2) time series.
+PhysioZoo SPO2 is a collaborative platform dedicated to the study of oximetry digital biomarkers (OBM) analysis from Human continuous oximetry (SpO2) time series.
 
 {% include feature_row id="desat_detection" type="left" %}
 
