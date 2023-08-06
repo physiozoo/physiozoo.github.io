@@ -102,6 +102,8 @@ The following individuals have contributed to the PhysioZoo project:
 - Sheina Gendelman
 - Eran Zvuloni
 - Jonathan Sobel
+- Márton Á. Goda
+- Peter H. Charlton
 
 The databases provided with the software were described in:
 
