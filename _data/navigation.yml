@@ -5,7 +5,8 @@ main:
     url: javascript:void(0)
     children: 
       - title: " PhysioZoo  HRV "
-        url: https://docs.physiozoo.com/en/stable/      
+        #url: https://docs.physiozoo.com/en/stable/      
+        url: https://mhrv.readthedocs.io/en/latest/      
       - title: " PhysioZoo  ECG "
         url: https://pecg.readthedocs.io/en/latest/ 
       - title: " PhysioZoo  PPG "
