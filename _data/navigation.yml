@@ -11,7 +11,7 @@ main:
       - title: " PhysioZoo  ECG "
         url: https://pecg.readthedocs.io/en/latest/ 
       - title: " PhysioZoo  PPG "
-        url: https://pyppg.readthedocs.io/en/latest/tutorials/PZ_PPG.html/   
+        url: https://pyppg.readthedocs.io/en/latest/tutorials/PZ_PPG.html   
       # - title: "PhysioZoo PEBM"
       #   url: https://oximetry-toolbox.readthedocs.io/en/latest/
   - title: "PhysioZoo Videos"
