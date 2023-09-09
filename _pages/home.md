@@ -118,7 +118,11 @@ PPG_BM:
   - image_path: "assets/images/PPG_BM.png"
     alt: "PPG_BM"
     title: "PPG Biomarkers"
-    excerpt: 'The pyPPG toolbox provides the extraction of 15 fiducial. The fiducial points of the PPG signal include the systolic peak (sp), the pulse onset and               offset (on, off), the dicrotic notch (dn), and the diastolic peak (dp). The fiducial points of PPG derivatives are represented by u, v, w, a, b, c,               d, e, f, p1, p2. The biomarkers are calculated based on this set of fiducial points.'
+    excerpt: 'The pyPPG toolbox includes a comprehensive collection of 74 standard PPG morphological biomarkers which are calculated from the timings and     
+              amplitudes of the fiducial points. The biomarkers were categorized into four groups: (1) PPG Signal - biomarkers that are based on the location of 
+              the fiducial points of the PPG signal; (2) Signal Ratios - biomarkers that are based on ratios of the fiducial points of the PPG signal; (3) PPG 
+              Derivatives - biomarkers that are based on the location of the fiducial points of the PPG derivatives; and (4) Derivatives Ratios - biomarkers that 
+              are based on ratios of the fiducial points of the PPG derivatives.'
     url: "https://pyppg.readthedocs.io/en/latest/tutorials/PZ_PPG.html"
     btn_label: "Read More"
     btn_class: "btn--primary"
