@@ -102,7 +102,27 @@ measures_data_visualization:
     excerpt: 'PhysioZoo ECG includes a set of electrocardiogram digital biomarkers broadly divided into two categories: (1) interval and segments and (2) waves characteristics.'
     url: "https://physiozoo.com/"
     btn_label: "Read More"
-    btn_class: "btn--primary"    
+    btn_class: "btn--primary"
+
+
+PPG_sample:
+  - image_path: "assets/images/PPG_sample.png"
+    alt: "PPG"
+    title: "PPG toolbox"
+    excerpt: 'The pyPPG toolbox provides the extraction of 15 fiducial. The fiducial points of the PPG signal include the systolic peak (sp), the pulse onset and               offset (on, off), the dicrotic notch (dn), and the diastolic peak (dp). The fiducial points of PPG derivatives are represented by u, v, w, a, b, c,               d, e, f, p1, p2. The biomarkers are calculated based on this set of fiducial points.'
+    url: "https://pyppg.readthedocs.io/en/latest/tutorials/PZ_PPG.html"
+    btn_label: "Read More"
+    btn_class: "btn--primary"
+
+PPG_BM:
+  - image_path: "assets/images/PPG_BM.png"
+    alt: "PPG_BM"
+    title: "PPG Biomarkers"
+    excerpt: 'The pyPPG toolbox provides the extraction of 15 fiducial. The fiducial points of the PPG signal include the systolic peak (sp), the pulse onset and               offset (on, off), the dicrotic notch (dn), and the diastolic peak (dp). The fiducial points of PPG derivatives are represented by u, v, w, a, b, c,               d, e, f, p1, p2. The biomarkers are calculated based on this set of fiducial points.'
+    url: "https://pyppg.readthedocs.io/en/latest/tutorials/PZ_PPG.html"
+    btn_label: "Read More"
+    btn_class: "btn--primary"
+    
 ---
 
 {% include feature_row id="intro" type="center" %}
@@ -135,6 +155,17 @@ PhysioZoo HRV is a collaborative platform dedicated to the study of the heart ra
 
 <br/>
 
+# PhysioZoo ECG
+
+PhysioZoo ECG is a collaborative platform dedicated to the study of digital electrocardiography biomarkers
+to assess cardiac conduction.
+
+{% include feature_row id="waveform_delineator" type="left" %}
+
+{% include feature_row id="measures_data_visualization" type="right" %}
+
+<br/>
+
 # PhysioZoo SPO2
 
 PhysioZoo SPO2 is a collaborative platform dedicated to the study of oximetry digital biomarkers (OBM) analysis from Human continuous oximetry (SpO2) time series.
@@ -147,11 +178,11 @@ PhysioZoo SPO2 is a collaborative platform dedicated to the study of oximetry di
 
 <br/>
 
-# PhysioZoo ECG
+# PhysioZoo PPG
 
-PhysioZoo ECG is a collaborative platform dedicated to the study of digital electrocardiography biomarkers
+PhysioZoo PPG is a collaborative platform dedicated to the study of digital photoplethysmography biomarkers
 to assess cardiac conduction.
 
-{% include feature_row id="waveform_delineator" type="left" %}
+{% include feature_row id="PPG_sample" type="right" %}
 
-{% include feature_row id="measures_data_visualization" type="right" %}
+{% include feature_row id="PPG_BM" type="left" %}
