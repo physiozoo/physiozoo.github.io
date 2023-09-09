@@ -91,7 +91,7 @@ waveform_delineator:
     alt: "placeholder image 1"
     title: "ECG waveform delineator"
     excerpt: 'PhysioZoo ECG provides algorithms for detecting fiducial points in continuous ECG time series.'
-    url: "https://physiozoo.com/"
+    url: "https://pecg.readthedocs.io/en/latest/"
     btn_label: "Read More"
     btn_class: "btn--primary"
 
@@ -100,7 +100,7 @@ measures_data_visualization:
     alt: "placeholder image 1"
     title: "ECG measures and data visualization"
     excerpt: 'PhysioZoo ECG includes a set of electrocardiogram digital biomarkers broadly divided into two categories: (1) interval and segments and (2) waves characteristics.'
-    url: "https://physiozoo.com/"
+    url: "https://pecg.readthedocs.io/en/latest/"
     btn_label: "Read More"
     btn_class: "btn--primary"
 
