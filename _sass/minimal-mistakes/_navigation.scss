@@ -26,6 +26,8 @@
     padding: 0;
     list-style: none;
     font-size: $type-size-6;
+	align-items: left;
+	text-align: left;
 
     @include breakpoint($large) {
       float: right;
@@ -39,10 +41,14 @@
 
   li {
     display: inline;
+	align-items: left;
+	text-align: left;
   }
 
   .current {
     font-weight: bold;
+	align-items: left;
+	text-align: left;	
   }
 }
 
@@ -62,12 +68,16 @@
     padding: 0;
     list-style-type: none;
     font-family: $sans-serif;
+	align-items: left;
+	text-align: left;	
   }
 
   li {
     display: block;
     float: left;
     margin-left: -1px;
+	align-items: left;
+	text-align: left;	
 
     a {
       display: block;
@@ -77,7 +87,8 @@
       font-size: 14px;
       font-weight: bold;
       line-height: 1.5;
-      text-align: center;
+      align-items: left;
+	  text-align: left;
       text-decoration: none;
       color: $muted-text-color;
       border: 1px solid mix(#000, $border-color, 25%);
@@ -126,7 +137,8 @@
     font-family: $sans-serif;
     font-size: $type-size-5;
     font-weight: bold;
-    text-align: center;
+    align-items: left;
+    text-align: left;
     text-decoration: none;
     color: $muted-text-color;
     border: 1px solid mix(#000, $border-color, 25%);
@@ -173,9 +185,10 @@
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
-  -webkit-box-align: center;
-  -ms-flex-align: center;
-  align-items: center;
+  -webkit-box-align: left;
+  -ms-flex-align: left;
+  align-items: left;
+  text-align: left;
   min-height: $nav-height;
   background: $background-color;
 
@@ -207,22 +220,24 @@
   }
 
   &__toggle {
-    -ms-flex-item-align: center;
-    align-self: center;
+    -ms-flex-item-align: left;
+    align-self: left;
     height: $nav-toggle-height;
     border: 0;
     outline: none;
     background-color: transparent;
     cursor: pointer;
+	align-items: left;
+	text-align: left;	
   }
 
   .visible-links {
     display: -webkit-box;
     display: -ms-flexbox;
     display: flex;
-    -webkit-box-pack: end;
-    -ms-flex-pack: end;
-    justify-content: flex-end;
+    -webkit-box-pack: start;
+    -ms-flex-pack: start;
+    justify-content: flex-start;
     -webkit-box-flex: 1;
     -ms-flex: 1;
     flex: 1;
@@ -232,10 +247,14 @@
       -webkit-box-flex: 0;
       -ms-flex: none;
       flex: none;
+	  align-items: left;
+	  text-align: left;	  	  
     }
 
     a {
       position: relative;
+	  align-items: left;
+	  text-align: left;	  
 
       &:before {
         content: "";
@@ -280,6 +299,8 @@
       margin: 0;
       padding: 10px 20px;
       font-size: $type-size-5;
+	  align-items: left;
+	  text-align: left;	  
 
       &:hover {
         color: $masthead-link-color-hover;
@@ -316,6 +337,8 @@
     li {
       display: block;
       border-bottom: 1px solid $border-color;
+	  align-items: left;
+	  text-align: left;	  
 
       &:last-child {
         border-bottom: none;
@@ -424,6 +447,8 @@
     a {
       display: block;
       padding: 0.25em 0;
+      align-items: left;
+      text-align: left;	  
 
       @include breakpoint($large) {
         padding-top: 0.125em;
@@ -440,9 +465,13 @@
 .nav__list .nav__items {
   margin: 0;
   font-size: 1.25rem;
+  align-items: left;
+  text-align: left;
 
   a {
     color: inherit;
+	align-items: left;
+    text-align: left;
   }
 
   .active {
@@ -450,6 +479,8 @@
     padding-left: 0.5em;
     padding-right: 0.5em;
     font-weight: bold;
+	align-items: left;
+    text-align: left;
   }
 
   @include breakpoint(max-width $large - 1px) {
@@ -486,6 +517,8 @@
   font-family: $sans-serif-narrow;
   font-size: $type-size-5;
   font-weight: bold;
+  align-items: left;
+  text-align: left;
 }
 
 .nav__sub-title {
@@ -497,6 +530,8 @@
   font-weight: bold;
   text-transform: uppercase;
   border-bottom: 1px solid $border-color;
+  align-items: left;
+  text-align: left;
 }
 
 /*
@@ -511,6 +546,8 @@
   border-radius: $border-radius;
   -webkit-box-shadow: $box-shadow;
   box-shadow: $box-shadow;
+  align-items: left;
+  text-align: left;
 
   .nav__title {
     color: #fff;
@@ -518,6 +555,7 @@
     background: $primary-color;
     border-top-left-radius: $border-radius;
     border-top-right-radius: $border-radius;
+	align-items: left;
   }
 
   // Scrollspy marks toc items as .active when they are in focus
