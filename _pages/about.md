@@ -7,6 +7,13 @@ author_profile: false
 
 ## Referencing
 
+When using **PhysioZoo** please reference the following paper:
+
+Joachim A. Behar, Jeremy Levy, Eran Zvuloni, Sheina Gendelman, Aviv Rosenberg, Shany Biton, Raphael Derman et al. 
+"PhysioZoo: The Open Digital Physiological Biomarkers Resource." arXiv preprint arXiv:2309.04498 (2023).
+
+Link to the paper: [here](https://arxiv.org/abs/2309.04498)
+
 When using **PhysioZoo HRV** please reference the following paper:
 
 Joachim A. Behar<sup>&#8224;</sup>, Aviv A. Rosenberg<sup>&#8224;</sup>, Ido
