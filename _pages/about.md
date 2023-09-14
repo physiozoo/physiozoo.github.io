@@ -39,9 +39,6 @@ Contact us at: physiozoolab@gmail.com
 
 ## Why PhysioZoo?
 
-- **Human and animal HRV analysis**: **PhysioZoo** is designed for HRV analysis
-  of multiple mammalian types including Human but not limited to it.
-
 - **Data visualization**: graphical user interface which enables HRV analysis
   and data visualization without writing any code.
 
@@ -104,15 +101,7 @@ The following individuals have contributed to the PhysioZoo project:
 - Jonathan Sobel
 - Márton Á. Goda
 - Peter H. Charlton
-
-The databases provided with the software were described in:
-
-Joachim A. Behar, Aviv A. Rosenberg, Ori Shemla, Kevin R. Murphy, Gideon Koren,
-George E. Billman, and Yael Yaniv. "A universal scaling relation for defining
-power spectral bands in mammalian heart rate variability analysis." Frontiers in
-physiology 9 (2018).
-
-![Technion logo](../assets/images/Technion.jpg) ![Technion BME logo](../assets/images/Faculty-logo-Classic.png)
+- Shany Biton
 
 ## License
 
