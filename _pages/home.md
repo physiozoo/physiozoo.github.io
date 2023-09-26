@@ -108,19 +108,31 @@ measures_data_visualization:
 PPG_sample:
   - image_path: "assets/images/PPG_sample.png"
     alt: "PPG"
-    title: "PPG toolbox"
-    excerpt: 'The pyPPG toolbox provides the extraction of 15 fiducial. The fiducial points of the PPG signal include the systolic peak (sp), the pulse onset and               offset (on, off), the dicrotic notch (dn), and the diastolic peak (dp). The fiducial points of PPG derivatives are represented by u, v, w, a, b, c,               d, e, f, p1, p2. The biomarkers are calculated based on this set of fiducial points.'
+    title: "PPG Toolbox"
+    excerpt: 'The pyPPG toolbox is designed for the analysis of finger photoplethysmogram (PPG) signals, offering a range of features such as robust beat 
+               detection, precise fiducial point identification, and a comprehensive evaluation of standard biomarkers.'
     url: "https://pyppg.readthedocs.io/en/latest/tutorials/PZ_PPG.html"
     btn_label: "Read More"
     btn_class: "btn--primary"
+
+PPG_FP:
+  - image_path: "assets/images/PPG_FP - PZ.png"
+    alt: "PPG_FP"
+    title: "PPG Fiducial Points"
+    excerpt: 'The pyPPG toolbox provides the extraction of 15 fiducial. The fiducial points of the PPG signal include the systolic peak (sp), the pulse onset and               offset (on, off), the dicrotic notch (dn), and the diastolic peak (dp). The fiducial points of PPG derivatives are represented by u, v, w, a, b, c, 
+              d, e, f, p1, p2. The biomarkers are calculated based on this set of fiducial points.'
+    url: "https://pyppg.readthedocs.io/en/latest/tutorials/PZ_PPG.html"
+    btn_label: "Read More"
+    btn_class: "btn--primary"
+
 
 PPG_BM:
   - image_path: "assets/images/PPG_BM.png"
     alt: "PPG_BM"
     title: "PPG Biomarkers"
-    excerpt: 'The pyPPG toolbox includes a comprehensive collection of 74 standard PPG morphological biomarkers which are calculated from the timings and   
+    excerpt: 'The pyPPG toolbox includes a comprehensive collection of 74 standard PPG morphological biomarkers which are calculated from the timings and 
               amplitudes of the fiducial points. The biomarkers were categorized into four groups: (1) PPG Signal; (2) Signal Ratios; (3) PPG Derivatives; and 
-              (4) Derivatives Ratios.'
+              (4) Derivatives Ratios. For PPG analysis 9 statistical measurements are provided for each biomarker.'
     url: "https://pyppg.readthedocs.io/en/latest/tutorials/PZ_PPG.html"
     btn_label: "Read More"
     btn_class: "btn--primary"
@@ -187,4 +199,6 @@ to assess cardiac conduction.
 
 {% include feature_row id="PPG_sample" type="right" %}
 
-{% include feature_row id="PPG_BM" type="left" %}
+{% include feature_row id="PPG_FP" type="left" %}
+
+{% include feature_row id="PPG_BM" type="right" %}
