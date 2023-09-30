@@ -11,7 +11,7 @@ header:
   actions:
     - label: '<i class="fas fa-laptop-code"></i> Download Source'
       url: "https://github.com/physiozoo/physiozoo/archive/v1.6.8.zip"
-    - label: '<i class="fas fa-cogs"></i> Download PPG executable'
+    - label: '<i class="fas fa-file-archive"></i> Download PPG executable'
       url: "https://github.com/physiozoo/physiozoo/releases/download/v1.6.8/pyPPG.exe"  
     - label: '<i class="fas fa-newspaper"></i> Download Examples'
       url: "https://github.com/physiozoo/Examples/archive/v1.6.7.zip"   
