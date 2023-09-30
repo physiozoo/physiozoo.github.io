@@ -10,11 +10,13 @@ header:
   caption: ""
   actions:
     - label: '<i class="fas fa-laptop-code"></i> Download Source'
-      url: "https://github.com/physiozoo/physiozoo/archive/v1.6.7.zip"
+      url: "https://github.com/physiozoo/physiozoo/archive/v1.6.8.zip"
+   - label: '<i class="fa-solid fa-bars"></i> Download PPG executable'
+      url: "https://github.com/physiozoo/physiozoo/releases/download/v1.6.8/pyPPG.exe"   
     - label: '<i class="fas fa-newspaper"></i> Download Examples'
-      url: "https://github.com/physiozoo/Examples/archive/v1.6.6.zip"   
+      url: "https://github.com/physiozoo/Examples/archive/v1.6.7.zip"   
     - label: '<i class="fas fa-cogs"></i> Download Installer'
-      url: "https://github.com/physiozoo/physiozoo/releases/download/v1.6.7/PhysioZooInstaller_1_6_6.exe"
+      url: "https://github.com/physiozoo/physiozoo/releases/download/v1.6.8/PhysioZooInstaller_1_6_7.exe"
 
 excerpt: "Continuous physiological time series analysis from Human and other mammals"
 
@@ -144,6 +146,8 @@ PPG_BM:
 {% include video provider="youtube" id="JkE2FUSlq2g" %}
 
 ## News
+* 2022-10-01: [PhysioZoo `v1.6.8`](https://github.com/physiozoo/physiozoo/releases/tag/v1.6.8)
+    pecg toolbox released.
 * 2022-06-08: [PhysioZoo `v1.6.7`](https://github.com/physiozoo/physiozoo/releases/tag/v1.6.7)
     pecg toolbox released.
 * 2022-03-04: [PhysioZoo `v1.6.4`](https://github.com/physiozoo/physiozoo/releases/tag/v1.6.4)
