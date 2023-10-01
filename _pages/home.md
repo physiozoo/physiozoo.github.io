@@ -146,9 +146,9 @@ PPG_BM:
 {% include video provider="youtube" id="JkE2FUSlq2g" %}
 
 ## News
-* 2022-10-01: [PhysioZoo `v1.6.8`](https://github.com/physiozoo/physiozoo/releases/tag/v1.6.8)
+* 2023-10-01: [PhysioZoo `v1.6.8`](https://github.com/physiozoo/physiozoo/releases/tag/v1.6.8)
     PPG toolbox released.
-* 2022-06-08: [PhysioZoo `v1.6.7`](https://github.com/physiozoo/physiozoo/releases/tag/v1.6.7)
+* 2023-06-08: [PhysioZoo `v1.6.7`](https://github.com/physiozoo/physiozoo/releases/tag/v1.6.7)
     pecg toolbox released.
 * 2022-03-04: [PhysioZoo `v1.6.4`](https://github.com/physiozoo/physiozoo/releases/tag/v1.6.4)
     released.
