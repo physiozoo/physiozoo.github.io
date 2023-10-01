@@ -10,9 +10,7 @@ header:
   caption: ""
   actions:
     - label: '<i class="fas fa-laptop-code"></i> Download Source'
-      url: "https://github.com/physiozoo/physiozoo/archive/v1.6.8.zip"
-    - label: '<i class="fas fa-file-archive"></i> Download PPG executable'
-      url: "https://github.com/physiozoo/physiozoo/releases/download/v1.6.8/pyPPG.exe"  
+      url: "https://github.com/physiozoo/physiozoo/archive/v1.6.9.zip"     
     - label: '<i class="fas fa-newspaper"></i> Download Examples'
       url: "https://github.com/physiozoo/Examples/archive/v1.6.7.zip"   
     - label: '<i class="fas fa-cogs"></i> Download Installer'
@@ -146,7 +144,7 @@ PPG_BM:
 {% include video provider="youtube" id="JkE2FUSlq2g" %}
 
 ## News
-* 2023-10-01: [PhysioZoo `v1.6.8`](https://github.com/physiozoo/physiozoo/releases/tag/v1.6.8)
+* 2023-10-01: [PhysioZoo `v1.6.9`](https://github.com/physiozoo/physiozoo/releases/tag/v1.6.9)
     PPG toolbox released.
 * 2023-06-08: [PhysioZoo `v1.6.7`](https://github.com/physiozoo/physiozoo/releases/tag/v1.6.7)
     pecg toolbox released.
