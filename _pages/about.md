@@ -39,6 +39,11 @@ Sheina Gendelman, Shany Biton, Raphael Derman, Eran Zvuloni, Jeremy Levy, Snir L
 
 Link to the paper: [here](https://www.cinc.org/2021/Program/accepted/25_Preprint.pdf)
 
+When using **PhysioZoo PPG** please reference the following paper:
+
+Goda, M. A., Charlton, P. H., & Behar, J. A. (2023). pyPPG: A Python toolbox for comprehensive photoplethysmography signal analysis. arXiv preprint arXiv:2309.13767.
+
+Link to the paper: [here](https://arxiv.org/abs/2309.13767)
 
 ## Support
 Click [here](https://github.com/physiozoo/physiozoo/issues) to browse
