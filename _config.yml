@@ -87,7 +87,7 @@ social:
 analytics:
   provider               : "google-universal"
   google:
-    tracking_id          : "UA-124850400-1"
+    tracking_id          : "G-NFZYMP4XH4"
 
 
 # Site Author
