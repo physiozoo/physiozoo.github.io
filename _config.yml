@@ -84,10 +84,11 @@ social:
   links: # An array of links to social media profiles
 
 # Analytics
-analytics:
-  provider               : "google-universal"
-  google:
-    tracking_id          : "G-NFZYMP4XH4"
+# analytics:
+google_analytics         : "G-NFZYMP4XH4"
+  # provider               : "google-universal"
+  # google:
+  #   tracking_id          : "G-NFZYMP4XH4"
 
 
 # Site Author
