@@ -10,11 +10,11 @@ header:
   caption: ""
   actions:
     - label: '<i class="fas fa-laptop-code"></i> Download Source'
-      url: "https://github.com/physiozoo/physiozoo/archive/v1.6.9.zip"     
+      url: "https://github.com/physiozoo/NewPhysioZoo/archive/v1.7.1.zip"     
     - label: '<i class="fas fa-newspaper"></i> Download Examples'
       url: "https://github.com/physiozoo/Examples/archive/v1.6.7.zip"   
     - label: '<i class="fas fa-cogs"></i> Download Installer'
-      url: "https://github.com/physiozoo/physiozoo/releases/download/v1.6.8/PhysioZooInstaller_1_6_7.exe"
+      url: "https://github.com/physiozoo/NewPhysioZoo/releases/download/v1.7.1/PhysioZooInstaller_1_7_1.exe"
 
 excerpt: "Continuous physiological time series analysis from Human and other mammals"
 
@@ -144,6 +144,8 @@ PPG_BM:
 {% include video provider="youtube" id="JkE2FUSlq2g" %}
 
 ## News
+* 2023-10-01: [PhysioZoo `v1.7.1`](https://github.com/physiozoo/NewPhysioZoo/releases/tag/v1.7.1)
+    Improved PPG toolbox released.
 * 2023-10-01: [PhysioZoo `v1.6.9`](https://github.com/physiozoo/physiozoo/releases/tag/v1.6.9)
     PPG toolbox released.
 * 2023-06-08: [PhysioZoo `v1.6.7`](https://github.com/physiozoo/physiozoo/releases/tag/v1.6.7)
