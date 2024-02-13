@@ -9,7 +9,7 @@ author_profile: false
 
 When using **PhysioZoo** resources please reference the following paper:
 
-Joachim A. Behar, Jeremy Levy, Eran Zvuloni, Sheina Gendelman, Aviv Rosenberg, Shany Biton, Raphael Derman et al. 
+Joachim A. Behar(https://www.aimlab-technion.com/), Jeremy Levy, Eran Zvuloni, Sheina Gendelman, Aviv Rosenberg, Shany Biton, Raphael Derman et al. 
 "PhysioZoo: The Open Digital Physiological Biomarkers Resource." arXiv preprint arXiv:2309.04498 (2023).
 
 Link to the paper: [here](https://arxiv.org/abs/2309.04498)
@@ -18,7 +18,7 @@ In addition,
 
 When using **PhysioZoo HRV** please reference the following paper:
 
-Joachim A. Behar<sup>&#8224;</sup>, Aviv A. Rosenberg<sup>&#8224;</sup>, Ido
+Joachim A. Behar<sup>&#8224;</sup>(https://www.aimlab-technion.com/), Aviv A. Rosenberg<sup>&#8224;</sup>, Ido
 Weiser-Bitoun, Ori Shemla, Alexandra Alexandrovich, Evgene Konyukhov, Yael
 Yaniv. "PhysioZoo: a novel open access platform for heart rate
 variability analysis of mammalian electrocardiographic data." Frontiers in Physiology 9 (2018): 1390.
@@ -29,19 +29,19 @@ Link to the paper: [here](https://www.frontiersin.org/articles/10.3389/fphys.201
 
 When using **PhysioZoo OBM** please reference the following paper:
 
-Jeremy Levy, Daniel Álvarez, Aviv A. Rosenberg, Alexandra Alexandrovich, Felix del Campo and Joachim A. Behar. “Digital oximetry biomarkers for assessing respiratory function: standards of measurement, physiological interpretation, and clinical use”. NPJ digital medicine 4.1 (2021): 1-14.
+Jeremy Levy, Daniel Álvarez, Aviv A. Rosenberg, Alexandra Alexandrovich, Felix del Campo and Joachim A. Behar(https://www.aimlab-technion.com/). “Digital oximetry biomarkers for assessing respiratory function: standards of measurement, physiological interpretation, and clinical use”. NPJ digital medicine 4.1 (2021): 1-14.
 
 Link to the paper: [here](https://www.nature.com/articles/s41746-020-00373-5)
 
 When using **PhysioZoo ECG** please reference the following paper:
 
-Sheina Gendelman, Shany Biton, Raphael Derman, Eran Zvuloni, Jeremy Levy, Snir Lugassy, Alexandra Alexandrovich and Joachim A. Behar. PhysioZoo ECG: Digital electrocardiography biomarkers to assess cardiac conduction. Computing in Cardiology. Brno, Czech Republic, 12-15th September 2021 (hybrid event). Vol. 48. IEEE, 2021
+Sheina Gendelman, Shany Biton, Raphael Derman, Eran Zvuloni, Jeremy Levy, Snir Lugassy, Alexandra Alexandrovich and Joachim A. Behar(https://www.aimlab-technion.com/). PhysioZoo ECG: Digital electrocardiography biomarkers to assess cardiac conduction. Computing in Cardiology. Brno, Czech Republic, 12-15th September 2021 (hybrid event). Vol. 48. IEEE, 2021
 
 Link to the paper: [here](https://www.cinc.org/2021/Program/accepted/25_Preprint.pdf)
 
 When using **PhysioZoo PPG** please reference the following paper:
 
-Goda, M. A., Charlton, P. H., & Behar, J. A. (2023). pyPPG: A Python toolbox for comprehensive photoplethysmography signal analysis. arXiv preprint arXiv:2309.13767.
+Goda, M. A., Charlton, P. H., & Behar(https://www.aimlab-technion.com/), J. A. (2023). pyPPG: A Python toolbox for comprehensive photoplethysmography signal analysis. arXiv preprint arXiv:2309.13767.
 
 Link to the paper: [here](https://arxiv.org/abs/2309.13767)
 
@@ -97,7 +97,7 @@ Collaborative research has various benefits, here are some of those:
 ## Contributors
 The following individuals have contributed to the PhysioZoo project:
 
-- Joachim A. Behar
+- Joachim A. Behar(https://www.aimlab-technion.com/)
 - Aviv A. Rosenberg
 - Yael Yaniv
 - Alexandra Alexandrovich
